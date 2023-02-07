@@ -1,0 +1,41 @@
+Running on sh14
+# conda environments:
+#
+base                  *  /opt/conda
+PGx_env                  /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env
+PGx_env_37               /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env_37
+
+Save cache to caches/data_facebook/bart-large_CADEC_word.pt.
+max_len_a:1.6, max_len:10
+In total 3 datasets:
+	dev has 1097 instances.
+	test has 1160 instances.
+	train has 5340 instances.
+
+The number of tokens in tokenizer  50265
+50266 50271
+input fields after batch(if batch size is 2):
+	tgt_tokens: (1)type:torch.Tensor (2)dtype:torch.int64, (3)shape:torch.Size([2, 19]) 
+	src_tokens: (1)type:torch.Tensor (2)dtype:torch.int64, (3)shape:torch.Size([2, 19]) 
+	first: (1)type:torch.Tensor (2)dtype:torch.int64, (3)shape:torch.Size([2, 19]) 
+	src_seq_len: (1)type:torch.Tensor (2)dtype:torch.int64, (3)shape:torch.Size([2]) 
+	tgt_seq_len: (1)type:torch.Tensor (2)dtype:torch.int64, (3)shape:torch.Size([2]) 
+target fields after batch(if batch size is 2):
+	entities: (1)type:numpy.ndarray (2)dtype:object, (3)shape:(2,) 
+	tgt_tokens: (1)type:torch.Tensor (2)dtype:torch.int64, (3)shape:torch.Size([2, 19]) 
+	target_span: (1)type:numpy.ndarray (2)dtype:object, (3)shape:(2,) 
+	tgt_seq_len: (1)type:torch.Tensor (2)dtype:torch.int64, (3)shape:torch.Size([2]) 
+
+training epochs started 2023-02-06-17-54-06-768347
+Evaluate data in 43.01 seconds!
+Evaluate data in 49.64 seconds!
+FitlogCallback evaluation on data-test:
+Seq2SeqSpanMetric: f=70.67, rec=71.92, pre=69.46, em=0.7733
+Evaluation on dev at Epoch 11/30. Step:7348/20040: 
+Seq2SeqSpanMetric: f=67.88, rec=70.38, pre=65.56, em=0.7748
+
+Evaluate data in 38.33 seconds!
+Exception happens when evaluate on DataSet named `data-test`.
+
+In Epoch:12/Step:8016, got best dev performance:
+Seq2SeqSpanMetric: f=68.88, rec=70.6, pre=67.23, em=0.7821

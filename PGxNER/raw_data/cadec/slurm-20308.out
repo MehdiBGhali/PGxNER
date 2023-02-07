@@ -1,0 +1,64 @@
+Running on sh03
+# conda environments:
+#
+base                  *  /opt/conda
+PGx_env                  /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env
+
+Update the mention from (bleeding several times a month menstrual cycle is completely out of whack) to (menstrual cycle is completely out of whack bleeding several times a month).
+Update the mention from (in arms Tingling) to (Tingling in arms).
+Update the mention from (calves muscle pain in the) to (muscle pain in the calves).
+Update the mention from (thighs muscle pain in the) to (muscle pain in the thighs).
+Update the mention from (back muscle pain in the) to (muscle pain in the back).
+Update the mention from (neck muscle pain in the) to (muscle pain in the neck).
+Update the mention from (glutes muscle pain in the) to (muscle pain in the glutes).
+Update the mention from (calves muscle pain in) to (muscle pain in calves).
+Update the mention from (calves joint pain in) to (joint pain in calves).
+Update the mention from (in back weakness) to (weakness in back).
+Update the mention from (in shoulders weakness) to (weakness in shoulders).
+Update the mention from (in legs weakness) to (weakness in legs).
+Update the mention from (swelling feet) to (feet swelling).
+Update the mention from (wrists pain) to (pain wrists).
+Update the mention from (hips pain) to (pain hips).
+Update the mention from (knees aches) to (aches knees).
+Update the mention from (back aches) to (aches back).
+Update the mention from (chest aches) to (aches chest).
+Update the mention from (severe joint pains) to (joint pains severe).
+Update the mention from (feet numbing) to (numbing feet).
+Update the mention from (hurt exploding arm and neck) to (arm and neck hurt exploding).
+Update the mention from (in both legs pain) to (pain in both legs).
+Update the mention from (in both legs weakness) to (weakness in both legs).
+Update the mention from (pain muscle) to (muscle pain).
+Update the mention from (legs tingling in) to (tingling in legs).
+Update the mention from (arms tingling in) to (tingling in arms).
+Update the mention from (Achilles tendon pain in) to (pain in Achilles tendon).
+Update the mention from (on the back of the head pain in every tendon) to (pain in every tendon on the back of the head).
+Update the mention from (pain in stomach) to (pain i stomach).
+Update the mention from (started going numb legs) to (legs started going numb).
+Update the mention from (tire very quickly muscles) to (muscles tire very quickly).
+Update the mention from (hurts throat) to (throat hurts).
+Update the mention from (in forearms tightness) to (tightness in forearms).
+Update the mention from (serious cramping hands) to (serious hands cramping).
+Update the mention from (renal failure) to (rena  failure).
+Update the mention from (renal and respiratory failure) to (respiratory failure).
+Update the mention from (painful muscles) to (muscles painful).
+Update the mention from (painful joints) to (joints painful).
+Update the mention from (eyes microabrasions) to (eyes microabrasion).
+Update the mention from (comfortably Couldn't walk) to (Couldn't walk comfortably).
+Update the mention from (comfortably Couldn't sleep) to (Couldn't sleep comfortably).
+Update the mention from (stomach rough) to (rough stomach).
+Update the mention from (very blurry eyesight) to (eyesight very blurry).
+Update the mention from (in my knees joint pain) to (joint pain in my knees).
+Update the mention from (in the triceps arm fatigue) to (arm fatigue in the triceps).
+Update the mention from (Severe pain shoulder) to (Severe shoulder pain).
+Extract 6318 annotations.
+1250 documents, 7597 sentences, 122938 tokens
+Traceback (most recent call last):
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/BARTNER/data/processing_tools_from_acl2020/cadec/convert_ann_using_token_idx.py", line 97, in <module>
+    token_start, token_end = load_token_boundaries(args.input_tokens)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/BARTNER/data/processing_tools_from_acl2020/cadec/convert_ann_using_token_idx.py", line 43, in load_token_boundaries
+    with open(filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/data/dai031/Experiments/CADEC/tokens'
+Traceback (most recent call last):
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/BARTNER/data/processing_tools_from_acl2020/cadec/convert_text_inline.py", line 55, in <module>
+    with open(args.input_tokens) as in_f:
+FileNotFoundError: [Errno 2] No such file or directory: '/data/dai031/Experiments/CADEC/tokens'

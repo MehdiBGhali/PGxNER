@@ -1,0 +1,40 @@
+Running on sh14
+# conda environments:
+#
+base                  *  /opt/conda
+PGx_env                  /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env
+PGx_env_37               /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env_37
+
+pre. tgt. for `dev`:   0%|          | 0/1097 [00:00<?, ?it/s]pre. tgt. for `dev`:  14%|█▍        | 152/1097 [00:00<00:00, 1504.79it/s]pre. tgt. for `dev`:  30%|███       | 331/1097 [00:00<00:00, 1669.52it/s]pre. tgt. for `dev`:  46%|████▋     | 509/1097 [00:00<00:00, 1715.63it/s]pre. tgt. for `dev`:  63%|██████▎   | 696/1097 [00:00<00:00, 1774.11it/s]pre. tgt. for `dev`:  80%|████████  | 881/1097 [00:00<00:00, 1798.66it/s]pre. tgt. for `dev`:  97%|█████████▋| 1068/1097 [00:00<00:00, 1822.32it/s]                                                                          pre. tgt. for `test`:   0%|          | 0/1160 [00:00<?, ?it/s]pre. tgt. for `test`:  18%|█▊        | 203/1160 [00:00<00:00, 2024.80it/s]pre. tgt. for `test`:  35%|███▌      | 406/1160 [00:00<00:00, 1986.46it/s]pre. tgt. for `test`:  52%|█████▏    | 605/1160 [00:00<00:00, 1937.40it/s]pre. tgt. for `test`:  69%|██████▉   | 799/1160 [00:00<00:00, 1934.29it/s]pre. tgt. for `test`:  86%|████████▌ | 993/1160 [00:00<00:00, 1854.59it/s]                                                                          pre. tgt. for `train`:   0%|          | 0/5340 [00:00<?, ?it/s]pre. tgt. for `train`:   4%|▎         | 190/5340 [00:00<00:02, 1883.82it/s]pre. tgt. for `train`:   7%|▋         | 379/5340 [00:00<00:02, 1794.90it/s]pre. tgt. for `train`:  10%|█         | 559/5340 [00:00<00:02, 1778.28it/s]pre. tgt. for `train`:  14%|█▍        | 757/5340 [00:00<00:02, 1855.90it/s]pre. tgt. for `train`:  18%|█▊        | 953/5340 [00:00<00:02, 1886.72it/s]pre. tgt. for `train`:  21%|██▏       | 1142/5340 [00:00<00:02, 1835.22it/s]pre. tgt. for `train`:  25%|██▌       | 1345/5340 [00:00<00:02, 1891.31it/s]pre. tgt. for `train`:  29%|██▊       | 1535/5340 [00:00<00:02, 1847.77it/s]pre. tgt. for `train`:  32%|███▏      | 1729/5340 [00:00<00:01, 1873.89it/s]pre. tgt. for `train`:  36%|███▌      | 1917/5340 [00:01<00:01, 1872.29it/s]pre. tgt. for `train`:  40%|███▉      | 2128/5340 [00:01<00:01, 1942.05it/s]pre. tgt. for `train`:  44%|████▎     | 2323/5340 [00:01<00:01, 1937.67it/s]pre. tgt. for `train`:  47%|████▋     | 2525/5340 [00:01<00:01, 1961.09it/s]pre. tgt. for `train`:  51%|█████▏    | 2746/5340 [00:01<00:01, 2035.00it/s]pre. tgt. for `train`:  55%|█████▌    | 2950/5340 [00:01<00:01, 2014.43it/s]pre. tgt. for `train`:  59%|█████▉    | 3152/5340 [00:01<00:01, 1936.36it/s]pre. tgt. for `train`:  63%|██████▎   | 3361/5340 [00:01<00:00, 1980.30it/s]pre. tgt. for `train`:  67%|██████▋   | 3560/5340 [00:01<00:00, 1892.93it/s]pre. tgt. for `train`:  71%|███████   | 3769/5340 [00:01<00:00, 1946.92it/s]pre. tgt. for `train`:  74%|███████▍  | 3967/5340 [00:02<00:00, 1955.50it/s]pre. tgt. for `train`:  78%|███████▊  | 4164/5340 [00:02<00:00, 1937.72it/s]pre. tgt. for `train`:  82%|████████▏ | 4378/5340 [00:02<00:00, 1994.93it/s]pre. tgt. for `train`:  86%|████████▌ | 4579/5340 [00:02<00:00, 1900.38it/s]pre. tgt. for `train`:  89%|████████▉ | 4771/5340 [00:02<00:00, 1894.97it/s]pre. tgt. for `train`:  93%|█████████▎| 4986/5340 [00:02<00:00, 1966.60it/s]pre. tgt. for `train`:  97%|█████████▋| 5184/5340 [00:02<00:00, 1947.30it/s]                                                                            Save cache to caches/data_facebook/bart-large_CADEC_word.pt.
+max_len_a:1.6, max_len:10
+In total 3 datasets:
+	dev has 1097 instances.
+	test has 1160 instances.
+	train has 5340 instances.
+
+The number of tokens in tokenizer  50265
+50266 50271
+Traceback (most recent call last):
+  File "./BARTNER/train.py", line 228, in <module>
+    trainer = Trainer(train_data=ds, model=model, optimizer=optimizer,
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/trainer.py", line 559, in __init__
+    _check_code(dataset=train_data, model=self.model, losser=losser, forward_func=self._forward_func, metrics=metrics,
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/trainer.py", line 959, in _check_code
+    for batch_count, (batch_x, batch_y) in enumerate(_iter):
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/batch.py", line 266, in __iter__
+    for indices, batch_x, batch_y in self.dataiter:
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 435, in __next__
+    data = self._next_data()
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 475, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 47, in fetch
+    return self.collate_fn(data)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/batch.py", line 90, in collate_fn
+    sin_y = _pad(sin_y, dataset=self.dataset, as_numpy=self.as_numpy)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/batch.py", line 43, in _pad
+    res = f.pad(vlist)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/field.py", line 492, in pad
+    return self.padder(contents, field_name=self.name, field_ele_dtype=self.dtype, dim=self._cell_ndim)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/field.py", line 247, in __call__
+    return np.array(contents)
+ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (2,) + inhomogeneous part.
