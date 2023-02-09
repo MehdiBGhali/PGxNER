@@ -30,11 +30,31 @@ fitlog.set_log_dir('logs')
 
 import argparse
 parser = argparse.ArgumentParser()
+# Dataset
 parser.add_argument('--dataset_name', default='conll2003', type=str)
+# Training parameters
+parser.add_argument('--schedule', default='linear', type=str)
+parser.add_argument('--n_epochs', default= 30 , type=int)
+parser.add_argument('--batch_size', default=8, type=int)
+parser.add_argument('--lr', default=1e-5, type=float)
+parser.add_argument('--length_penalty', default=1, type=int)
+parser.add_argument('--warmup_ratio', default=0.01, type=float)
+parser.add_argument('--eval_start_epoch', default= 10 , type=int)
+parser.add_argument('--save_model', default=0, type=int)
+# Model Architecture 
+parser.add_argument('--target_type', default='word', type=str)
+parser.add_argument('--bart_name', default = 'facebook/bart-large', type=str)
+parser.add_argument('--use_encoder_mlp', default=1, type=int)
+# Hyperparameters
+parser.add_argument('--max_len', default=10, type=int)
+parser.add_argument('--max_len_a', default=1.6, type=float)
+parser.add_argument('--num_beams', default=4, type=int)
 
 args= parser.parse_args()
+print(args)
 dataset_name = args.dataset_name
-args.length_penalty = 1
+
+""" args.length_penalty = 1
 args.save_model = 0
 
 # word: 生成word的start; bpe: 生成所有的bpe; span: 每一段按照start end生成; span_bpe: 每一段都是start的所有bpe，end的所有bpe
@@ -86,9 +106,16 @@ elif dataset_name == 'en_ace05':  # three runs: 85.39/84.54/84.75
     args.batch_size = 12
     args.num_beams = 4
     args.warmup_ratio = 0.1
+elif dataset_name == 'CADEC': # The dataset of interest for this exp.
+    max_len, max_len_a = 10, 1.6
+    args.num_beams = 4
+    args.lr = 2e-5
+    args.n_epochs = 30
+    eval_start_epoch=10 """
 
 
 save_model = args.save_model
+eval_start_epoch = args.eval_start_epoch
 del args.save_model
 lr = args.lr
 n_epochs = args.n_epochs
