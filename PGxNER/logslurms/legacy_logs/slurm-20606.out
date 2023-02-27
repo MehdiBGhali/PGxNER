@@ -1,0 +1,24 @@
+Running on sh02
+# conda environments:
+#
+base                  *  /opt/conda
+PGx_env                  /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env
+PGx_env_37               /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env_37
+
+pre. tgt. for `dev`:   0%|          | 0/1097 [00:00<?, ?it/s]pre. tgt. for `dev`:  14%|█▍        | 152/1097 [00:00<00:00, 1501.36it/s]pre. tgt. for `dev`:  30%|███       | 333/1097 [00:00<00:00, 1680.90it/s]pre. tgt. for `dev`:  47%|████▋     | 512/1097 [00:00<00:00, 1728.32it/s]pre. tgt. for `dev`:  64%|██████▍   | 700/1097 [00:00<00:00, 1786.85it/s]pre. tgt. for `dev`:  81%|████████  | 889/1097 [00:00<00:00, 1821.46it/s]pre. tgt. for `dev`:  98%|█████████▊| 1072/1097 [00:00<00:00, 1806.56it/s]                                                                          pre. tgt. for `test`:   0%|          | 0/1160 [00:00<?, ?it/s]pre. tgt. for `test`:  18%|█▊        | 204/1160 [00:00<00:00, 2037.10it/s]pre. tgt. for `test`:  35%|███▌      | 408/1160 [00:00<00:00, 1992.68it/s]pre. tgt. for `test`:  52%|█████▏    | 608/1160 [00:00<00:00, 1961.76it/s]pre. tgt. for `test`:  69%|██████▉   | 805/1160 [00:00<00:00, 1953.77it/s]pre. tgt. for `test`:  86%|████████▋ | 1001/1160 [00:00<00:00, 1868.75it/s]                                                                           pre. tgt. for `train`:   0%|          | 0/5340 [00:00<?, ?it/s]pre. tgt. for `train`:   4%|▎         | 190/5340 [00:00<00:02, 1895.93it/s]pre. tgt. for `train`:   7%|▋         | 380/5340 [00:00<00:02, 1818.26it/s]pre. tgt. for `train`:  11%|█         | 563/5340 [00:00<00:02, 1789.76it/s]pre. tgt. for `train`:  14%|█▍        | 758/5340 [00:00<00:02, 1849.03it/s]pre. tgt. for `train`:  18%|█▊        | 956/5340 [00:00<00:02, 1894.52it/s]pre. tgt. for `train`:  21%|██▏       | 1146/5340 [00:00<00:02, 1844.42it/s]pre. tgt. for `train`:  25%|██▌       | 1348/5340 [00:00<00:02, 1895.54it/s]pre. tgt. for `train`:  29%|██▉       | 1538/5340 [00:00<00:02, 1855.18it/s]pre. tgt. for `train`:  32%|███▏      | 1732/5340 [00:00<00:01, 1880.12it/s]pre. tgt. for `train`:  36%|███▌      | 1922/5340 [00:01<00:01, 1884.65it/s]pre. tgt. for `train`:  40%|████      | 2136/5340 [00:01<00:01, 1958.56it/s]pre. tgt. for `train`:  44%|████▎     | 2333/5340 [00:01<00:01, 1938.73it/s]pre. tgt. for `train`:  47%|████▋     | 2536/5340 [00:01<00:01, 1962.88it/s]pre. tgt. for `train`:  52%|█████▏    | 2756/5340 [00:01<00:01, 2032.72it/s]pre. tgt. for `train`:  55%|█████▌    | 2960/5340 [00:01<00:01, 1996.32it/s]pre. tgt. for `train`:  59%|█████▉    | 3160/5340 [00:01<00:01, 1953.48it/s]pre. tgt. for `train`:  63%|██████▎   | 3367/5340 [00:01<00:00, 1986.04it/s]pre. tgt. for `train`:  67%|██████▋   | 3566/5340 [00:01<00:00, 1904.75it/s]pre. tgt. for `train`:  71%|███████   | 3782/5340 [00:01<00:00, 1977.21it/s]pre. tgt. for `train`:  75%|███████▍  | 3981/5340 [00:02<00:00, 1966.39it/s]pre. tgt. for `train`:  78%|███████▊  | 4179/5340 [00:02<00:00, 1955.37it/s]pre. tgt. for `train`:  82%|████████▏ | 4391/5340 [00:02<00:00, 2003.08it/s]pre. tgt. for `train`:  86%|████████▌ | 4592/5340 [00:02<00:00, 1906.35it/s]pre. tgt. for `train`:  90%|████████▉ | 4784/5340 [00:02<00:00, 1904.72it/s]pre. tgt. for `train`:  94%|█████████▍| 5007/5340 [00:02<00:00, 1997.79it/s]pre. tgt. for `train`:  98%|█████████▊| 5208/5340 [00:02<00:00, 1955.70it/s]                                                                            Save cache to caches/data_facebook/bart-large_CADEC_word.pt.
+max_len_a:1.6, max_len:10
+In total 3 datasets:
+	dev has 1097 instances.
+	test has 1160 instances.
+	train has 5340 instances.
+
+The number of tokens in tokenizer  50265
+50266 50271
+<class 'fastNLP.core.dataset.DataSet'>
+<class 'fastNLP.core.dataset.DataSet'>
+None
+None
+Traceback (most recent call last):
+  File "./BARTNER/train.py", line 232, in <module>
+    print(ds.shape())
+TypeError: 'NoneType' object is not callable

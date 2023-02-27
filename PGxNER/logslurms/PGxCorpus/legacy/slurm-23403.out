@@ -1,0 +1,12 @@
+Running on sh04
+# conda environments:
+#
+base                  *  /opt/conda
+PGx_env                  /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env
+PGx_env_37               /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env_37
+new_PGx_env              /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env
+torch_from_source_env     /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env
+
+[34mFitlog project has been initialized. [0m
+This server will automatically shutdown if no api access for 48 hours.
+Start preparing data...

@@ -1,0 +1,21 @@
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.10.3
+  latest version: 23.1.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+/var/spool/slurm/slurmd/job22747/slurm_script: ligne 28: rustc : commande introuvable
+  Running command git clone --filter=blob:none --quiet https://github.com/fastnlp/fastNLP /tmp/benghali_meh-22747/pip-req-build-sqbuahwt
+  Running command git checkout -b dev --track origin/dev
+  Basculement sur la nouvelle branche 'dev'
+  La branche 'dev' est paramétrée pour suivre la branche distante 'dev' depuis 'origin'.
+  Running command git clone --filter=blob:none --quiet https://github.com/fastnlp/fitlog /tmp/benghali_meh-22747/pip-req-build-gorwelij
+pre. tgt. for `dev`:   0%|          | 0/75 [00:00<?, ?it/s]pre. tgt. for `dev`:  53%|█████▎    | 40/75 [00:00<00:00, 387.48it/s]                                                                     pre. tgt. for `test`:   0%|          | 0/76 [00:00<?, ?it/s]pre. tgt. for `test`:  63%|██████▎   | 48/76 [00:00<00:00, 479.85it/s]                                                                      pre. tgt. for `train`:   0%|          | 0/567 [00:00<?, ?it/s]pre. tgt. for `train`:   9%|▊         | 49/567 [00:00<00:01, 482.57it/s]pre. tgt. for `train`:  18%|█▊        | 101/567 [00:00<00:00, 504.41it/s]pre. tgt. for `train`:  27%|██▋       | 152/567 [00:00<00:00, 490.00it/s]pre. tgt. for `train`:  37%|███▋      | 207/567 [00:00<00:00, 509.23it/s]pre. tgt. for `train`:  46%|████▌     | 260/567 [00:00<00:00, 512.22it/s]pre. tgt. for `train`:  55%|█████▌    | 312/567 [00:00<00:00, 507.30it/s]pre. tgt. for `train`:  64%|██████▍   | 363/567 [00:00<00:00, 504.71it/s]pre. tgt. for `train`:  74%|███████▎  | 418/567 [00:00<00:00, 516.94it/s]pre. tgt. for `train`:  83%|████████▎ | 470/567 [00:00<00:00, 513.89it/s]pre. tgt. for `train`:  92%|█████████▏| 522/567 [00:01<00:00, 500.69it/s]                                                                         Traceback (most recent call last):
+  File "./BARTNER/train.py", line 164, in <module>
+    print(f'max_len_a:{max_len_a}, max_len:{max_len}')
+NameError: name 'max_len_a' is not defined

@@ -1,0 +1,21 @@
+/var/spool/slurm/slurmd/job23403/slurm_script: ligne 54 : fg: pas de contrôle de tâche
+  File "./BARTNER/train.py", line 227
+    eval_begin_epoch=eval_start_epoch))  # If it is less than 0.04, raise exception
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/bin/fitlog", line 8, in <module>
+    sys.exit(main_cmd())
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fitlog/fastcmd/__init__.py", line 49, in main_cmd
+    cmd_map[cmd](argv)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fitlog/fastcmd/log_cmd.py", line 52, in log_cmd
+    start_app(log_dir, log_config_name, start_port, standby_hours, ip, token)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fitlog/fastserver/app.py", line 93, in start_app
+    all_data.update(prepare_data(log_reader, all_data['root_log_dir'], all_data['log_config_name']))
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fitlog/fastserver/server/table_utils.py", line 394, in prepare_data
+    logs, configs, extra_data = get_log_and_extra_based_on_config(log_reader, log_dir, log_config_name)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fitlog/fastserver/server/table_utils.py", line 340, in get_log_and_extra_based_on_config
+    log_reader.set_log_dir(log_dir)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fitlog/fastlog/log_read.py", line 35, in set_log_dir
+    raise RuntimeError("`{}` has no valid logs. You should run your program first.".format(log_dir))
+RuntimeError: `/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/Fitlog/logs` has no valid logs. You should run your program first.

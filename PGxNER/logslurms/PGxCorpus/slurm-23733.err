@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "./BARTNER/train.py", line 11, in <module>
+    from model.bart import BartSeq2SeqModel
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER/model/bart.py", line 2, in <module>
+    from .modeling_bart import BartEncoder, BartDecoder, BartModel
+ModuleNotFoundError: No module named 'model.modeling_bart'

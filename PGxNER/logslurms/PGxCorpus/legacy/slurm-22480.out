@@ -1,0 +1,96 @@
+Running on sh02
+# conda environments:
+#
+base                  *  /opt/conda
+PGx_env                  /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env
+PGx_env_37               /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env_37
+new_PGx_env              /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env
+
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... done
+
+# All requested packages already installed.
+
+Requirement already satisfied: pip in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env/lib/python3.8/site-packages (23.0)
+Python 3.8.16
+Requirement already satisfied: setuptools_rust in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env/lib/python3.8/site-packages (1.5.2)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env/lib/python3.8/site-packages (from setuptools_rust) (4.4.0)
+Requirement already satisfied: semantic-version<3,>=2.8.2 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env/lib/python3.8/site-packages (from setuptools_rust) (2.10.0)
+Requirement already satisfied: setuptools>=62.4 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env/lib/python3.8/site-packages (from setuptools_rust) (65.6.3)
+Requirement already satisfied: protobuf==3.20.* in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env/lib/python3.8/site-packages (from -r ./BARTNER/requirements.txt (line 1)) (3.20.3)
+Requirement already satisfied: transformers==3.4.0 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env/lib/python3.8/site-packages (from -r ./BARTNER/requirements.txt (line 2)) (3.4.0)
+Requirement already satisfied: torch==1.7.1 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env/lib/python3.8/site-packages (from -r ./BARTNER/requirements.txt (line 3)) (1.7.1)
+Requirement already satisfied: filelock in /usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages (from transformers==3.4.0->-r ./BARTNER/requirements.txt (line 2)) (3.9.0)
+Requirement already satisfied: tqdm>=4.27 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env/lib/python3.8/site-packages (from transformers==3.4.0->-r ./BARTNER/requirements.txt (line 2)) (4.64.1)
+Requirement already satisfied: regex!=2019.12.17 in /usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages (from transformers==3.4.0->-r ./BARTNER/requirements.txt (line 2)) (2022.10.31)
+Requirement already satisfied: sacremoses in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env/lib/python3.8/site-packages (from transformers==3.4.0->-r ./BARTNER/requirements.txt (line 2)) (0.0.53)
+Requirement already satisfied: packaging in /usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages (from transformers==3.4.0->-r ./BARTNER/requirements.txt (line 2)) (23.0)
+Requirement already satisfied: requests in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env/lib/python3.8/site-packages (from transformers==3.4.0->-r ./BARTNER/requirements.txt (line 2)) (2.28.2)
+Requirement already satisfied: numpy in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env/lib/python3.8/site-packages (from transformers==3.4.0->-r ./BARTNER/requirements.txt (line 2)) (1.24.2)
+Requirement already satisfied: tokenizers==0.9.2 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env/lib/python3.8/site-packages (from transformers==3.4.0->-r ./BARTNER/requirements.txt (line 2)) (0.9.2)
+Requirement already satisfied: sentencepiece!=0.1.92 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env/lib/python3.8/site-packages (from transformers==3.4.0->-r ./BARTNER/requirements.txt (line 2)) (0.1.97)
+Requirement already satisfied: typing-extensions in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env/lib/python3.8/site-packages (from torch==1.7.1->-r ./BARTNER/requirements.txt (line 3)) (4.4.0)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env/lib/python3.8/site-packages (from requests->transformers==3.4.0->-r ./BARTNER/requirements.txt (line 2)) (1.26.14)
+Requirement already satisfied: charset-normalizer<4,>=2 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env/lib/python3.8/site-packages (from requests->transformers==3.4.0->-r ./BARTNER/requirements.txt (line 2)) (3.0.1)
+Requirement already satisfied: certifi>=2017.4.17 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env/lib/python3.8/site-packages (from requests->transformers==3.4.0->-r ./BARTNER/requirements.txt (line 2)) (2022.12.7)
+Requirement already satisfied: idna<4,>=2.5 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env/lib/python3.8/site-packages (from requests->transformers==3.4.0->-r ./BARTNER/requirements.txt (line 2)) (3.4)
+Requirement already satisfied: joblib in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env/lib/python3.8/site-packages (from sacremoses->transformers==3.4.0->-r ./BARTNER/requirements.txt (line 2)) (1.2.0)
+Requirement already satisfied: click in /usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages (from sacremoses->transformers==3.4.0->-r ./BARTNER/requirements.txt (line 2)) (8.1.3)
+Requirement already satisfied: six in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env/lib/python3.8/site-packages (from sacremoses->transformers==3.4.0->-r ./BARTNER/requirements.txt (line 2)) (1.16.0)
+Collecting git+https://github.com/fastnlp/fastNLP@dev
+  Cloning https://github.com/fastnlp/fastNLP (to revision dev) to /tmp/benghali_meh-22480/pip-req-build-4xxsq9i5
+  Resolved https://github.com/fastnlp/fastNLP to commit 2e3a689b294a988fafd618677def9ea1e5915e19
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: numpy>=1.14.2 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env/lib/python3.8/site-packages (from FastNLP==0.7.1) (1.24.2)
+Requirement already satisfied: torch>=1.0.0 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env/lib/python3.8/site-packages (from FastNLP==0.7.1) (1.7.1)
+Requirement already satisfied: tqdm>=4.28.1 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env/lib/python3.8/site-packages (from FastNLP==0.7.1) (4.64.1)
+Requirement already satisfied: prettytable>=0.7.2 in /usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages (from FastNLP==0.7.1) (3.6.0)
+Requirement already satisfied: requests in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env/lib/python3.8/site-packages (from FastNLP==0.7.1) (2.28.2)
+Requirement already satisfied: regex!=2019.12.17 in /usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages (from FastNLP==0.7.1) (2022.10.31)
+Requirement already satisfied: wcwidth in /usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages (from prettytable>=0.7.2->FastNLP==0.7.1) (0.2.6)
+Requirement already satisfied: typing-extensions in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env/lib/python3.8/site-packages (from torch>=1.0.0->FastNLP==0.7.1) (4.4.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env/lib/python3.8/site-packages (from requests->FastNLP==0.7.1) (3.0.1)
+Requirement already satisfied: idna<4,>=2.5 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env/lib/python3.8/site-packages (from requests->FastNLP==0.7.1) (3.4)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env/lib/python3.8/site-packages (from requests->FastNLP==0.7.1) (1.26.14)
+Requirement already satisfied: certifi>=2017.4.17 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env/lib/python3.8/site-packages (from requests->FastNLP==0.7.1) (2022.12.7)
+Collecting git+https://github.com/fastnlp/fitlog
+  Cloning https://github.com/fastnlp/fitlog to /tmp/benghali_meh-22480/pip-req-build-ekijucnq
+  Resolved https://github.com/fastnlp/fitlog to commit def816d968e6f688ea769dcca8c2475ad56ae693
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: docopt>=0.6.2 in /usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages (from fitlog==0.9.14) (0.6.2)
+Requirement already satisfied: flask>=1.0.2 in /usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages (from fitlog==0.9.14) (2.2.2)
+Requirement already satisfied: numpy>=1.16.4 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env/lib/python3.8/site-packages (from fitlog==0.9.14) (1.24.2)
+Requirement already satisfied: gitpython>=3.1.2 in /usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages (from fitlog==0.9.14) (3.1.30)
+Requirement already satisfied: click>=8.0 in /usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages (from flask>=1.0.2->fitlog==0.9.14) (8.1.3)
+Requirement already satisfied: Werkzeug>=2.2.2 in /usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages (from flask>=1.0.2->fitlog==0.9.14) (2.2.2)
+Requirement already satisfied: importlib-metadata>=3.6.0 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env/lib/python3.8/site-packages (from flask>=1.0.2->fitlog==0.9.14) (6.0.0)
+Requirement already satisfied: itsdangerous>=2.0 in /usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages (from flask>=1.0.2->fitlog==0.9.14) (2.1.2)
+Requirement already satisfied: Jinja2>=3.0 in /usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages (from flask>=1.0.2->fitlog==0.9.14) (3.1.2)
+Requirement already satisfied: gitdb<5,>=4.0.1 in /usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages (from gitpython>=3.1.2->fitlog==0.9.14) (4.0.10)
+Requirement already satisfied: smmap<6,>=3.0.1 in /usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages (from gitdb<5,>=4.0.1->gitpython>=3.1.2->fitlog==0.9.14) (5.0.0)
+Requirement already satisfied: zipp>=0.5 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env/lib/python3.8/site-packages (from importlib-metadata>=3.6.0->flask>=1.0.2->fitlog==0.9.14) (3.13.0)
+Requirement already satisfied: MarkupSafe>=2.0 in /usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages (from Jinja2>=3.0->flask>=1.0.2->fitlog==0.9.14) (2.1.2)
+Namespace(bart_name='facebook/bart-large', batch_size=8, dataset_name='PGxCorpus', decoder_type='avg_feature', eval_start_epoch=10, length_penalty=1, lr=1e-05, max_len=10, max_len_a=1.6, n_epochs=30, num_beams=4, save_model=0, schedule='linear', target_type='word', use_encoder_mlp=1, warmup_ratio=0.01)
+Save cache to caches/data_facebook/bart-large_PGxCorpus_word.pt.
+max_len_a:1.6, max_len:10
+In total 3 datasets:
+	dev has 75 instances.
+	test has 76 instances.
+	train has 567 instances.
+
+The number of tokens in tokenizer  50265
+50275 50280
+input fields after batch(if batch size is 2):
+	tgt_tokens: (1)type:torch.Tensor (2)dtype:torch.int64, (3)shape:torch.Size([2, 34]) 
+	src_tokens: (1)type:torch.Tensor (2)dtype:torch.int64, (3)shape:torch.Size([2, 56]) 
+	first: (1)type:torch.Tensor (2)dtype:torch.int64, (3)shape:torch.Size([2, 56]) 
+	src_seq_len: (1)type:torch.Tensor (2)dtype:torch.int64, (3)shape:torch.Size([2]) 
+	tgt_seq_len: (1)type:torch.Tensor (2)dtype:torch.int64, (3)shape:torch.Size([2]) 
+target fields after batch(if batch size is 2):
+	entities: (1)type:numpy.ndarray (2)dtype:object, (3)shape:(2,) 
+	tgt_tokens: (1)type:torch.Tensor (2)dtype:torch.int64, (3)shape:torch.Size([2, 34]) 
+	target_span: (1)type:numpy.ndarray (2)dtype:object, (3)shape:(2,) 
+	tgt_seq_len: (1)type:torch.Tensor (2)dtype:torch.int64, (3)shape:torch.Size([2]) 
+

@@ -1,0 +1,45 @@
+Running on sh14
+# conda environments:
+#
+base                  *  /opt/conda
+PGx_env                  /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env
+PGx_env_37               /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env_37
+
+{'test': '../data/CADEC/test.txt', 'train': '../data/CADEC/train.txt', 'dev': '../data/CADEC/dev.txt'}
+/usr/users/rattrapagemehdibenghali/benghali_meh/data/CADEC/test.txt
+/usr/users/rattrapagemehdibenghali/benghali_meh/data/CADEC/train.txt
+/usr/users/rattrapagemehdibenghali/benghali_meh/data/CADEC/dev.txt
+processing but not from file
+pre. tgt. for `test`:   0%|          | 0/1160 [00:00<?, ?it/s]pre. tgt. for `test`:  13%|█▎        | 156/1160 [00:00<00:00, 1558.57it/s]pre. tgt. for `test`:  30%|██▉       | 343/1160 [00:00<00:00, 1737.43it/s]pre. tgt. for `test`:  47%|████▋     | 541/1160 [00:00<00:00, 1842.64it/s]pre. tgt. for `test`:  63%|██████▎   | 726/1160 [00:00<00:00, 1799.55it/s]pre. tgt. for `test`:  78%|███████▊  | 907/1160 [00:00<00:00, 1754.10it/s]pre. tgt. for `test`:  94%|█████████▍| 1090/1160 [00:00<00:00, 1779.03it/s]                                                                           pre. tgt. for `train`:   0%|          | 0/5340 [00:00<?, ?it/s]pre. tgt. for `train`:   4%|▎         | 187/5340 [00:00<00:02, 1869.77it/s]pre. tgt. for `train`:   7%|▋         | 374/5340 [00:00<00:02, 1795.33it/s]pre. tgt. for `train`:  10%|█         | 554/5340 [00:00<00:02, 1770.37it/s]pre. tgt. for `train`:  14%|█▍        | 749/5340 [00:00<00:02, 1836.16it/s]pre. tgt. for `train`:  18%|█▊        | 939/5340 [00:00<00:02, 1858.51it/s]pre. tgt. for `train`:  21%|██        | 1126/5340 [00:00<00:02, 1857.00it/s]pre. tgt. for `train`:  25%|██▍       | 1313/5340 [00:00<00:02, 1857.18it/s]pre. tgt. for `train`:  28%|██▊       | 1499/5340 [00:00<00:02, 1835.64it/s]pre. tgt. for `train`:  32%|███▏      | 1683/5340 [00:00<00:02, 1827.75it/s]pre. tgt. for `train`:  35%|███▍      | 1866/5340 [00:01<00:01, 1824.05it/s]pre. tgt. for `train`:  39%|███▉      | 2073/5340 [00:01<00:01, 1896.54it/s]pre. tgt. for `train`:  42%|████▏     | 2268/5340 [00:01<00:01, 1908.11it/s]pre. tgt. for `train`:  46%|████▋     | 2476/5340 [00:01<00:01, 1954.48it/s]pre. tgt. for `train`:  50%|█████     | 2693/5340 [00:01<00:01, 2018.64it/s]pre. tgt. for `train`:  54%|█████▍    | 2895/5340 [00:01<00:01, 2006.48it/s]pre. tgt. for `train`:  58%|█████▊    | 3096/5340 [00:01<00:01, 1904.62it/s]pre. tgt. for `train`:  62%|██████▏   | 3316/5340 [00:01<00:01, 1988.69it/s]pre. tgt. for `train`:  66%|██████▌   | 3516/5340 [00:01<00:00, 1888.95it/s]pre. tgt. for `train`:  70%|██████▉   | 3728/5340 [00:01<00:00, 1949.99it/s]pre. tgt. for `train`:  74%|███████▎  | 3925/5340 [00:02<00:00, 1955.68it/s]pre. tgt. for `train`:  77%|███████▋  | 4122/5340 [00:02<00:00, 1938.33it/s]pre. tgt. for `train`:  81%|████████  | 4334/5340 [00:02<00:00, 1988.48it/s]pre. tgt. for `train`:  85%|████████▍ | 4534/5340 [00:02<00:00, 1927.37it/s]pre. tgt. for `train`:  89%|████████▊ | 4728/5340 [00:02<00:00, 1884.11it/s]pre. tgt. for `train`:  92%|█████████▏| 4931/5340 [00:02<00:00, 1923.16it/s]pre. tgt. for `train`:  96%|█████████▌| 5135/5340 [00:02<00:00, 1956.86it/s]pre. tgt. for `train`: 100%|█████████▉| 5332/5340 [00:02<00:00, 1932.75it/s]                                                                            pre. tgt. for `dev`:   0%|          | 0/1097 [00:00<?, ?it/s]pre. tgt. for `dev`:  17%|█▋        | 188/1097 [00:00<00:00, 1874.83it/s]pre. tgt. for `dev`:  36%|███▌      | 391/1097 [00:00<00:00, 1960.86it/s]pre. tgt. for `dev`:  54%|█████▎    | 588/1097 [00:00<00:00, 1919.73it/s]pre. tgt. for `dev`:  72%|███████▏  | 793/1097 [00:00<00:00, 1968.42it/s]pre. tgt. for `dev`:  90%|█████████ | 990/1097 [00:00<00:00, 1958.63it/s]                                                                         Save cache to caches/data_facebook/bart-large_CADEC_word.pt.
+max_len_a:1.6, max_len:10
+In total 3 datasets:
+	test has 1160 instances.
+	train has 5340 instances.
+	dev has 1097 instances.
+
+The number of tokens in tokenizer  50265
+50266 50271
+Traceback (most recent call last):
+  File "./BARTNER/train.py", line 233, in <module>
+    trainer = Trainer(train_data=ds, model=model, optimizer=optimizer,
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/trainer.py", line 559, in __init__
+    _check_code(dataset=train_data, model=self.model, losser=losser, forward_func=self._forward_func, metrics=metrics,
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/trainer.py", line 959, in _check_code
+    for batch_count, (batch_x, batch_y) in enumerate(_iter):
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/batch.py", line 266, in __iter__
+    for indices, batch_x, batch_y in self.dataiter:
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 435, in __next__
+    data = self._next_data()
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 475, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 47, in fetch
+    return self.collate_fn(data)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/batch.py", line 90, in collate_fn
+    sin_y = _pad(sin_y, dataset=self.dataset, as_numpy=self.as_numpy)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/batch.py", line 43, in _pad
+    res = f.pad(vlist)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/field.py", line 492, in pad
+    return self.padder(contents, field_name=self.name, field_ele_dtype=self.dtype, dim=self._cell_ndim)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/field.py", line 247, in __call__
+    return np.array(contents)
+ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (2,) + inhomogeneous part.

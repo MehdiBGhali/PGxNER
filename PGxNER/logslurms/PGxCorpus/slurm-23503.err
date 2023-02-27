@@ -1,0 +1,12 @@
+pre. tgt. for `dev`:   0%|          | 0/75 [00:00<?, ?it/s]pre. tgt. for `dev`:  63%|██████▎   | 47/75 [00:00<00:00, 468.97it/s]                                                                     pre. tgt. for `test`:   0%|          | 0/76 [00:00<?, ?it/s]pre. tgt. for `test`:  64%|██████▍   | 49/76 [00:00<00:00, 487.12it/s]                                                                      pre. tgt. for `train`:   0%|          | 0/567 [00:00<?, ?it/s]pre. tgt. for `train`:   9%|▉         | 50/567 [00:00<00:01, 497.51it/s]pre. tgt. for `train`:  18%|█▊        | 103/567 [00:00<00:00, 505.93it/s]pre. tgt. for `train`:  27%|██▋       | 151/567 [00:00<00:00, 496.32it/s]pre. tgt. for `train`:  37%|███▋      | 207/567 [00:00<00:00, 510.98it/s]pre. tgt. for `train`:  46%|████▌     | 260/567 [00:00<00:00, 515.08it/s]pre. tgt. for `train`:  55%|█████▍    | 311/567 [00:00<00:00, 512.65it/s]pre. tgt. for `train`:  64%|██████▍   | 363/567 [00:00<00:00, 511.99it/s]pre. tgt. for `train`:  74%|███████▍  | 419/567 [00:00<00:00, 524.64it/s]pre. tgt. for `train`:  83%|████████▎ | 471/567 [00:00<00:00, 520.97it/s]pre. tgt. for `train`:  92%|█████████▏| 522/567 [00:01<00:00, 509.69it/s]                                                                         Traceback (most recent call last):
+  File "./BARTNER/train.py", line 332, in <module>
+    trainer.train(load_best_model=False)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/trainer.py", line 667, in train
+    raise e
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/trainer.py", line 657, in train
+    self.callback_manager.on_train_begin()
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/callback.py", line 322, in wrapper
+    returns.append(getattr(callback, func.__name__)(*arg))
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER/model/callbacks.py", line 318, in on_train_begin
+    self.history_dir = os.path.join(self.history_dir, f"historic_{max([0].extend(current_indexes))+1}")
+TypeError: 'NoneType' object is not iterable

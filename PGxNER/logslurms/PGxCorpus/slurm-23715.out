@@ -1,0 +1,27 @@
+Running on sh05
+# conda environments:
+#
+base                  *  /opt/conda
+PGx_env                  /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env
+PGx_env_37               /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env_37
+new_PGx_env              /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env
+torch_from_source_env     /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env
+
+no change     /opt/conda/condabin/conda
+no change     /opt/conda/bin/conda
+no change     /opt/conda/bin/conda-env
+no change     /opt/conda/bin/activate
+no change     /opt/conda/bin/deactivate
+no change     /opt/conda/etc/profile.d/conda.sh
+no change     /opt/conda/etc/fish/conf.d/conda.fish
+no change     /opt/conda/shell/condabin/Conda.psm1
+no change     /opt/conda/shell/condabin/conda-hook.ps1
+no change     /opt/conda/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /opt/conda/etc/profile.d/conda.csh
+modified      /usr/users/rattrapagemehdibenghali/benghali_meh/.bashrc
+
+==> For changes to take effect, close and re-open your current shell. <==
+
+WARNING: A directory already exists at the target location '/usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/cloned_env'
+but it is not a conda environment.
+Continue creating environment (y/[n])? 

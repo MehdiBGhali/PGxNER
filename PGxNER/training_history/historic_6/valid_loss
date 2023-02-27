@@ -1,0 +1,90 @@
+{'Seq2SeqSpanMetric': {'f': 48.65, 'rec': 41.730000000000004, 'pre': 58.309999999999995, 'em': 0.0267}, 'step': 781, 'epoch': 11} 
+{'Seq2SeqSpanMetric': {'f': 49.2, 'rec': 43.15, 'pre': 57.220000000000006, 'em': 0.04}, 'step': 852, 'epoch': 12} 
+{'Seq2SeqSpanMetric': {'f': 51.800000000000004, 'rec': 44.96, 'pre': 61.1, 'em': 0.0533}, 'step': 923, 'epoch': 13} 
+{'Seq2SeqSpanMetric': {'f': 54.65, 'rec': 49.8, 'pre': 60.540000000000006, 'em': 0.0533}, 'step': 994, 'epoch': 14} 
+{'Seq2SeqSpanMetric': {'f': 55.720000000000006, 'rec': 52.019999999999996, 'pre': 60.0, 'em': 0.0533}, 'step': 1065, 'epoch': 15} 
+{'Seq2SeqSpanMetric': {'f': 58.43000000000001, 'rec': 54.84, 'pre': 62.529999999999994, 'em': 0.0533}, 'step': 1136, 'epoch': 16} 
+{'Seq2SeqSpanMetric': {'f': 58.660000000000004, 'rec': 54.64, 'pre': 63.32, 'em': 0.0533}, 'step': 1207, 'epoch': 17} 
+{'Seq2SeqSpanMetric': {'f': 57.8, 'rec': 53.43, 'pre': 62.949999999999996, 'em': 0.0533}} 
+{'Seq2SeqSpanMetric': {'f': 60.5, 'rec': 56.05, 'pre': 65.72, 'em': 0.0933}, 'step': 1349, 'epoch': 19} 
+{'Seq2SeqSpanMetric': {'f': 60.28, 'rec': 57.06, 'pre': 63.88, 'em': 0.04}} 
+{'Seq2SeqSpanMetric': {'f': 60.31999999999999, 'rec': 56.85, 'pre': 64.24, 'em': 0.1067}} 
+{'Seq2SeqSpanMetric': {'f': 61.01, 'rec': 57.26, 'pre': 65.29, 'em': 0.1067}, 'step': 1562, 'epoch': 22} 
+{'Seq2SeqSpanMetric': {'f': 61.339999999999996, 'rec': 58.87, 'pre': 64.03999999999999, 'em': 0.0933}, 'step': 1633, 'epoch': 23} 
+{'Seq2SeqSpanMetric': {'f': 63.849999999999994, 'rec': 62.5, 'pre': 65.25999999999999, 'em': 0.08}, 'step': 1704, 'epoch': 24} 
+{'Seq2SeqSpanMetric': {'f': 62.79, 'rec': 60.89, 'pre': 64.81, 'em': 0.0933}} 
+{'Seq2SeqSpanMetric': {'f': 62.760000000000005, 'rec': 60.480000000000004, 'pre': 65.22, 'em': 0.0933}} 
+{'Seq2SeqSpanMetric': {'f': 64.12, 'rec': 62.5, 'pre': 65.82000000000001, 'em': 0.1067}, 'step': 1917, 'epoch': 27} 
+{'Seq2SeqSpanMetric': {'f': 64.71000000000001, 'rec': 62.1, 'pre': 67.54, 'em': 0.1067}, 'step': 1988, 'epoch': 28} 
+{'Seq2SeqSpanMetric': {'f': 65.91, 'rec': 64.11, 'pre': 67.80000000000001, 'em': 0.12}, 'step': 2059, 'epoch': 29} 
+{'Seq2SeqSpanMetric': {'f': 67.01, 'rec': 65.93, 'pre': 68.12, 'em': 0.1067}, 'step': 2130, 'epoch': 30} 
+{'Seq2SeqSpanMetric': {'f': 65.85, 'rec': 65.12, 'pre': 66.60000000000001, 'em': 0.1067}} 
+{'Seq2SeqSpanMetric': {'f': 65.64, 'rec': 64.31, 'pre': 67.02, 'em': 0.12}} 
+{'Seq2SeqSpanMetric': {'f': 64.8, 'rec': 62.9, 'pre': 66.81, 'em': 0.12}} 
+{'Seq2SeqSpanMetric': {'f': 65.84, 'rec': 64.11, 'pre': 67.66, 'em': 0.1067}} 
+{'Seq2SeqSpanMetric': {'f': 66.18, 'rec': 64.52, 'pre': 67.94, 'em': 0.1067}} 
+{'Seq2SeqSpanMetric': {'f': 65.56, 'rec': 63.91, 'pre': 67.30000000000001, 'em': 0.1333}} 
+{'Seq2SeqSpanMetric': {'f': 68.58, 'rec': 67.34, 'pre': 69.87, 'em': 0.12}, 'step': 2627, 'epoch': 37} 
+{'Seq2SeqSpanMetric': {'f': 68.32000000000001, 'rec': 66.73, 'pre': 69.98, 'em': 0.1333}} 
+{'Seq2SeqSpanMetric': {'f': 67.43, 'rec': 64.92, 'pre': 70.15, 'em': 0.12}} 
+{'Seq2SeqSpanMetric': {'f': 68.81, 'rec': 66.73, 'pre': 71.03, 'em': 0.1733}, 'step': 2840, 'epoch': 40} 
+{'Seq2SeqSpanMetric': {'f': 69.19, 'rec': 68.15, 'pre': 70.27, 'em': 0.1467}, 'step': 2911, 'epoch': 41} 
+{'Seq2SeqSpanMetric': {'f': 68.12, 'rec': 66.33, 'pre': 70.0, 'em': 0.16}} 
+{'Seq2SeqSpanMetric': {'f': 69.8, 'rec': 67.34, 'pre': 72.45, 'em': 0.2}, 'step': 3053, 'epoch': 43} 
+{'Seq2SeqSpanMetric': {'f': 68.15, 'rec': 67.74, 'pre': 68.57, 'em': 0.1467}} 
+{'Seq2SeqSpanMetric': {'f': 67.07, 'rec': 66.53, 'pre': 67.62, 'em': 0.16}} 
+{'Seq2SeqSpanMetric': {'f': 67.28, 'rec': 66.53, 'pre': 68.04, 'em': 0.16}} 
+{'Seq2SeqSpanMetric': {'f': 67.21000000000001, 'rec': 66.13, 'pre': 68.33, 'em': 0.1333}} 
+{'Seq2SeqSpanMetric': {'f': 67.49000000000001, 'rec': 65.73, 'pre': 69.36, 'em': 0.1733}} 
+{'Seq2SeqSpanMetric': {'f': 68.10000000000001, 'rec': 67.14, 'pre': 69.08999999999999, 'em': 0.1467}} 
+{'Seq2SeqSpanMetric': {'f': 67.21000000000001, 'rec': 66.13, 'pre': 68.33, 'em': 0.1333}} 
+{'Seq2SeqSpanMetric': {'f': 66.67, 'rec': 65.12, 'pre': 68.28999999999999, 'em': 0.16}} 
+{'Seq2SeqSpanMetric': {'f': 69.71000000000001, 'rec': 69.35, 'pre': 70.06, 'em': 0.16}} 
+{'Seq2SeqSpanMetric': {'f': 69.89, 'rec': 69.96, 'pre': 69.82000000000001, 'em': 0.1467}, 'step': 3763, 'epoch': 53} 
+{'Seq2SeqSpanMetric': {'f': 69.75, 'rec': 68.35, 'pre': 71.22, 'em': 0.1467}} 
+{'Seq2SeqSpanMetric': {'f': 68.47999999999999, 'rec': 68.55, 'pre': 68.41000000000001, 'em': 0.2}} 
+{'Seq2SeqSpanMetric': {'f': 69.31, 'rec': 68.75, 'pre': 69.88, 'em': 0.1867}} 
+{'Seq2SeqSpanMetric': {'f': 70.24000000000001, 'rec': 68.75, 'pre': 71.78999999999999, 'em': 0.1867}, 'step': 4047, 'epoch': 57} 
+{'Seq2SeqSpanMetric': {'f': 69.33, 'rec': 68.15, 'pre': 70.56, 'em': 0.1733}} 
+{'Seq2SeqSpanMetric': {'f': 69.06, 'rec': 67.94, 'pre': 70.21, 'em': 0.1733}} 
+{'Seq2SeqSpanMetric': {'f': 69.93, 'rec': 69.15, 'pre': 70.72, 'em': 0.1733}} 
+{'Seq2SeqSpanMetric': {'f': 70.95, 'rec': 70.16, 'pre': 71.75, 'em': 0.2}, 'step': 4331, 'epoch': 61} 
+{'Seq2SeqSpanMetric': {'f': 69.69, 'rec': 68.15, 'pre': 71.31, 'em': 0.2}} 
+{'Seq2SeqSpanMetric': {'f': 68.64, 'rec': 67.74, 'pre': 69.57, 'em': 0.1467}} 
+{'Seq2SeqSpanMetric': {'f': 69.92, 'rec': 69.35, 'pre': 70.49, 'em': 0.1733}} 
+{'Seq2SeqSpanMetric': {'f': 71.33, 'rec': 71.98, 'pre': 70.69, 'em': 0.1733}, 'step': 4615, 'epoch': 65} 
+{'Seq2SeqSpanMetric': {'f': 69.78, 'rec': 69.35, 'pre': 70.19999999999999, 'em': 0.1867}} 
+{'Seq2SeqSpanMetric': {'f': 72.16, 'rec': 72.38, 'pre': 71.94, 'em': 0.2}, 'step': 4757, 'epoch': 67} 
+{'Seq2SeqSpanMetric': {'f': 71.86, 'rec': 71.57, 'pre': 72.15, 'em': 0.2133}} 
+{'Seq2SeqSpanMetric': {'f': 69.62, 'rec': 68.15, 'pre': 71.16, 'em': 0.16}} 
+{'Seq2SeqSpanMetric': {'f': 70.39, 'rec': 69.96, 'pre': 70.82000000000001, 'em': 0.1867}} 
+{'Seq2SeqSpanMetric': {'f': 70.06, 'rec': 69.35, 'pre': 70.78, 'em': 0.1733}} 
+{'Seq2SeqSpanMetric': {'f': 72.28, 'rec': 71.77, 'pre': 72.8, 'em': 0.2}, 'step': 5112, 'epoch': 72} 
+{'Seq2SeqSpanMetric': {'f': 71.97, 'rec': 71.17, 'pre': 72.78, 'em': 0.2}} 
+{'Seq2SeqSpanMetric': {'f': 71.54, 'rec': 70.97, 'pre': 72.13000000000001, 'em': 0.1867}} 
+{'Seq2SeqSpanMetric': {'f': 70.8, 'rec': 70.16, 'pre': 71.46000000000001, 'em': 0.2}} 
+{'Seq2SeqSpanMetric': {'f': 70.26, 'rec': 69.56, 'pre': 70.99, 'em': 0.2}} 
+{'Seq2SeqSpanMetric': {'f': 70.6, 'rec': 69.96, 'pre': 71.25, 'em': 0.2}} 
+{'Seq2SeqSpanMetric': {'f': 69.47, 'rec': 68.35, 'pre': 70.62, 'em': 0.1733}} 
+{'Seq2SeqSpanMetric': {'f': 70.42, 'rec': 69.35, 'pre': 71.52, 'em': 0.1867}} 
+{'Seq2SeqSpanMetric': {'f': 70.07, 'rec': 69.15, 'pre': 71.00999999999999, 'em': 0.2133}} 
+{'Seq2SeqSpanMetric': {'f': 71.41, 'rec': 70.77, 'pre': 72.07000000000001, 'em': 0.2133}} 
+{'Seq2SeqSpanMetric': {'f': 71.16, 'rec': 71.37, 'pre': 70.94, 'em': 0.2}} 
+{'Seq2SeqSpanMetric': {'f': 69.86, 'rec': 69.15, 'pre': 70.58, 'em': 0.2133}} 
+{'Seq2SeqSpanMetric': {'f': 71.98, 'rec': 71.98, 'pre': 71.98, 'em': 0.2267}} 
+{'Seq2SeqSpanMetric': {'f': 71.07, 'rec': 70.56, 'pre': 71.57, 'em': 0.2}} 
+{'Seq2SeqSpanMetric': {'f': 71.72, 'rec': 71.57, 'pre': 71.86, 'em': 0.16}} 
+{'Seq2SeqSpanMetric': {'f': 70.78999999999999, 'rec': 70.36, 'pre': 71.22, 'em': 0.1733}} 
+{'Seq2SeqSpanMetric': {'f': 72.1, 'rec': 72.18, 'pre': 72.03, 'em': 0.1867}} 
+{'Seq2SeqSpanMetric': {'f': 71.61999999999999, 'rec': 70.97, 'pre': 72.28, 'em': 0.2}} 
+{'Seq2SeqSpanMetric': {'f': 71.78999999999999, 'rec': 71.57, 'pre': 72.00999999999999, 'em': 0.1867}} 
+{'Seq2SeqSpanMetric': {'f': 72.75, 'rec': 72.38, 'pre': 73.11999999999999, 'em': 0.24}, 'step': 6461, 'epoch': 91} 
+{'Seq2SeqSpanMetric': {'f': 72.65, 'rec': 72.58, 'pre': 72.72999999999999, 'em': 0.2}} 
+{'Seq2SeqSpanMetric': {'f': 72.38, 'rec': 72.38, 'pre': 72.38, 'em': 0.2133}} 
+{'Seq2SeqSpanMetric': {'f': 72.58, 'rec': 72.58, 'pre': 72.58, 'em': 0.2133}} 
+{'Seq2SeqSpanMetric': {'f': 71.81, 'rec': 71.37, 'pre': 72.24000000000001, 'em': 0.2267}} 
+{'Seq2SeqSpanMetric': {'f': 71.92, 'rec': 71.77, 'pre': 72.06, 'em': 0.2}} 
+{'Seq2SeqSpanMetric': {'f': 72.25, 'rec': 72.18, 'pre': 72.32, 'em': 0.2}} 
+{'Seq2SeqSpanMetric': {'f': 72.11999999999999, 'rec': 71.98, 'pre': 72.27, 'em': 0.2}} 
+{'Seq2SeqSpanMetric': {'f': 72.11999999999999, 'rec': 71.98, 'pre': 72.27, 'em': 0.2}} 
+{'Seq2SeqSpanMetric': {'f': 72.11999999999999, 'rec': 71.98, 'pre': 72.27, 'em': 0.2}} 

@@ -1,0 +1,289 @@
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.10.3
+  latest version: 23.1.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env
+
+  added / updated specs:
+    - python=3.9
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    _openmp_mutex-5.1          |            1_gnu          21 KB
+    ca-certificates-2023.01.10 |       h06a4308_0         120 KB
+    certifi-2022.12.7          |   py39h06a4308_0         150 KB
+    ld_impl_linux-64-2.38      |       h1181459_1         654 KB
+    libffi-3.4.2               |       h6a678d5_6         136 KB
+    libgcc-ng-11.2.0           |       h1234567_1         5.3 MB
+    libgomp-11.2.0             |       h1234567_1         474 KB
+    libstdcxx-ng-11.2.0        |       h1234567_1         4.7 MB
+    ncurses-6.4                |       h6a678d5_0         914 KB
+    openssl-1.1.1s             |       h7f8727e_0         3.6 MB
+    pip-22.3.1                 |   py39h06a4308_0         2.7 MB
+    python-3.9.16              |       h7a1cb2a_0        25.0 MB
+    readline-8.2               |       h5eee18b_0         357 KB
+    setuptools-65.6.3          |   py39h06a4308_0         1.1 MB
+    sqlite-3.40.1              |       h5082296_0         1.2 MB
+    tk-8.6.12                  |       h1ccaba5_0         3.0 MB
+    tzdata-2022g               |       h04d1e81_0         114 KB
+    wheel-0.37.1               |     pyhd3eb1b0_0          33 KB
+    xz-5.2.10                  |       h5eee18b_1         429 KB
+    zlib-1.2.13                |       h5eee18b_0         103 KB
+    ------------------------------------------------------------
+                                           Total:        50.1 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-5.1-1_gnu
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2023.01.10-h06a4308_0
+  certifi            pkgs/main/linux-64::certifi-2022.12.7-py39h06a4308_0
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.38-h1181459_1
+  libffi             pkgs/main/linux-64::libffi-3.4.2-h6a678d5_6
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-11.2.0-h1234567_1
+  libgomp            pkgs/main/linux-64::libgomp-11.2.0-h1234567_1
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-11.2.0-h1234567_1
+  ncurses            pkgs/main/linux-64::ncurses-6.4-h6a678d5_0
+  openssl            pkgs/main/linux-64::openssl-1.1.1s-h7f8727e_0
+  pip                pkgs/main/linux-64::pip-22.3.1-py39h06a4308_0
+  python             pkgs/main/linux-64::python-3.9.16-h7a1cb2a_0
+  readline           pkgs/main/linux-64::readline-8.2-h5eee18b_0
+  setuptools         pkgs/main/linux-64::setuptools-65.6.3-py39h06a4308_0
+  sqlite             pkgs/main/linux-64::sqlite-3.40.1-h5082296_0
+  tk                 pkgs/main/linux-64::tk-8.6.12-h1ccaba5_0
+  tzdata             pkgs/main/noarch::tzdata-2022g-h04d1e81_0
+  wheel              pkgs/main/noarch::wheel-0.37.1-pyhd3eb1b0_0
+  xz                 pkgs/main/linux-64::xz-5.2.10-h5eee18b_1
+  zlib               pkgs/main/linux-64::zlib-1.2.13-h5eee18b_0
+
+
+Proceed ([y]/n)? 
+
+Downloading and Extracting Packages
+ca-certificates-2023 | 120 KB    |            |   0% ca-certificates-2023 | 120 KB    | #####3     |  53% ca-certificates-2023 | 120 KB    | ########## | 100% 
+ncurses-6.4          | 914 KB    |            |   0% ncurses-6.4          | 914 KB    | ########## | 100% ncurses-6.4          | 914 KB    | ########## | 100% 
+readline-8.2         | 357 KB    |            |   0% readline-8.2         | 357 KB    | ########## | 100% readline-8.2         | 357 KB    | ########## | 100% 
+tzdata-2022g         | 114 KB    |            |   0% tzdata-2022g         | 114 KB    | ########## | 100% tzdata-2022g         | 114 KB    | ########## | 100% 
+tk-8.6.12            | 3.0 MB    |            |   0% tk-8.6.12            | 3.0 MB    | ########## | 100% tk-8.6.12            | 3.0 MB    | ########## | 100% 
+ld_impl_linux-64-2.3 | 654 KB    |            |   0% ld_impl_linux-64-2.3 | 654 KB    | ########## | 100% ld_impl_linux-64-2.3 | 654 KB    | ########## | 100% 
+libgomp-11.2.0       | 474 KB    |            |   0% libgomp-11.2.0       | 474 KB    | ########## | 100% libgomp-11.2.0       | 474 KB    | ########## | 100% 
+libffi-3.4.2         | 136 KB    |            |   0% libffi-3.4.2         | 136 KB    | ########## | 100% libffi-3.4.2         | 136 KB    | ########## | 100% 
+openssl-1.1.1s       | 3.6 MB    |            |   0% openssl-1.1.1s       | 3.6 MB    | ########4  |  84% openssl-1.1.1s       | 3.6 MB    | ########## | 100% 
+_openmp_mutex-5.1    | 21 KB     |            |   0% _openmp_mutex-5.1    | 21 KB     | ########## | 100% _openmp_mutex-5.1    | 21 KB     | ########## | 100% 
+wheel-0.37.1         | 33 KB     |            |   0% wheel-0.37.1         | 33 KB     | ########## | 100% wheel-0.37.1         | 33 KB     | ########## | 100% 
+setuptools-65.6.3    | 1.1 MB    |            |   0% setuptools-65.6.3    | 1.1 MB    | ########## | 100% setuptools-65.6.3    | 1.1 MB    | ########## | 100% 
+sqlite-3.40.1        | 1.2 MB    |            |   0% sqlite-3.40.1        | 1.2 MB    | ########## | 100% sqlite-3.40.1        | 1.2 MB    | ########## | 100% 
+libgcc-ng-11.2.0     | 5.3 MB    |            |   0% libgcc-ng-11.2.0     | 5.3 MB    | ####6      |  47% libgcc-ng-11.2.0     | 5.3 MB    | ########## | 100% libgcc-ng-11.2.0     | 5.3 MB    | ########## | 100% 
+xz-5.2.10            | 429 KB    |            |   0% xz-5.2.10            | 429 KB    | ########## | 100% xz-5.2.10            | 429 KB    | ########## | 100% 
+pip-22.3.1           | 2.7 MB    |            |   0% pip-22.3.1           | 2.7 MB    | ########## | 100% pip-22.3.1           | 2.7 MB    | ########## | 100% 
+certifi-2022.12.7    | 150 KB    |            |   0% certifi-2022.12.7    | 150 KB    | ########## | 100% certifi-2022.12.7    | 150 KB    | ########## | 100% 
+libstdcxx-ng-11.2.0  | 4.7 MB    |            |   0% libstdcxx-ng-11.2.0  | 4.7 MB    | ######     |  61% libstdcxx-ng-11.2.0  | 4.7 MB    | ########## | 100% 
+zlib-1.2.13          | 103 KB    |            |   0% zlib-1.2.13          | 103 KB    | ########## | 100% zlib-1.2.13          | 103 KB    | ########## | 100% 
+python-3.9.16        | 25.0 MB   |            |   0% python-3.9.16        | 25.0 MB   | #7         |  18% python-3.9.16        | 25.0 MB   | ####6      |  47% python-3.9.16        | 25.0 MB   | #######1   |  71% python-3.9.16        | 25.0 MB   | #########5 |  95% python-3.9.16        | 25.0 MB   | ########## | 100% 
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+#
+# To activate this environment, use
+#
+#     $ conda activate PGx_env
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+Looking in links: https://download.pytorch.org/whl/cu113/torch_stable.html
+Collecting albumentations==1.1.0
+  Downloading albumentations-1.1.0-py3-none-any.whl (102 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 102.4/102.4 kB 2.6 MB/s eta 0:00:00
+Collecting deepcs==0.1.7
+  Downloading deepcs-0.1.7.tar.gz (21 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting imageio==2.13.5
+  Downloading imageio-2.13.5-py3-none-any.whl (3.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 31.2 MB/s eta 0:00:00
+Collecting matplotlib==3.3.1
+  Downloading matplotlib-3.3.1.tar.gz (38.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 38.8/38.8 MB 13.6 MB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting numpy>=1.19.2
+  Using cached numpy-1.24.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (17.3 MB)
+Collecting opencv-python-headless==4.5.5.62
+  Downloading opencv_python_headless-4.5.5.62-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (47.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 47.7/47.7 MB 10.1 MB/s eta 0:00:00
+Collecting pandas==1.1.5
+  Downloading pandas-1.1.5-cp39-cp39-manylinux1_x86_64.whl (9.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.3/9.3 MB 31.1 MB/s eta 0:00:00
+Collecting Pillow==8.4.0
+  Downloading Pillow-8.4.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 31.1 MB/s eta 0:00:00
+Collecting pytest==3.3.2
+  Downloading pytest-3.3.2-py2.py3-none-any.whl (185 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 185.2/185.2 kB 8.6 MB/s eta 0:00:00
+Collecting receptivefield==0.5.0
+  Downloading receptivefield-0.5.0-py3-none-any.whl (363 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 363.4/363.4 kB 12.2 MB/s eta 0:00:00
+Collecting scipy==1.8.0
+  Downloading scipy-1.8.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (42.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42.1/42.1 MB 19.8 MB/s eta 0:00:00
+Collecting tensorboard==2.6.0
+  Downloading tensorboard-2.6.0-py3-none-any.whl (5.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.6/5.6 MB 34.1 MB/s eta 0:00:00
+Collecting timm==0.4.12
+  Downloading timm-0.4.12-py3-none-any.whl (376 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 377.0/377.0 kB 10.8 MB/s eta 0:00:00
+Collecting torch==1.10.1+cu113
+  Downloading https://download.pytorch.org/whl/cu113/torch-1.10.1%2Bcu113-cp39-cp39-linux_x86_64.whl (1821.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 GB 1.0 MB/s eta 0:00:00
+Collecting torchinfo==1.5.4
+  Downloading torchinfo-1.5.4-py3-none-any.whl (19 kB)
+Collecting torchvision==0.11.2+cu113
+  Downloading https://download.pytorch.org/whl/cu113/torchvision-0.11.2%2Bcu113-cp39-cp39-linux_x86_64.whl (24.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 24.5/24.5 MB 26.5 MB/s eta 0:00:00
+Collecting tqdm==4.30.0
+  Downloading tqdm-4.30.0-py2.py3-none-any.whl (47 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 47.2/47.2 kB 1.5 MB/s eta 0:00:00
+Collecting protobuf==3.20.1
+  Downloading protobuf-3.20.1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.0/1.0 MB 25.5 MB/s eta 0:00:00
+Collecting PyYAML
+  Downloading PyYAML-6.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (661 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 661.8/661.8 kB 18.6 MB/s eta 0:00:00
+Collecting qudida>=0.0.4
+  Downloading qudida-0.0.4-py3-none-any.whl (3.5 kB)
+Collecting scikit-image>=0.16.1
+  Downloading scikit_image-0.19.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (14.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 14.0/14.0 MB 33.3 MB/s eta 0:00:00
+Requirement already satisfied: pip in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env/lib/python3.9/site-packages (from deepcs==0.1.7->-r requirements.txt (line 2)) (22.3.1)
+Collecting packaging
+  Using cached packaging-23.0-py3-none-any.whl (42 kB)
+Requirement already satisfied: certifi>=2020.06.20 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env/lib/python3.9/site-packages (from matplotlib==3.3.1->-r requirements.txt (line 4)) (2022.12.7)
+Collecting cycler>=0.10
+  Downloading cycler-0.11.0-py3-none-any.whl (6.4 kB)
+Collecting kiwisolver>=1.0.1
+  Downloading kiwisolver-1.4.4-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (1.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 27.1 MB/s eta 0:00:00
+Collecting pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.3
+  Downloading pyparsing-3.0.9-py3-none-any.whl (98 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 98.3/98.3 kB 4.2 MB/s eta 0:00:00
+Collecting python-dateutil>=2.1
+  Downloading python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 247.7/247.7 kB 9.3 MB/s eta 0:00:00
+Collecting pytz>=2017.2
+  Downloading pytz-2022.7.1-py2.py3-none-any.whl (499 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 499.4/499.4 kB 15.5 MB/s eta 0:00:00
+Collecting six>=1.10.0
+  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting py>=1.5.0
+  Downloading py-1.11.0-py2.py3-none-any.whl (98 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 98.7/98.7 kB 4.4 MB/s eta 0:00:00
+Collecting pluggy<0.7,>=0.5
+  Downloading pluggy-0.6.0-py3-none-any.whl (13 kB)
+Collecting attrs>=17.2.0
+  Downloading attrs-22.2.0-py3-none-any.whl (60 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60.0/60.0 kB 1.8 MB/s eta 0:00:00
+Requirement already satisfied: setuptools in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env/lib/python3.9/site-packages (from pytest==3.3.2->-r requirements.txt (line 9)) (65.6.3)
+Collecting google-auth<2,>=1.6.3
+  Downloading google_auth-1.35.0-py2.py3-none-any.whl (152 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 152.9/152.9 kB 5.8 MB/s eta 0:00:00
+Collecting absl-py>=0.4
+  Downloading absl_py-1.4.0-py3-none-any.whl (126 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 126.5/126.5 kB 3.7 MB/s eta 0:00:00
+Requirement already satisfied: wheel>=0.26 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env/lib/python3.9/site-packages (from tensorboard==2.6.0->-r requirements.txt (line 12)) (0.37.1)
+Collecting tensorboard-data-server<0.7.0,>=0.6.0
+  Downloading tensorboard_data_server-0.6.1-py3-none-manylinux2010_x86_64.whl (4.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.9/4.9 MB 34.4 MB/s eta 0:00:00
+Collecting werkzeug>=0.11.15
+  Using cached Werkzeug-2.2.2-py3-none-any.whl (232 kB)
+Collecting requests<3,>=2.21.0
+  Downloading requests-2.28.2-py3-none-any.whl (62 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.8/62.8 kB 1.8 MB/s eta 0:00:00
+Collecting markdown>=2.6.8
+  Downloading Markdown-3.4.1-py3-none-any.whl (93 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 93.3/93.3 kB 3.1 MB/s eta 0:00:00
+Collecting tensorboard-plugin-wit>=1.6.0
+  Downloading tensorboard_plugin_wit-1.8.1-py3-none-any.whl (781 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 781.3/781.3 kB 16.2 MB/s eta 0:00:00
+Collecting google-auth-oauthlib<0.5,>=0.4.1
+  Downloading google_auth_oauthlib-0.4.6-py2.py3-none-any.whl (18 kB)
+Collecting grpcio>=1.24.3
+  Downloading grpcio-1.51.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.8/4.8 MB 32.6 MB/s eta 0:00:00
+Collecting typing-extensions
+  Downloading typing_extensions-4.4.0-py3-none-any.whl (26 kB)
+Collecting pyasn1-modules>=0.2.1
+  Downloading pyasn1_modules-0.2.8-py2.py3-none-any.whl (155 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 155.3/155.3 kB 5.9 MB/s eta 0:00:00
+Collecting rsa<5,>=3.1.4
+  Downloading rsa-4.9-py3-none-any.whl (34 kB)
+Collecting cachetools<5.0,>=2.0.0
+  Downloading cachetools-4.2.4-py3-none-any.whl (10 kB)
+Collecting requests-oauthlib>=0.7.0
+  Downloading requests_oauthlib-1.3.1-py2.py3-none-any.whl (23 kB)
+Collecting importlib-metadata>=4.4
+  Downloading importlib_metadata-6.0.0-py3-none-any.whl (21 kB)
+Collecting scikit-learn>=0.19.1
+  Downloading scikit_learn-1.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (9.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.6/9.6 MB 38.4 MB/s eta 0:00:00
+Collecting idna<4,>=2.5
+  Downloading idna-3.4-py3-none-any.whl (61 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.5/61.5 kB 2.0 MB/s eta 0:00:00
+Collecting charset-normalizer<4,>=2
+  Downloading charset_normalizer-3.0.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (198 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 198.8/198.8 kB 7.3 MB/s eta 0:00:00
+Collecting urllib3<1.27,>=1.21.1
+  Downloading urllib3-1.26.14-py2.py3-none-any.whl (140 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 140.6/140.6 kB 4.2 MB/s eta 0:00:00
+Collecting networkx>=2.2
+  Downloading networkx-3.0-py3-none-any.whl (2.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 25.4 MB/s eta 0:00:00
+Collecting PyWavelets>=1.1.1
+  Downloading PyWavelets-1.4.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (6.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.9/6.9 MB 2.5 MB/s eta 0:00:00
+Collecting tifffile>=2019.7.26
+  Downloading tifffile-2023.1.23.1-py3-none-any.whl (214 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 214.8/214.8 kB 7.1 MB/s eta 0:00:00
+Collecting MarkupSafe>=2.1.1
+  Downloading MarkupSafe-2.1.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (25 kB)
+Collecting zipp>=0.5
+  Downloading zipp-3.12.0-py3-none-any.whl (6.6 kB)
+Collecting pyasn1<0.5.0,>=0.4.6
+  Downloading pyasn1-0.4.8-py2.py3-none-any.whl (77 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 77.1/77.1 kB 2.3 MB/s eta 0:00:00
+Collecting oauthlib>=3.0.0
+  Downloading oauthlib-3.2.2-py3-none-any.whl (151 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 151.7/151.7 kB 4.5 MB/s eta 0:00:00
+Collecting threadpoolctl>=2.0.0
+  Downloading threadpoolctl-3.1.0-py3-none-any.whl (14 kB)
+Collecting joblib>=1.1.1
+  Downloading joblib-1.2.0-py3-none-any.whl (297 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 298.0/298.0 kB 8.9 MB/s eta 0:00:00
+Building wheels for collected packages: deepcs, matplotlib
+  Building wheel for deepcs (setup.py): started
+  Building wheel for deepcs (setup.py): finished with status 'done'
+  Created wheel for deepcs: filename=deepcs-0.1.7-py3-none-any.whl size=6942 sha256=7ce00aaa6905752b15e37c6110b6b8ee4514bdbc7243c2d8730b89df32c331d6
+  Stored in directory: /usr/users/rattrapagemehdibenghali/benghali_meh/.cache/pip/wheels/a4/c7/f9/1a10bcad83a7af26a53adb839c9f6c4c4a483808eb219a1b58
+  Building wheel for matplotlib (setup.py): started
+  Building wheel for matplotlib (setup.py): finished with status 'done'
+  Created wheel for matplotlib: filename=matplotlib-3.3.1-cp39-cp39-linux_x86_64.whl size=8464294 sha256=95eb5bf7b1eafcad17e694cb2a7e9d7e0e30dfffdcb14398ac0577f5e401c9a5
+  Stored in directory: /usr/users/rattrapagemehdibenghali/benghali_meh/.cache/pip/wheels/28/33/ba/ff5ea1e66421acd6a9b6356d82feacd0512921ead92dd6ac1a
+Successfully built deepcs matplotlib
+Installing collected packages: tensorboard-plugin-wit, pytz, pyasn1, charset-normalizer, zipp, urllib3, typing-extensions, tqdm, torchinfo, threadpoolctl, tensorboard-data-server, six, rsa, PyYAML, pyparsing, pyasn1-modules, py, protobuf, pluggy, Pillow, packaging, oauthlib, numpy, networkx, MarkupSafe, kiwisolver, joblib, idna, grpcio, cycler, cachetools, attrs, absl-py, werkzeug, torch, tifffile, scipy, requests, PyWavelets, python-dateutil, pytest, opencv-python-headless, importlib-metadata, imageio, google-auth, torchvision, scikit-learn, scikit-image, requests-oauthlib, pandas, matplotlib, markdown, timm, receptivefield, qudida, google-auth-oauthlib, deepcs, tensorboard, albumentations
+Successfully installed MarkupSafe-2.1.2 Pillow-8.4.0 PyWavelets-1.4.1 PyYAML-6.0 absl-py-1.4.0 albumentations-1.1.0 attrs-22.2.0 cachetools-4.2.4 charset-normalizer-3.0.1 cycler-0.11.0 deepcs-0.1.7 google-auth-1.35.0 google-auth-oauthlib-0.4.6 grpcio-1.51.1 idna-3.4 imageio-2.13.5 importlib-metadata-6.0.0 joblib-1.2.0 kiwisolver-1.4.4 markdown-3.4.1 matplotlib-3.3.1 networkx-3.0 numpy-1.24.1 oauthlib-3.2.2 opencv-python-headless-4.5.5.62 packaging-23.0 pandas-1.1.5 pluggy-0.6.0 protobuf-3.20.1 py-1.11.0 pyasn1-0.4.8 pyasn1-modules-0.2.8 pyparsing-3.0.9 pytest-3.3.2 python-dateutil-2.8.2 pytz-2022.7.1 qudida-0.0.4 receptivefield-0.5.0 requests-2.28.2 requests-oauthlib-1.3.1 rsa-4.9 scikit-image-0.19.3 scikit-learn-1.2.1 scipy-1.8.0 six-1.16.0 tensorboard-2.6.0 tensorboard-data-server-0.6.1 tensorboard-plugin-wit-1.8.1 threadpoolctl-3.1.0 tifffile-2023.1.23.1 timm-0.4.12 torch-1.10.1+cu113 torchinfo-1.5.4 torchvision-0.11.2+cu113 tqdm-4.30.0 typing-extensions-4.4.0 urllib3-1.26.14 werkzeug-2.2.2 zipp-3.12.0

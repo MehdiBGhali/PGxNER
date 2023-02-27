@@ -1,0 +1,3 @@
+Start time : 2023-02-21 20:38:57.772949 
+
+Namespace(bart_name='facebook/bart-large', batch_size=8, dataset_name='PGxCorpus', decoder_type='avg_feature', eval_start_epoch=10, history_dir='./training_history', length_penalty=1, lr=1e-05, max_len=10, max_len_a=1.1, n_epochs=100, num_beams=4, schedule='linear', target_type='span', use_encoder_mlp=1, warmup_ratio=0.01) 

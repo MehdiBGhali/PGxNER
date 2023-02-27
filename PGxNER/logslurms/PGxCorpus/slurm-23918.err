@@ -1,0 +1,13 @@
+Could not find conda environment: cloned_env_latest_transformers
+You can list all discoverable environments with `conda info --envs`.
+
+Traceback (most recent call last):
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/./BARTNER_other_/train.py", line 11, in <module>
+    from model.bart import BartSeq2SeqModel
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER_other_/model/bart.py", line 2, in <module>
+    from .modeing_bart import BartEncoder, BartDecoder, BartModel
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER_other_/model/modeing_bart.py", line 859, in <module>
+    class BartModel(PretrainedBartModel):
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER_other_/model/modeing_bart.py", line 872, in BartModel
+    @add_code_sample_docstrings(
+TypeError: add_code_sample_docstrings() got an unexpected keyword argument 'tokenizer_class'

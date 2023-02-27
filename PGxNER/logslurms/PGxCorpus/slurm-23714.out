@@ -1,0 +1,144 @@
+Running on sh04
+# conda environments:
+#
+base                  *  /opt/conda
+PGx_env                  /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env
+PGx_env_37               /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env_37
+new_PGx_env              /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env
+torch_from_source_env     /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env
+
+Source:      /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env
+Destination: /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/cloned_env
+Packages: 44
+Files: 19008
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... By downloading and using the CUDA Toolkit conda packages, you accept the terms and conditions of the CUDA End User License Agreement (EULA): https://docs.nvidia.com/cuda/eula/index.html
+
+done
+#
+# To activate this environment, use
+#
+#     $ conda activate cloned_env
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/cloned_env
+
+  added / updated specs:
+    - transformers
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    blas-1.0                   |         openblas          46 KB
+    brotlipy-0.7.0             |py38h27cfd23_1003         323 KB
+    cffi-1.15.1                |   py38h5eee18b_3         241 KB
+    cryptography-38.0.4        |   py38h9ce1e76_0         1.4 MB
+    filelock-3.9.0             |   py38h06a4308_0          18 KB
+    flit-core-3.6.0            |     pyhd3eb1b0_0          42 KB
+    future-0.18.2              |           py38_1         632 KB
+    huggingface_hub-0.10.1     |   py38h06a4308_0         214 KB
+    idna-3.4                   |   py38h06a4308_0          93 KB
+    libgfortran-ng-11.2.0      |       h00389a5_1          20 KB
+    libgfortran5-11.2.0        |       h1234567_1         2.0 MB
+    libopenblas-0.3.21         |       h043d6bf_0         5.4 MB
+    libprotobuf-3.20.3         |       he621ea3_0         2.4 MB
+    numpy-1.23.5               |   py38hf838250_0          10 KB
+    numpy-base-1.23.5          |   py38h1e6e340_0         6.7 MB
+    packaging-22.0             |   py38h06a4308_0          68 KB
+    pycparser-2.21             |     pyhd3eb1b0_0          94 KB
+    pyopenssl-22.0.0           |     pyhd3eb1b0_0          50 KB
+    pysocks-1.7.1              |   py38h06a4308_0          31 KB
+    pytorch-1.12.1             |cpu_py38h9dbd814_1        49.2 MB
+    pyyaml-6.0                 |   py38h5eee18b_1         189 KB
+    regex-2022.7.9             |   py38h5eee18b_0         334 KB
+    requests-2.28.1            |   py38h06a4308_0          92 KB
+    tokenizers-0.11.4          |   py38h3dcd8bd_1         3.6 MB
+    tqdm-4.64.1                |   py38h06a4308_0         125 KB
+    transformers-4.24.0        |   py38h06a4308_0         4.7 MB
+    typing-extensions-4.4.0    |   py38h06a4308_0           8 KB
+    typing_extensions-4.4.0    |   py38h06a4308_0          46 KB
+    urllib3-1.26.14            |   py38h06a4308_0         196 KB
+    ------------------------------------------------------------
+                                           Total:        78.3 MB
+
+The following NEW packages will be INSTALLED:
+
+  blas               pkgs/main/linux-64::blas-1.0-openblas
+  brotlipy           pkgs/main/linux-64::brotlipy-0.7.0-py38h27cfd23_1003
+  cffi               pkgs/main/linux-64::cffi-1.15.1-py38h5eee18b_3
+  charset-normalizer pkgs/main/noarch::charset-normalizer-2.0.4-pyhd3eb1b0_0
+  cryptography       pkgs/main/linux-64::cryptography-38.0.4-py38h9ce1e76_0
+  filelock           pkgs/main/linux-64::filelock-3.9.0-py38h06a4308_0
+  flit-core          pkgs/main/noarch::flit-core-3.6.0-pyhd3eb1b0_0
+  future             pkgs/main/linux-64::future-0.18.2-py38_1
+  huggingface_hub    pkgs/main/linux-64::huggingface_hub-0.10.1-py38h06a4308_0
+  idna               pkgs/main/linux-64::idna-3.4-py38h06a4308_0
+  libgfortran-ng     pkgs/main/linux-64::libgfortran-ng-11.2.0-h00389a5_1
+  libgfortran5       pkgs/main/linux-64::libgfortran5-11.2.0-h1234567_1
+  libopenblas        pkgs/main/linux-64::libopenblas-0.3.21-h043d6bf_0
+  libprotobuf        pkgs/main/linux-64::libprotobuf-3.20.3-he621ea3_0
+  numpy              pkgs/main/linux-64::numpy-1.23.5-py38hf838250_0
+  numpy-base         pkgs/main/linux-64::numpy-base-1.23.5-py38h1e6e340_0
+  packaging          pkgs/main/linux-64::packaging-22.0-py38h06a4308_0
+  pycparser          pkgs/main/noarch::pycparser-2.21-pyhd3eb1b0_0
+  pyopenssl          pkgs/main/noarch::pyopenssl-22.0.0-pyhd3eb1b0_0
+  pysocks            pkgs/main/linux-64::pysocks-1.7.1-py38h06a4308_0
+  pytorch            pkgs/main/linux-64::pytorch-1.12.1-cpu_py38h9dbd814_1
+  pyyaml             pkgs/main/linux-64::pyyaml-6.0-py38h5eee18b_1
+  regex              pkgs/main/linux-64::regex-2022.7.9-py38h5eee18b_0
+  requests           pkgs/main/linux-64::requests-2.28.1-py38h06a4308_0
+  tokenizers         pkgs/main/linux-64::tokenizers-0.11.4-py38h3dcd8bd_1
+  tqdm               pkgs/main/linux-64::tqdm-4.64.1-py38h06a4308_0
+  transformers       pkgs/main/linux-64::transformers-4.24.0-py38h06a4308_0
+  typing-extensions  pkgs/main/linux-64::typing-extensions-4.4.0-py38h06a4308_0
+  typing_extensions  pkgs/main/linux-64::typing_extensions-4.4.0-py38h06a4308_0
+  urllib3            pkgs/main/linux-64::urllib3-1.26.14-py38h06a4308_0
+  yaml               pkgs/main/linux-64::yaml-0.2.5-h7b6447c_0
+
+
+Proceed ([y]/n)? 
+
+Downloading and Extracting Packages
+idna-3.4             | 93 KB     |            |   0% idna-3.4             | 93 KB     | #####1     |  52% idna-3.4             | 93 KB     | ########## | 100% 
+numpy-1.23.5         | 10 KB     |            |   0% numpy-1.23.5         | 10 KB     | ########## | 100% numpy-1.23.5         | 10 KB     | ########## | 100% 
+pysocks-1.7.1        | 31 KB     |            |   0% pysocks-1.7.1        | 31 KB     | ########## | 100% pysocks-1.7.1        | 31 KB     | ########## | 100% 
+libopenblas-0.3.21   | 5.4 MB    |            |   0% libopenblas-0.3.21   | 5.4 MB    | #9         |  19% libopenblas-0.3.21   | 5.4 MB    | ########## | 100% libopenblas-0.3.21   | 5.4 MB    | ########## | 100% 
+numpy-base-1.23.5    | 6.7 MB    |            |   0% numpy-base-1.23.5    | 6.7 MB    |            |   0% numpy-base-1.23.5    | 6.7 MB    | 3          |   4% numpy-base-1.23.5    | 6.7 MB    | #2         |  13% numpy-base-1.23.5    | 6.7 MB    | ###1       |  32% numpy-base-1.23.5    | 6.7 MB    | ########2  |  83% numpy-base-1.23.5    | 6.7 MB    | ########## | 100% 
+cffi-1.15.1          | 241 KB    |            |   0% cffi-1.15.1          | 241 KB    | ########## | 100% cffi-1.15.1          | 241 KB    | ########## | 100% 
+packaging-22.0       | 68 KB     |            |   0% packaging-22.0       | 68 KB     | ########## | 100% packaging-22.0       | 68 KB     | ########## | 100% 
+tokenizers-0.11.4    | 3.6 MB    |            |   0% tokenizers-0.11.4    | 3.6 MB    | ########9  |  89% tokenizers-0.11.4    | 3.6 MB    | ########## | 100% 
+future-0.18.2        | 632 KB    |            |   0% future-0.18.2        | 632 KB    | ########## | 100% future-0.18.2        | 632 KB    | ########## | 100% 
+pytorch-1.12.1       | 49.2 MB   |            |   0% pytorch-1.12.1       | 49.2 MB   | 3          |   3% pytorch-1.12.1       | 49.2 MB   | #4         |  14% pytorch-1.12.1       | 49.2 MB   | ##3        |  24% pytorch-1.12.1       | 49.2 MB   | ###8       |  38% pytorch-1.12.1       | 49.2 MB   | #####2     |  53% pytorch-1.12.1       | 49.2 MB   | ######6    |  67% pytorch-1.12.1       | 49.2 MB   | #######9   |  79% pytorch-1.12.1       | 49.2 MB   | #########4 |  95% pytorch-1.12.1       | 49.2 MB   | ########## | 100% 
+pyyaml-6.0           | 189 KB    |            |   0% pyyaml-6.0           | 189 KB    | ########## | 100% pyyaml-6.0           | 189 KB    | ########## | 100% 
+cryptography-38.0.4  | 1.4 MB    |            |   0% cryptography-38.0.4  | 1.4 MB    | ########## | 100% cryptography-38.0.4  | 1.4 MB    | ########## | 100% 
+libgfortran-ng-11.2. | 20 KB     |            |   0% libgfortran-ng-11.2. | 20 KB     | ########## | 100% libgfortran-ng-11.2. | 20 KB     | ########## | 100% 
+blas-1.0             | 46 KB     |            |   0% blas-1.0             | 46 KB     | ########## | 100% blas-1.0             | 46 KB     | ########## | 100% 
+libprotobuf-3.20.3   | 2.4 MB    |            |   0% libprotobuf-3.20.3   | 2.4 MB    | ########## | 100% libprotobuf-3.20.3   | 2.4 MB    | ########## | 100% 
+huggingface_hub-0.10 | 214 KB    |            |   0% huggingface_hub-0.10 | 214 KB    | ########## | 100% huggingface_hub-0.10 | 214 KB    | ########## | 100% 
+pyopenssl-22.0.0     | 50 KB     |            |   0% pyopenssl-22.0.0     | 50 KB     | ########## | 100% pyopenssl-22.0.0     | 50 KB     | ########## | 100% 
+flit-core-3.6.0      | 42 KB     |            |   0% flit-core-3.6.0      | 42 KB     | ########## | 100% flit-core-3.6.0      | 42 KB     | ########## | 100% 
+libgfortran5-11.2.0  | 2.0 MB    |            |   0% libgfortran5-11.2.0  | 2.0 MB    | ########## | 100% libgfortran5-11.2.0  | 2.0 MB    | ########## | 100% 
+filelock-3.9.0       | 18 KB     |            |   0% filelock-3.9.0       | 18 KB     | ########## | 100% filelock-3.9.0       | 18 KB     | ########## | 100% 
+tqdm-4.64.1          | 125 KB    |            |   0% tqdm-4.64.1          | 125 KB    | ########## | 100% tqdm-4.64.1          | 125 KB    | ########## | 100% 
+typing_extensions-4. | 46 KB     |            |   0% typing_extensions-4. | 46 KB     | ########## | 100% typing_extensions-4. | 46 KB     | ########## | 100% 
+urllib3-1.26.14      | 196 KB    |            |   0% urllib3-1.26.14      | 196 KB    | ########## | 100% urllib3-1.26.14      | 196 KB    | ########## | 100% 
+transformers-4.24.0  | 4.7 MB    |            |   0% transformers-4.24.0  | 4.7 MB    |            |   0% transformers-4.24.0  | 4.7 MB    | 9          |  10% transformers-4.24.0  | 4.7 MB    | #4         |  14% transformers-4.24.0  | 4.7 MB    | ########## | 100% transformers-4.24.0  | 4.7 MB    | ########## | 100% 
+pycparser-2.21       | 94 KB     |            |   0% pycparser-2.21       | 94 KB     | ########## | 100% pycparser-2.21       | 94 KB     | ########## | 100% 
+brotlipy-0.7.0       | 323 KB    |            |   0% brotlipy-0.7.0       | 323 KB    | ########## | 100% brotlipy-0.7.0       | 323 KB    | ########## | 100% 
+requests-2.28.1      | 92 KB     |            |   0% requests-2.28.1      | 92 KB     | ########## | 100% requests-2.28.1      | 92 KB     | ########## | 100% 
+typing-extensions-4. | 8 KB      |            |   0% typing-extensions-4. | 8 KB      | ########## | 100% typing-extensions-4. | 8 KB      | ########## | 100% 
+regex-2022.7.9       | 334 KB    |            |   0% regex-2022.7.9       | 334 KB    | ########## | 100% regex-2022.7.9       | 334 KB    | ########## | 100% 
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done

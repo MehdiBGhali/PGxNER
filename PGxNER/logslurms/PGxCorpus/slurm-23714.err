@@ -1,0 +1,69 @@
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.10.3
+  latest version: 23.1.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+Traceback (most recent call last):
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/cloned_env/lib/python3.8/site-packages/requests/compat.py", line 11, in <module>
+    import chardet
+ModuleNotFoundError: No module named 'chardet'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "./BARTNER/train.py", line 10, in <module>
+    from data.pipe import BartNERPipe
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER/data/pipe.py", line 1, in <module>
+    from fastNLP.io import ConllLoader, Loader
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/__init__.py", line 91, in <module>
+    from . import embeddings
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/embeddings/__init__.py", line 34, in <module>
+    from .static_embedding import StaticEmbedding
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/embeddings/static_embedding.py", line 23, in <module>
+    from ..io.file_utils import PRETRAIN_STATIC_FILES, _get_embedding_url, cached_path
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/io/__init__.py", line 121, in <module>
+    from .loader import *
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/io/loader/__init__.py", line 91, in <module>
+    from .classification import CLSBaseLoader, YelpFullLoader, YelpPolarityLoader, AGsNewsLoader, IMDBLoader, \
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/io/loader/classification.py", line 31, in <module>
+    from .loader import Loader
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/io/loader/loader.py", line 10, in <module>
+    from ..file_utils import _get_dataset_url, get_cache_path, cached_path
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/io/file_utils.py", line 21, in <module>
+    import requests
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/cloned_env/lib/python3.8/site-packages/requests/__init__.py", line 45, in <module>
+    from .exceptions import RequestsDependencyWarning
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/cloned_env/lib/python3.8/site-packages/requests/exceptions.py", line 9, in <module>
+    from .compat import JSONDecodeError as CompatJSONDecodeError
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/cloned_env/lib/python3.8/site-packages/requests/compat.py", line 13, in <module>
+    import charset_normalizer as chardet
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/cloned_env/lib/python3.8/site-packages/charset_normalizer/__init__.py", line 23, in <module>
+    from charset_normalizer.api import from_fp, from_path, from_bytes, normalize
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/cloned_env/lib/python3.8/site-packages/charset_normalizer/api.py", line 10, in <module>
+    from charset_normalizer.md import mess_ratio
+AttributeError: partially initialized module 'charset_normalizer' has no attribute 'md__mypyc' (most likely due to a circular import)

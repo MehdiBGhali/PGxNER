@@ -17,10 +17,15 @@ conda info --envs
 source activate PGx_env
 
 # Create storage directory
-mkdir ./processed_data
+# mkdir ./processed_data
+
+
+# Split the data 
+# pip install scikit-learn
+# python split.py --test 0.2 --dev 0.2 # If first time running, move the split to processing tools
 
 # Go to processing tools directory
-cd ../../PGxNER/processing_tools_from_acl2020/PGxCorpus
+cd ../../../PGxNER/processing_tools_from_acl2020/PGxCorpus
 
 # Extract annotations from original dataset
 echo "Extract annotations ..." >> ../../../data/raw_data/PGxCorpus/Process_PGxCorpus.log
@@ -35,14 +40,14 @@ python tokenization.py --input_dir ../../../data/raw_data/PGxCorpus/text --outpu
 # Convert annotations from character level offsets to token level idx
 echo "Convert annotations from character level offsets to token level idx ..." >> ../../../data/raw_data/PGxCorpus/Process_PGxCorpus.log
 touch ../../../data/raw_data/PGxCorpus/processed_data/tokens.ann # Output directory
-python convert_ann_using_token_idx.py --input_ann ../../../data/raw_data/PGxCorpus/processed_data/ann --output_ann ../../../data/raw_data/PGxCorpus/processed_data/tokens.ann --log_filepath ../../../data/raw_data/PGxCorpus/Process_PGxCorpus.log
+python convert_ann_using_token_idx.py --input_tokens ../../../data/raw_data/PGxCorpus/processed_data/tokens --input_ann ../../../data/raw_data/PGxCorpus/processed_data/ann --output_ann ../../../data/raw_data/PGxCorpus/processed_data/tokens.ann --log_filepath ../../../data/raw_data/PGxCorpus/Process_PGxCorpus.log
 
 # Put data in algorithm's standard format
 echo "Create text inline format ..." >> ../../../data/raw_data/PGxCorpus/Process_PGxCorpus.log
 touch ../../../data/raw_data/PGxCorpus/processed_data/inline # Output directory
-python convert_text_inline.py --input_ann ../../../data/raw_data/PGxCorpus/processed_data/tokens.ann --output_filepath ../../../data/raw_data/PGxCorpus/processed_data/inline --log_filepath ../../../data/raw_data/PGxCorpus/Process_PGxCorpus.log
+python convert_text_inline.py --input_ann ../../../data/raw_data/PGxCorpus/processed_data/tokens.ann --input_tokens ../../../data/raw_data/PGxCorpus/processed_data/tokens --output_filepath ../../../data/raw_data/PGxCorpus/processed_data/inline --log_filepath ../../../data/raw_data/PGxCorpus/Process_PGxCorpus.log
 
 # Train/test/dev split
 echo "Split the data set into train, dev, test splits ..." >> ../../../data/raw_data/PGxCorpus/Process_PGxCorpus.log
-mkdir ../../../data/PGxCorpus # Output directory
+# mkdir ../../../data/PGxCorpus # Output directory
 python split_train_test.py --input_filepath ../../../data/raw_data/PGxCorpus/processed_data/inline --output_dir ../../../data/PGxCorpus

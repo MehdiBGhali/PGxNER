@@ -1,0 +1,194 @@
+Could not find conda environment: final_PGx_env_latest_transformers
+You can list all discoverable environments with `conda info --envs`.
+
+
+PackagesNotFoundError: The following packages are not available from current channels:
+
+  - cuda-nvcc
+
+Current channels:
+
+  - https://conda.anaconda.org/nvidia/label/cuda-11.7/linux-64
+  - https://conda.anaconda.org/nvidia/label/cuda-11.7/noarch
+  - https://repo.anaconda.com/pkgs/main/linux-64
+  - https://repo.anaconda.com/pkgs/main/noarch
+  - https://repo.anaconda.com/pkgs/r/linux-64
+  - https://repo.anaconda.com/pkgs/r/noarch
+
+To search for alternate channels that may provide the conda package you're
+looking for, navigate to
+
+    https://anaconda.org
+
+and use the search bar at the top of the page.
+
+
+
+PackagesNotFoundError: The following packages are missing from the target environment:
+  - torch
+
+
+
+EnvironmentNotWritableError: The current user does not have write permissions to the target environment.
+  environment location: /opt/conda
+  uid: 35441
+  gid: 30278
+
+
+Clonage dans 'pytorch'...
+Mise à jour des fichiers:   0% (114/11910)Mise à jour des fichiers:   1% (120/11910)Mise à jour des fichiers:   1% (222/11910)Mise à jour des fichiers:   2% (239/11910)Mise à jour des fichiers:   2% (332/11910)Mise à jour des fichiers:   3% (358/11910)Mise à jour des fichiers:   3% (423/11910)Mise à jour des fichiers:   4% (477/11910)Mise à jour des fichiers:   4% (526/11910)Mise à jour des fichiers:   5% (596/11910)Mise à jour des fichiers:   5% (643/11910)Mise à jour des fichiers:   6% (715/11910)Mise à jour des fichiers:   6% (738/11910)Mise à jour des fichiers:   7% (834/11910)Mise à jour des fichiers:   7% (856/11910)Mise à jour des fichiers:   8% (953/11910)Mise à jour des fichiers:   8% (974/11910)Mise à jour des fichiers:   9% (1072/11910)Mise à jour des fichiers:   9% (1092/11910)Mise à jour des fichiers:  10% (1191/11910)Mise à jour des fichiers:  10% (1206/11910)Mise à jour des fichiers:  11% (1311/11910)Mise à jour des fichiers:  11% (1324/11910)Mise à jour des fichiers:  12% (1430/11910)Mise à jour des fichiers:  12% (1444/11910)Mise à jour des fichiers:  13% (1549/11910)Mise à jour des fichiers:  13% (1565/11910)Mise à jour des fichiers:  14% (1668/11910)Mise à jour des fichiers:  14% (1682/11910)Mise à jour des fichiers:  15% (1787/11910)Mise à jour des fichiers:  15% (1797/11910)Mise à jour des fichiers:  16% (1906/11910)Mise à jour des fichiers:  16% (1912/11910)Mise à jour des fichiers:  17% (2025/11910)Mise à jour des fichiers:  17% (2032/11910)Mise à jour des fichiers:  18% (2144/11910)Mise à jour des fichiers:  18% (2262/11910)Mise à jour des fichiers:  19% (2263/11910)Mise à jour des fichiers:  19% (2376/11910)Mise à jour des fichiers:  20% (2382/11910)Mise à jour des fichiers:  20% (2501/11910)Mise à jour des fichiers:  21% (2502/11910)Mise à jour des fichiers:  22% (2621/11910)Mise à jour des fichiers:  22% (2622/11910)Mise à jour des fichiers:  23% (2740/11910)Mise à jour des fichiers:  23% (2743/11910)Mise à jour des fichiers:  24% (2859/11910)Mise à jour des fichiers:  24% (2863/11910)Mise à jour des fichiers:  25% (2978/11910)Mise à jour des fichiers:  25% (2979/11910)Mise à jour des fichiers:  26% (3097/11910)Mise à jour des fichiers:  26% (3102/11910)Mise à jour des fichiers:  27% (3216/11910)Mise à jour des fichiers:  27% (3222/11910)Mise à jour des fichiers:  27% (3315/11910)Mise à jour des fichiers:  28% (3335/11910)Mise à jour des fichiers:  28% (3435/11910)Mise à jour des fichiers:  29% (3454/11910)Mise à jour des fichiers:  29% (3555/11910)Mise à jour des fichiers:  30% (3573/11910)Mise à jour des fichiers:  30% (3678/11910)Mise à jour des fichiers:  31% (3693/11910)Mise à jour des fichiers:  31% (3807/11910)Mise à jour des fichiers:  32% (3812/11910)Mise à jour des fichiers:  32% (3926/11910)Mise à jour des fichiers:  33% (3931/11910)Mise à jour des fichiers:  33% (3985/11910)Mise à jour des fichiers:  34% (4050/11910)Mise à jour des fichiers:  34% (4101/11910)Mise à jour des fichiers:  35% (4169/11910)Mise à jour des fichiers:  35% (4228/11910)Mise à jour des fichiers:  36% (4288/11910)Mise à jour des fichiers:  36% (4359/11910)Mise à jour des fichiers:  37% (4407/11910)Mise à jour des fichiers:  37% (4487/11910)Mise à jour des fichiers:  38% (4526/11910)Mise à jour des fichiers:  38% (4600/11910)Mise à jour des fichiers:  38% (4601/11910)Mise à jour des fichiers:  39% (4645/11910)Mise à jour des fichiers:  39% (4708/11910)Mise à jour des fichiers:  40% (4764/11910)Mise à jour des fichiers:  40% (4832/11910)Mise à jour des fichiers:  41% (4884/11910)Mise à jour des fichiers:  41% (4959/11910)Mise à jour des fichiers:  42% (5003/11910)Mise à jour des fichiers:  42% (5078/11910)Mise à jour des fichiers:  43% (5122/11910)Mise à jour des fichiers:  43% (5178/11910)Mise à jour des fichiers:  44% (5241/11910)Mise à jour des fichiers:  44% (5303/11910)Mise à jour des fichiers:  45% (5360/11910)Mise à jour des fichiers:  45% (5421/11910)Mise à jour des fichiers:  46% (5479/11910)Mise à jour des fichiers:  46% (5537/11910)Mise à jour des fichiers:  47% (5598/11910)Mise à jour des fichiers:  47% (5651/11910)Mise à jour des fichiers:  48% (5717/11910)Mise à jour des fichiers:  48% (5768/11910)Mise à jour des fichiers:  49% (5836/11910)Mise à jour des fichiers:  49% (5885/11910)Mise à jour des fichiers:  50% (5955/11910)Mise à jour des fichiers:  50% (5999/11910)Mise à jour des fichiers:  51% (6075/11910)Mise à jour des fichiers:  51% (6091/11910)Mise à jour des fichiers:  51% (6183/11910)Mise à jour des fichiers:  52% (6194/11910)Mise à jour des fichiers:  52% (6300/11910)Mise à jour des fichiers:  53% (6313/11910)Mise à jour des fichiers:  53% (6413/11910)Mise à jour des fichiers:  54% (6432/11910)Mise à jour des fichiers:  54% (6533/11910)Mise à jour des fichiers:  55% (6551/11910)Mise à jour des fichiers:  55% (6628/11910)Mise à jour des fichiers:  56% (6670/11910)Mise à jour des fichiers:  56% (6675/11910)Mise à jour des fichiers:  57% (6789/11910)Mise à jour des fichiers:  57% (6799/11910)Mise à jour des fichiers:  57% (6817/11910)Mise à jour des fichiers:  57% (6818/11910)Mise à jour des fichiers:  57% (6819/11910)Mise à jour des fichiers:  57% (6879/11910)Mise à jour des fichiers:  58% (6908/11910)Mise à jour des fichiers:  58% (7001/11910)Mise à jour des fichiers:  59% (7027/11910)Mise à jour des fichiers:  59% (7120/11910)Mise à jour des fichiers:  60% (7146/11910)Mise à jour des fichiers:  60% (7236/11910)Mise à jour des fichiers:  61% (7266/11910)Mise à jour des fichiers:  61% (7353/11910)Mise à jour des fichiers:  62% (7385/11910)Mise à jour des fichiers:  62% (7472/11910)Mise à jour des fichiers:  63% (7504/11910)Mise à jour des fichiers:  63% (7593/11910)Mise à jour des fichiers:  64% (7623/11910)Mise à jour des fichiers:  64% (7682/11910)Mise à jour des fichiers:  65% (7742/11910)Mise à jour des fichiers:  65% (7813/11910)Mise à jour des fichiers:  66% (7861/11910)Mise à jour des fichiers:  66% (7925/11910)Mise à jour des fichiers:  67% (7980/11910)Mise à jour des fichiers:  67% (8047/11910)Mise à jour des fichiers:  68% (8099/11910)Mise à jour des fichiers:  68% (8137/11910)Mise à jour des fichiers:  69% (8218/11910)Mise à jour des fichiers:  69% (8270/11910)Mise à jour des fichiers:  70% (8337/11910)Mise à jour des fichiers:  70% (8391/11910)Mise à jour des fichiers:  71% (8457/11910)Mise à jour des fichiers:  71% (8504/11910)Mise à jour des fichiers:  72% (8576/11910)Mise à jour des fichiers:  72% (8620/11910)Mise à jour des fichiers:  73% (8695/11910)Mise à jour des fichiers:  73% (8743/11910)Mise à jour des fichiers:  74% (8814/11910)Mise à jour des fichiers:  74% (8866/11910)Mise à jour des fichiers:  75% (8933/11910)Mise à jour des fichiers:  75% (8973/11910)Mise à jour des fichiers:  76% (9052/11910)Mise à jour des fichiers:  76% (9079/11910)Mise à jour des fichiers:  77% (9171/11910)Mise à jour des fichiers:  77% (9174/11910)Mise à jour des fichiers:  77% (9265/11910)Mise à jour des fichiers:  78% (9290/11910)Mise à jour des fichiers:  78% (9381/11910)Mise à jour des fichiers:  79% (9409/11910)Mise à jour des fichiers:  79% (9497/11910)Mise à jour des fichiers:  80% (9528/11910)Mise à jour des fichiers:  80% (9610/11910)Mise à jour des fichiers:  81% (9648/11910)Mise à jour des fichiers:  81% (9728/11910)Mise à jour des fichiers:  82% (9767/11910)Mise à jour des fichiers:  82% (9838/11910)Mise à jour des fichiers:  83% (9886/11910)Mise à jour des fichiers:  83% (9954/11910)Mise à jour des fichiers:  84% (10005/11910)Mise à jour des fichiers:  84% (10071/11910)Mise à jour des fichiers:  85% (10124/11910)Mise à jour des fichiers:  85% (10195/11910)Mise à jour des fichiers:  86% (10243/11910)Mise à jour des fichiers:  86% (10315/11910)Mise à jour des fichiers:  87% (10362/11910)Mise à jour des fichiers:  87% (10437/11910)Mise à jour des fichiers:  88% (10481/11910)Mise à jour des fichiers:  88% (10530/11910)Mise à jour des fichiers:  89% (10600/11910)Mise à jour des fichiers:  89% (10646/11910)Mise à jour des fichiers:  90% (10719/11910)Mise à jour des fichiers:  90% (10760/11910)Mise à jour des fichiers:  91% (10839/11910)Mise à jour des fichiers:  91% (10874/11910)Mise à jour des fichiers:  92% (10958/11910)Mise à jour des fichiers:  92% (10988/11910)Mise à jour des fichiers:  93% (11077/11910)Mise à jour des fichiers:  93% (11104/11910)Mise à jour des fichiers:  94% (11196/11910)Mise à jour des fichiers:  94% (11218/11910)Mise à jour des fichiers:  95% (11315/11910)Mise à jour des fichiers:  95% (11330/11910)Mise à jour des fichiers:  95% (11427/11910)Mise à jour des fichiers:  96% (11434/11910)Mise à jour des fichiers:  97% (11553/11910)Mise à jour des fichiers:  97% (11671/11910)Mise à jour des fichiers:  98% (11672/11910)Mise à jour des fichiers:  98% (11790/11910)Mise à jour des fichiers:  99% (11791/11910)Mise à jour des fichiers:  99% (11884/11910)Mise à jour des fichiers: 100% (11910/11910)Mise à jour des fichiers: 100% (11910/11910), fait.
+Sous-module 'android/libs/fbjni' (https://github.com/facebookincubator/fbjni.git) enregistré pour le chemin 'android/libs/fbjni'
+Sous-module 'third_party/NNPACK_deps/FP16' (https://github.com/Maratyszcza/FP16.git) enregistré pour le chemin 'third_party/FP16'
+Sous-module 'third_party/NNPACK_deps/FXdiv' (https://github.com/Maratyszcza/FXdiv.git) enregistré pour le chemin 'third_party/FXdiv'
+Sous-module 'third_party/NNPACK' (https://github.com/Maratyszcza/NNPACK.git) enregistré pour le chemin 'third_party/NNPACK'
+Sous-module 'third_party/QNNPACK' (https://github.com/pytorch/QNNPACK) enregistré pour le chemin 'third_party/QNNPACK'
+Sous-module 'third_party/VulkanMemoryAllocator' (https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator.git) enregistré pour le chemin 'third_party/VulkanMemoryAllocator'
+Sous-module 'third_party/XNNPACK' (https://github.com/google/XNNPACK.git) enregistré pour le chemin 'third_party/XNNPACK'
+Sous-module 'third_party/benchmark' (https://github.com/google/benchmark.git) enregistré pour le chemin 'third_party/benchmark'
+Sous-module 'third_party/cpuinfo' (https://github.com/pytorch/cpuinfo.git) enregistré pour le chemin 'third_party/cpuinfo'
+Sous-module 'third_party/cub' (https://github.com/NVlabs/cub.git) enregistré pour le chemin 'third_party/cub'
+Sous-module 'third_party/cudnn_frontend' (https://github.com/NVIDIA/cudnn-frontend.git) enregistré pour le chemin 'third_party/cudnn_frontend'
+Sous-module 'third_party/cutlass' (https://github.com/NVIDIA/cutlass.git) enregistré pour le chemin 'third_party/cutlass'
+Sous-module 'third_party/eigen' (https://gitlab.com/libeigen/eigen.git) enregistré pour le chemin 'third_party/eigen'
+Sous-module 'third_party/fbgemm' (https://github.com/pytorch/fbgemm) enregistré pour le chemin 'third_party/fbgemm'
+Sous-module 'third_party/flatbuffers' (https://github.com/google/flatbuffers.git) enregistré pour le chemin 'third_party/flatbuffers'
+Sous-module 'third_party/fmt' (https://github.com/fmtlib/fmt.git) enregistré pour le chemin 'third_party/fmt'
+Sous-module 'third_party/foxi' (https://github.com/houseroad/foxi.git) enregistré pour le chemin 'third_party/foxi'
+Sous-module 'third_party/gemmlowp/gemmlowp' (https://github.com/google/gemmlowp.git) enregistré pour le chemin 'third_party/gemmlowp/gemmlowp'
+Sous-module 'third_party/gloo' (https://github.com/facebookincubator/gloo) enregistré pour le chemin 'third_party/gloo'
+Sous-module 'third_party/googletest' (https://github.com/google/googletest.git) enregistré pour le chemin 'third_party/googletest'
+Sous-module 'third_party/ideep' (https://github.com/intel/ideep) enregistré pour le chemin 'third_party/ideep'
+Sous-module 'third_party/ios-cmake' (https://github.com/Yangqing/ios-cmake.git) enregistré pour le chemin 'third_party/ios-cmake'
+Sous-module 'third_party/ittapi' (https://github.com/intel/ittapi.git) enregistré pour le chemin 'third_party/ittapi'
+Sous-module 'third_party/kineto' (https://github.com/pytorch/kineto) enregistré pour le chemin 'third_party/kineto'
+Sous-module 'third_party/nccl/nccl' (https://github.com/NVIDIA/nccl) enregistré pour le chemin 'third_party/nccl/nccl'
+Sous-module 'third_party/neon2sse' (https://github.com/intel/ARM_NEON_2_x86_SSE.git) enregistré pour le chemin 'third_party/neon2sse'
+Sous-module 'third_party/nlohmann' (https://github.com/nlohmann/json.git) enregistré pour le chemin 'third_party/nlohmann'
+Sous-module 'third_party/onnx' (https://github.com/onnx/onnx.git) enregistré pour le chemin 'third_party/onnx'
+Sous-module 'third_party/onnx-tensorrt' (https://github.com/onnx/onnx-tensorrt) enregistré pour le chemin 'third_party/onnx-tensorrt'
+Sous-module 'third_party/pocketfft' (https://github.com/mreineck/pocketfft) enregistré pour le chemin 'third_party/pocketfft'
+Sous-module 'third_party/protobuf' (https://github.com/protocolbuffers/protobuf.git) enregistré pour le chemin 'third_party/protobuf'
+Sous-module 'third_party/NNPACK_deps/psimd' (https://github.com/Maratyszcza/psimd.git) enregistré pour le chemin 'third_party/psimd'
+Sous-module 'third_party/NNPACK_deps/pthreadpool' (https://github.com/Maratyszcza/pthreadpool.git) enregistré pour le chemin 'third_party/pthreadpool'
+Sous-module 'third_party/pybind11' (https://github.com/pybind/pybind11.git) enregistré pour le chemin 'third_party/pybind11'
+Sous-module 'third_party/python-enum' (https://github.com/PeachPy/enum34.git) enregistré pour le chemin 'third_party/python-enum'
+Sous-module 'third_party/python-peachpy' (https://github.com/malfet/PeachPy.git) enregistré pour le chemin 'third_party/python-peachpy'
+Sous-module 'third_party/python-six' (https://github.com/benjaminp/six.git) enregistré pour le chemin 'third_party/python-six'
+Sous-module 'third_party/sleef' (https://github.com/shibatch/sleef) enregistré pour le chemin 'third_party/sleef'
+Sous-module 'third_party/tbb' (https://github.com/01org/tbb) enregistré pour le chemin 'third_party/tbb'
+Sous-module 'third_party/tensorpipe' (https://github.com/pytorch/tensorpipe.git) enregistré pour le chemin 'third_party/tensorpipe'
+Sous-module 'third_party/zstd' (https://github.com/facebook/zstd.git) enregistré pour le chemin 'third_party/zstd'
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/android/libs/fbjni'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/FP16'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/FXdiv'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/NNPACK'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/QNNPACK'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/VulkanMemoryAllocator'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/XNNPACK'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/benchmark'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/cpuinfo'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/cub'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/cudnn_frontend'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/cutlass'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/eigen'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/fbgemm'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/flatbuffers'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/fmt'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/foxi'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/gemmlowp/gemmlowp'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/gloo'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/googletest'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/ideep'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/ios-cmake'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/ittapi'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/kineto'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/nccl/nccl'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/neon2sse'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/nlohmann'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/onnx'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/onnx-tensorrt'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/pocketfft'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/protobuf'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/psimd'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/pthreadpool'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/pybind11'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/python-enum'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/python-peachpy'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/python-six'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/sleef'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/tbb'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/tensorpipe'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/zstd'...
+Sous-module 'third_party/asmjit' (https://github.com/asmjit/asmjit.git) enregistré pour le chemin 'third_party/fbgemm/third_party/asmjit'
+Sous-module 'third_party/cpuinfo' (https://github.com/pytorch/cpuinfo) enregistré pour le chemin 'third_party/fbgemm/third_party/cpuinfo'
+Sous-module 'third_party/cutlass' (https://github.com/NVIDIA/cutlass.git) enregistré pour le chemin 'third_party/fbgemm/third_party/cutlass'
+Sous-module 'third_party/googletest' (https://github.com/google/googletest) enregistré pour le chemin 'third_party/fbgemm/third_party/googletest'
+Sous-module 'third_party/hipify_torch' (https://github.com/ROCmSoftwarePlatform/hipify_torch.git) enregistré pour le chemin 'third_party/fbgemm/third_party/hipify_torch'
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/fbgemm/third_party/asmjit'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/fbgemm/third_party/cpuinfo'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/fbgemm/third_party/cutlass'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/fbgemm/third_party/googletest'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/fbgemm/third_party/hipify_torch'...
+Sous-module 'mkl-dnn' (https://github.com/intel/mkl-dnn.git) enregistré pour le chemin 'third_party/ideep/mkl-dnn'
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/ideep/mkl-dnn'...
+Sous-module 'libkineto/third_party/dynolog' (https://github.com/facebookincubator/dynolog.git) enregistré pour le chemin 'third_party/kineto/libkineto/third_party/dynolog'
+Sous-module 'libkineto/third_party/fmt' (https://github.com/fmtlib/fmt.git) enregistré pour le chemin 'third_party/kineto/libkineto/third_party/fmt'
+Sous-module 'libkineto/third_party/googletest' (https://github.com/google/googletest.git) enregistré pour le chemin 'third_party/kineto/libkineto/third_party/googletest'
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/kineto/libkineto/third_party/dynolog'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/kineto/libkineto/third_party/fmt'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/kineto/libkineto/third_party/googletest'...
+Sous-module 'third_party/DCGM' (https://github.com/NVIDIA/DCGM.git) enregistré pour le chemin 'third_party/kineto/libkineto/third_party/dynolog/third_party/DCGM'
+Sous-module 'third_party/cpr' (https://github.com/libcpr/cpr.git) enregistré pour le chemin 'third_party/kineto/libkineto/third_party/dynolog/third_party/cpr'
+Sous-module 'third_party/fmt' (https://github.com/fmtlib/fmt.git) enregistré pour le chemin 'third_party/kineto/libkineto/third_party/dynolog/third_party/fmt'
+Sous-module 'third_party/gflags' (https://github.com/gflags/gflags.git) enregistré pour le chemin 'third_party/kineto/libkineto/third_party/dynolog/third_party/gflags'
+Sous-module 'third_party/glog' (https://github.com/google/glog.git) enregistré pour le chemin 'third_party/kineto/libkineto/third_party/dynolog/third_party/glog'
+Sous-module 'third_party/googletest' (https://github.com/google/googletest.git) enregistré pour le chemin 'third_party/kineto/libkineto/third_party/dynolog/third_party/googletest'
+Sous-module 'third_party/json' (https://github.com/nlohmann/json.git) enregistré pour le chemin 'third_party/kineto/libkineto/third_party/dynolog/third_party/json'
+Sous-module 'third_party/pfs' (https://github.com/dtrugman/pfs.git) enregistré pour le chemin 'third_party/kineto/libkineto/third_party/dynolog/third_party/pfs'
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/kineto/libkineto/third_party/dynolog/third_party/DCGM'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/kineto/libkineto/third_party/dynolog/third_party/cpr'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/kineto/libkineto/third_party/dynolog/third_party/fmt'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/kineto/libkineto/third_party/dynolog/third_party/gflags'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/kineto/libkineto/third_party/dynolog/third_party/glog'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/kineto/libkineto/third_party/dynolog/third_party/googletest'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/kineto/libkineto/third_party/dynolog/third_party/json'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/kineto/libkineto/third_party/dynolog/third_party/pfs'...
+Sous-module 'doc' (https://github.com/gflags/gflags.git) enregistré pour le chemin 'third_party/kineto/libkineto/third_party/dynolog/third_party/gflags/doc'
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/kineto/libkineto/third_party/dynolog/third_party/gflags/doc'...
+Sous-module 'third_party/benchmark' (https://github.com/google/benchmark.git) enregistré pour le chemin 'third_party/onnx/third_party/benchmark'
+Sous-module 'third_party/pybind11' (https://github.com/pybind/pybind11.git) enregistré pour le chemin 'third_party/onnx/third_party/pybind11'
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/onnx/third_party/benchmark'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/onnx/third_party/pybind11'...
+Sous-module 'third_party/onnx' (https://github.com/onnx/onnx.git) enregistré pour le chemin 'third_party/onnx-tensorrt/third_party/onnx'
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/onnx-tensorrt/third_party/onnx'...
+Sous-module 'third_party/benchmark' (https://github.com/google/benchmark.git) enregistré pour le chemin 'third_party/onnx-tensorrt/third_party/onnx/third_party/benchmark'
+Sous-module 'third_party/pybind11' (https://github.com/pybind/pybind11.git) enregistré pour le chemin 'third_party/onnx-tensorrt/third_party/onnx/third_party/pybind11'
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/onnx-tensorrt/third_party/onnx/third_party/benchmark'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/onnx-tensorrt/third_party/onnx/third_party/pybind11'...
+Sous-module 'tools/clang' (https://github.com/wjakob/clang-cindex-python3) enregistré pour le chemin 'third_party/onnx-tensorrt/third_party/onnx/third_party/pybind11/tools/clang'
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/onnx-tensorrt/third_party/onnx/third_party/pybind11/tools/clang'...
+Sous-module 'third_party/benchmark' (https://github.com/google/benchmark.git) enregistré pour le chemin 'third_party/protobuf/third_party/benchmark'
+Sous-module 'third_party/googletest' (https://github.com/google/googletest.git) enregistré pour le chemin 'third_party/protobuf/third_party/googletest'
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/protobuf/third_party/benchmark'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/protobuf/third_party/googletest'...
+Sous-module 'third_party/googletest' (https://github.com/google/googletest.git) enregistré pour le chemin 'third_party/tensorpipe/third_party/googletest'
+Sous-module 'third_party/libnop' (https://github.com/google/libnop.git) enregistré pour le chemin 'third_party/tensorpipe/third_party/libnop'
+Sous-module 'third_party/libuv' (https://github.com/libuv/libuv.git) enregistré pour le chemin 'third_party/tensorpipe/third_party/libuv'
+Sous-module 'third_party/pybind11' (https://github.com/pybind/pybind11.git) enregistré pour le chemin 'third_party/tensorpipe/third_party/pybind11'
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/tensorpipe/third_party/googletest'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/tensorpipe/third_party/libnop'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/tensorpipe/third_party/libuv'...
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/tensorpipe/third_party/pybind11'...
+Sous-module 'tools/clang' (https://github.com/wjakob/clang-cindex-python3) enregistré pour le chemin 'third_party/tensorpipe/third_party/pybind11/tools/clang'
+Clonage dans '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/third_party/tensorpipe/third_party/pybind11/tools/clang'...
+
+[notice] A new release of pip is available: 23.0 -> 23.0.1
+[notice] To update, run: pip install --upgrade pip
+Traceback (most recent call last):
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/setup.py", line 324, in <module>
+    cmake = CMake()
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/tools/setup_helpers/cmake.py", line 38, in __init__
+    self._cmake_command = CMake._get_cmake_command()
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/tools/setup_helpers/cmake.py", line 67, in _get_cmake_command
+    raise RuntimeError("no cmake or cmake3 with version >= 3.13.0 found")
+RuntimeError: no cmake or cmake3 with version >= 3.13.0 found

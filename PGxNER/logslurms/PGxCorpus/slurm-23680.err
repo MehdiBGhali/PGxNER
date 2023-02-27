@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "./BARTNER/train.py", line 168, in <module>
+    data_bundle, tokenizer, mapping2id = get_data()
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/utils.py", line 357, in wrapper
+    results = func(*args, **kwargs)
+  File "./BARTNER/train.py", line 165, in get_data
+    data_bundle = pipe.process_from_file(f'../data/{dataset_name}', demo=demo)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER/data/pipe.py", line 234, in process_from_file
+    data_bundle = self.process(data_bundle)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER/data/pipe.py", line 198, in process
+    data_bundle.print_field_meta()
+AttributeError: 'DataBundle' object has no attribute 'print_field_meta'

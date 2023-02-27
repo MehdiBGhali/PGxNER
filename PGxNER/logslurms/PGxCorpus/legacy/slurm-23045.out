@@ -1,0 +1,146 @@
+Running on sh00
+# conda environments:
+#
+base                  *  /opt/conda
+PGx_env                  /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env
+PGx_env_37               /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env_37
+new_PGx_env              /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env
+torch_from_source_env     /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env
+
+Namespace(bart_name='facebook/bart-large', batch_size=8, dataset_name='PGxCorpus', decoder_type='avg_feature', eval_start_epoch=10, length_penalty=1, lr=1e-05, max_len=10, max_len_a=1.6, n_epochs=30, num_beams=4, save_model=0, schedule='linear', target_type='word', use_encoder_mlp=1, warmup_ratio=0.01)
+Save cache to caches/data_facebook/bart-large_PGxCorpus_word.pt.
+max_len_a:1.6, max_len:10
+In total 3 datasets:
+	dev has 75 instances.
+	test has 76 instances.
+	train has 567 instances.
+
+The number of tokens in tokenizer  50265
+50275 50280
+cpu
+11.3
+input fields after batch(if batch size is 2):
+	tgt_tokens: (1)type:torch.Tensor (2)dtype:torch.int64, (3)shape:torch.Size([2, 34]) 
+	src_tokens: (1)type:torch.Tensor (2)dtype:torch.int64, (3)shape:torch.Size([2, 56]) 
+	first: (1)type:torch.Tensor (2)dtype:torch.int64, (3)shape:torch.Size([2, 56]) 
+	src_seq_len: (1)type:torch.Tensor (2)dtype:torch.int64, (3)shape:torch.Size([2]) 
+	tgt_seq_len: (1)type:torch.Tensor (2)dtype:torch.int64, (3)shape:torch.Size([2]) 
+target fields after batch(if batch size is 2):
+	entities: (1)type:numpy.ndarray (2)dtype:object, (3)shape:(2,) 
+	tgt_tokens: (1)type:torch.Tensor (2)dtype:torch.int64, (3)shape:torch.Size([2, 34]) 
+	target_span: (1)type:numpy.ndarray (2)dtype:object, (3)shape:(2,) 
+	tgt_seq_len: (1)type:torch.Tensor (2)dtype:torch.int64, (3)shape:torch.Size([2]) 
+
+training epochs started 2023-02-15-17-12-33-327835
+Evaluate data in 64.63 seconds!
+Evaluate data in 77.13 seconds!
+FitlogCallback evaluation on data-test:
+Seq2SeqSpanMetric: f=56.96, rec=51.81, pre=63.260000000000005, em=0.0526
+Evaluation on dev at Epoch 11/30. Step:781/2130: 
+Seq2SeqSpanMetric: f=56.46, rec=52.019999999999996, pre=61.72, em=0.0667
+
+Evaluate data in 60.06 seconds!
+Evaluation on dev at Epoch 12/30. Step:852/2130: 
+Seq2SeqSpanMetric: f=56.21000000000001, rec=52.019999999999996, pre=61.14000000000001, em=0.0933
+
+Evaluate data in 63.95 seconds!
+Evaluate data in 83.97 seconds!
+FitlogCallback evaluation on data-test:
+Seq2SeqSpanMetric: f=58.02, rec=54.1, pre=62.56, em=0.0921
+Evaluation on dev at Epoch 13/30. Step:923/2130: 
+Seq2SeqSpanMetric: f=57.379999999999995, rec=54.84, pre=60.18, em=0.0933
+
+Evaluate data in 59.93 seconds!
+Evaluate data in 78.33 seconds!
+FitlogCallback evaluation on data-test:
+Seq2SeqSpanMetric: f=59.57, rec=56.00000000000001, pre=63.63999999999999, em=0.0789
+Evaluation on dev at Epoch 14/30. Step:994/2130: 
+Seq2SeqSpanMetric: f=59.72, rec=56.05, pre=63.91, em=0.1067
+
+Evaluate data in 66.01 seconds!
+Evaluate data in 70.58 seconds!
+FitlogCallback evaluation on data-test:
+Seq2SeqSpanMetric: f=62.08, rec=58.48, pre=66.16, em=0.0921
+Evaluation on dev at Epoch 15/30. Step:1065/2130: 
+Seq2SeqSpanMetric: f=61.9, rec=58.47, pre=65.75999999999999, em=0.1067
+
+Evaluate data in 61.49 seconds!
+Evaluate data in 72.69 seconds!
+FitlogCallback evaluation on data-test:
+Seq2SeqSpanMetric: f=62.4, rec=59.43000000000001, pre=65.68, em=0.1053
+Evaluation on dev at Epoch 16/30. Step:1136/2130: 
+Seq2SeqSpanMetric: f=62.91, rec=59.68, pre=66.52, em=0.1067
+
+Evaluate data in 61.45 seconds!
+Evaluation on dev at Epoch 17/30. Step:1207/2130: 
+Seq2SeqSpanMetric: f=62.08, rec=59.07, pre=65.4, em=0.1333
+
+Evaluate data in 53.72 seconds!
+Evaluation on dev at Epoch 18/30. Step:1278/2130: 
+Seq2SeqSpanMetric: f=61.36000000000001, rec=58.269999999999996, pre=64.8, em=0.1333
+
+Evaluate data in 64.41 seconds!
+Evaluation on dev at Epoch 19/30. Step:1349/2130: 
+Seq2SeqSpanMetric: f=62.32, rec=59.68, pre=65.2, em=0.1467
+
+Evaluate data in 62.91 seconds!
+Evaluate data in 74.33 seconds!
+FitlogCallback evaluation on data-test:
+Seq2SeqSpanMetric: f=64.69, rec=62.480000000000004, pre=67.08, em=0.1053
+Evaluation on dev at Epoch 20/30. Step:1420/2130: 
+Seq2SeqSpanMetric: f=64.25, rec=62.5, pre=66.10000000000001, em=0.1333
+
+Evaluate data in 57.9 seconds!
+Evaluate data in 73.8 seconds!
+FitlogCallback evaluation on data-test:
+Seq2SeqSpanMetric: f=65.48, rec=63.239999999999995, pre=67.89, em=0.1316
+Evaluation on dev at Epoch 21/30. Step:1491/2130: 
+Seq2SeqSpanMetric: f=64.79, rec=62.7, pre=67.03, em=0.1467
+
+Evaluate data in 61.81 seconds!
+Evaluation on dev at Epoch 22/30. Step:1562/2130: 
+Seq2SeqSpanMetric: f=64.46, rec=62.7, pre=66.31, em=0.1067
+
+Evaluate data in 58.04 seconds!
+Evaluation on dev at Epoch 23/30. Step:1633/2130: 
+Seq2SeqSpanMetric: f=64.67, rec=63.1, pre=66.31, em=0.1333
+
+Evaluate data in 56.3 seconds!
+Evaluate data in 61.91 seconds!
+FitlogCallback evaluation on data-test:
+Seq2SeqSpanMetric: f=65.88000000000001, rec=63.43, pre=68.52000000000001, em=0.1316
+Evaluation on dev at Epoch 24/30. Step:1704/2130: 
+Seq2SeqSpanMetric: f=66.74, rec=64.72, pre=68.88, em=0.1467
+
+Evaluate data in 58.99 seconds!
+Evaluation on dev at Epoch 25/30. Step:1775/2130: 
+Seq2SeqSpanMetric: f=66.25, rec=64.31, pre=68.31, em=0.1333
+
+Evaluate data in 56.75 seconds!
+Evaluation on dev at Epoch 26/30. Step:1846/2130: 
+Seq2SeqSpanMetric: f=66.18, rec=64.52, pre=67.94, em=0.1333
+
+Evaluate data in 58.59 seconds!
+Evaluation on dev at Epoch 27/30. Step:1917/2130: 
+Seq2SeqSpanMetric: f=65.27, rec=62.9, pre=67.83, em=0.1333
+
+Evaluate data in 56.19 seconds!
+Evaluate data in 67.62 seconds!
+FitlogCallback evaluation on data-test:
+Seq2SeqSpanMetric: f=67.25, rec=65.33, pre=69.28999999999999, em=0.1316
+Evaluation on dev at Epoch 28/30. Step:1988/2130: 
+Seq2SeqSpanMetric: f=67.08, rec=65.32, pre=68.94, em=0.1333
+
+Evaluate data in 54.3 seconds!
+Evaluation on dev at Epoch 29/30. Step:2059/2130: 
+Seq2SeqSpanMetric: f=66.8, rec=65.32, pre=68.35, em=0.1333
+
+Evaluate data in 55.66 seconds!
+Evaluation on dev at Epoch 30/30. Step:2130/2130: 
+Seq2SeqSpanMetric: f=66.94, rec=65.32, pre=68.64, em=0.16
+
+Best test performance(may not correspond to the best dev performance):{'Seq2SeqSpanMetric': {'f': 67.25, 'rec': 65.33, 'pre': 69.28999999999999, 'em': 0.1316}} achieved at Epoch:28.
+Best test performance(correspond to the best dev performance):{'Seq2SeqSpanMetric': {'f': 67.25, 'rec': 65.33, 'pre': 69.28999999999999, 'em': 0.1316}} achieved at Epoch:28.
+
+In Epoch:28/Step:1988, got best dev performance:
+Seq2SeqSpanMetric: f=67.08, rec=65.32, pre=68.94, em=0.1333

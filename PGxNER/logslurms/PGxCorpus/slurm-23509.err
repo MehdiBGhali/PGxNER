@@ -1,0 +1,12 @@
+pre. tgt. for `dev`:   0%|          | 0/75 [00:00<?, ?it/s]pre. tgt. for `dev`:  65%|██████▌   | 49/75 [00:00<00:00, 486.82it/s]                                                                     pre. tgt. for `test`:   0%|          | 0/76 [00:00<?, ?it/s]pre. tgt. for `test`:  66%|██████▌   | 50/76 [00:00<00:00, 497.05it/s]                                                                      pre. tgt. for `train`:   0%|          | 0/567 [00:00<?, ?it/s]pre. tgt. for `train`:   9%|▉         | 50/567 [00:00<00:01, 499.18it/s]pre. tgt. for `train`:  18%|█▊        | 104/567 [00:00<00:00, 508.40it/s]pre. tgt. for `train`:  27%|██▋       | 152/567 [00:00<00:00, 498.88it/s]pre. tgt. for `train`:  37%|███▋      | 208/567 [00:00<00:00, 514.61it/s]pre. tgt. for `train`:  46%|████▌     | 261/567 [00:00<00:00, 517.74it/s]pre. tgt. for `train`:  55%|█████▌    | 313/567 [00:00<00:00, 517.85it/s]pre. tgt. for `train`:  64%|██████▍   | 364/567 [00:00<00:00, 514.27it/s]pre. tgt. for `train`:  74%|███████▍  | 421/567 [00:00<00:00, 527.97it/s]pre. tgt. for `train`:  83%|████████▎ | 473/567 [00:00<00:00, 522.87it/s]pre. tgt. for `train`:  92%|█████████▏| 524/567 [00:01<00:00, 513.92it/s]                                                                         Traceback (most recent call last):
+  File "./BARTNER/train.py", line 332, in <module>
+    trainer.train(load_best_model=False)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/trainer.py", line 667, in train
+    raise e
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/trainer.py", line 657, in train
+    self.callback_manager.on_train_begin()
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/callback.py", line 322, in wrapper
+    returns.append(getattr(callback, func.__name__)(*arg))
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER/model/callbacks.py", line 318, in on_train_begin
+    print(max(current_indexes.append(0)))
+TypeError: 'NoneType' object is not iterable

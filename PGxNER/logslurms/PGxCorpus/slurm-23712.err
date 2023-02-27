@@ -1,0 +1,14 @@
+pre. tgt. for `dev`:   0%|          | 0/75 [00:00<?, ?it/s]pre. tgt. for `dev`:  80%|████████  | 60/75 [00:00<00:00, 596.22it/s]                                                                     pre. tgt. for `test`:   0%|          | 0/76 [00:00<?, ?it/s]pre. tgt. for `test`:  74%|███████▎  | 56/76 [00:00<00:00, 555.17it/s]                                                                      pre. tgt. for `train`:   0%|          | 0/567 [00:00<?, ?it/s]pre. tgt. for `train`:  10%|█         | 57/567 [00:00<00:00, 563.41it/s]pre. tgt. for `train`:  20%|██        | 115/567 [00:00<00:00, 565.41it/s]pre. tgt. for `train`:  30%|███       | 171/567 [00:00<00:00, 563.54it/s]pre. tgt. for `train`:  40%|████      | 227/567 [00:00<00:00, 560.76it/s]pre. tgt. for `train`:  50%|█████     | 284/567 [00:00<00:00, 556.70it/s]pre. tgt. for `train`:  61%|██████    | 344/567 [00:00<00:00, 567.50it/s]pre. tgt. for `train`:  71%|███████   | 401/567 [00:00<00:00, 565.94it/s]pre. tgt. for `train`:  81%|████████  | 458/567 [00:00<00:00, 565.69it/s]pre. tgt. for `train`:  90%|█████████ | 513/567 [00:00<00:00, 558.90it/s]                                                                         Traceback (most recent call last):
+  File "./BARTNER/train.py", line 179, in <module>
+    model = BartSeq2SeqModel.build_model(bart_name, tokenizer, label_ids=label_ids, decoder_type=decoder_type,
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER/model/bart.py", line 228, in build_model
+    model = BartModel.from_pretrained(bart_model)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env/lib/python3.8/site-packages/transformers/modeling_utils.py", line 867, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env/lib/python3.8/site-packages/transformers/configuration_utils.py", line 330, in from_pretrained
+    return cls.from_dict(config_dict, **kwargs)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env/lib/python3.8/site-packages/transformers/configuration_utils.py", line 417, in from_dict
+    config = cls(**config_dict)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env/lib/python3.8/site-packages/transformers/configuration_bart.py", line 162, in __init__
+    raise ValueError("hidden size is called d_model")
+ValueError: hidden size is called d_model

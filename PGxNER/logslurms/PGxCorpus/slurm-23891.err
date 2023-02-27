@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "./BARTNER/train.py", line 10, in <module>
+    from data.pipe import BartNERPipe
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER/data/pipe.py", line 1, in <module>
+    from fastNLP.io import ConllLoader, Loader
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/__init__.py", line 91, in <module>
+    from . import embeddings
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/embeddings/__init__.py", line 33, in <module>
+    from .embedding import Embedding, TokenEmbedding
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/embeddings/embedding.py", line 13, in <module>
+    import torch
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/torch/__init__.py", line 29, in <module>
+    from .torch_version import __version__ as __version__
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/torch/torch_version.py", line 2, in <module>
+    from .version import __version__ as internal_version
+ModuleNotFoundError: No module named 'torch.version'

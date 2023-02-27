@@ -1,0 +1,34 @@
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+CondaSystemExit: Exiting.
+
+
+DirectoryNotACondaEnvironmentError: The target directory exists, but it is not a conda environment.
+Use 'conda create' to convert the directory to a conda environment.
+  target directory: /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/cloned_env
+
+
+Traceback (most recent call last):
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/./BARTNER/train.py", line 10, in <module>
+    from data.pipe import BartNERPipe
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER/data/pipe.py", line 1, in <module>
+    from fastNLP.io import ConllLoader, Loader
+ModuleNotFoundError: No module named 'fastNLP'

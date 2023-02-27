@@ -1,0 +1,20 @@
+pre. tgt. for `dev`:   0%|          | 0/75 [00:00<?, ?it/s]                                                           Traceback (most recent call last):
+  File "./BARTNER/train.py", line 168, in <module>
+    data_bundle, tokenizer, mapping2id = get_data()
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/utils.py", line 357, in wrapper
+    results = func(*args, **kwargs)
+  File "./BARTNER/train.py", line 165, in get_data
+    data_bundle = pipe.process_from_file(f'../data/{dataset_name}', demo=demo)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER/data/pipe.py", line 242, in process_from_file
+    data_bundle = self.process(data_bundle)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER/data/pipe.py", line 204, in process
+    data_bundle.apply_more(prepare_target, use_tqdm=True, tqdm_desc='pre. tgt.')
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/io/data_bundle.py", line 436, in apply_more
+    res[name] = dataset.apply_more(func, modify_fields=modify_fields, **kwargs)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/dataset.py", line 1004, in apply_more
+    raise e
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/dataset.py", line 986, in apply_more
+    res = func(ins)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER/data/pipe.py", line 193, in prepare_target
+    print(type(*word_bpes))
+TypeError: type() takes 1 or 3 arguments

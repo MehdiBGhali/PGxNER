@@ -1,0 +1,41 @@
+Could not find conda environment: cloned_env_latest_transformers
+You can list all discoverable environments with `conda info --envs`.
+
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.10.3
+  latest version: 23.1.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+EnvironmentNotWritableError: The current user does not have write permissions to the target environment.
+  environment location: /opt/conda
+  uid: 35441
+  gid: 30278
+
+
+/var/spool/slurm/slurmd/job23915/slurm_script: ligne 34: rustc : commande introuvable
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+daal4py 2021.3.0 requires daal==2021.2.3, which is not installed.
+conda-repo-cli 1.0.4 requires pathlib, which is not installed.
+anaconda-project 0.10.1 requires ruamel-yaml, which is not installed.
+scipy 1.7.1 requires numpy<1.23.0,>=1.16.5, but you have numpy 1.24.2 which is incompatible.
+numba 0.54.1 requires numpy<1.21,>=1.17, but you have numpy 1.24.2 which is incompatible.
+  Running command git clone --filter=blob:none --quiet https://github.com/fastnlp/fastNLP /tmp/benghali_meh-23915/pip-req-build-p7_ti81i
+  Running command git checkout -b dev --track origin/dev
+  Basculement sur la nouvelle branche 'dev'
+  La branche 'dev' est paramétrée pour suivre la branche distante 'dev' depuis 'origin'.
+  Running command git clone --filter=blob:none --quiet https://github.com/fastnlp/fitlog /tmp/benghali_meh-23915/pip-req-build-9w6zzanc
+Traceback (most recent call last):
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/./BARTNER/train.py", line 11, in <module>
+    from model.bart import BartSeq2SeqModel
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER/model/bart.py", line 2, in <module>
+    from .modeing_bart import BartEncoder, BartDecoder, BartModel
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER/model/modeing_bart.py", line 27, in <module>
+    from transformers.modeling_bart import * 
+ModuleNotFoundError: No module named 'transformers.modeling_bart'

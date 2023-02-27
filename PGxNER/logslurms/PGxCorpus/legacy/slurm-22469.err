@@ -1,0 +1,24 @@
+pre. tgt. for `dev`:   0%|          | 0/18 [00:00<?, ?it/s]                                                           pre. tgt. for `test`:   0%|          | 0/19 [00:00<?, ?it/s]                                                            pre. tgt. for `train`:   0%|          | 0/756 [00:00<?, ?it/s]pre. tgt. for `train`:   6%|▌         | 47/756 [00:00<00:01, 460.29it/s]pre. tgt. for `train`:  12%|█▏        | 94/756 [00:00<00:01, 464.95it/s]pre. tgt. for `train`:  19%|█▉        | 145/756 [00:00<00:01, 481.50it/s]pre. tgt. for `train`:  26%|██▌       | 198/756 [00:00<00:01, 498.49it/s]pre. tgt. for `train`:  33%|███▎      | 251/756 [00:00<00:00, 507.83it/s]pre. tgt. for `train`:  40%|████      | 303/756 [00:00<00:00, 511.27it/s]pre. tgt. for `train`:  47%|████▋     | 355/756 [00:00<00:00, 497.68it/s]pre. tgt. for `train`:  54%|█████▎    | 405/756 [00:00<00:00, 498.10it/s]pre. tgt. for `train`:  60%|██████    | 456/756 [00:00<00:00, 500.03it/s]pre. tgt. for `train`:  67%|██████▋   | 508/756 [00:01<00:00, 503.74it/s]pre. tgt. for `train`:  74%|███████▍  | 559/756 [00:01<00:00, 502.72it/s]pre. tgt. for `train`:  81%|████████  | 610/756 [00:01<00:00, 499.77it/s]pre. tgt. for `train`:  87%|████████▋ | 661/756 [00:01<00:00, 500.70it/s]pre. tgt. for `train`:  94%|█████████▍| 712/756 [00:01<00:00, 481.00it/s]                                                                         Traceback (most recent call last):
+  File "./BARTNER/train.py", line 312, in <module>
+    trainer = Trainer(train_data=ds, model=model, optimizer=optimizer,
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/trainer.py", line 559, in __init__
+    _check_code(dataset=train_data, model=self.model, losser=losser, forward_func=self._forward_func, metrics=metrics,
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/trainer.py", line 982, in _check_code
+    pred_dict = model(**refined_batch_x)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env/lib/python3.8/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER/model/generater.py", line 60, in forward
+    return self.seq2seq_model(src_tokens, tgt_tokens, src_seq_len, tgt_seq_len, first)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env/lib/python3.8/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER/model/bart.py", line 281, in forward
+    state = self.prepare_state(src_tokens, src_seq_len, first, tgt_seq_len)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER/model/bart.py", line 265, in prepare_state
+    encoder_outputs, encoder_mask, hidden_states = self.encoder(src_tokens, src_seq_len)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env/lib/python3.8/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER/model/bart.py", line 19, in forward
+    mask = seq_len_to_mask(src_seq_len, max_len=src_tokens.size(1))
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/utils.py", line 862, in seq_len_to_mask
+    mask = broad_cast_seq_len.lt(seq_len.unsqueeze(1))
+RuntimeError: CUDA error: no kernel image is available for execution on the device

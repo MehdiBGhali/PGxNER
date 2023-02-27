@@ -1,0 +1,63 @@
+WARNING: Skipping torch as it is not installed.
+
+PackagesNotFoundError: The following packages are missing from the target environment:
+  - torch
+
+
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.10.3
+  latest version: 23.1.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.10.3
+  latest version: 23.1.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.10.3
+  latest version: 23.1.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.10.3
+  latest version: 23.1.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+python: can't open file 'setup.py': [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "./BARTNER/train.py", line 10, in <module>
+    from data.pipe import BartNERPipe
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER/data/pipe.py", line 1, in <module>
+    from fastNLP.io import ConllLoader, Loader
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/__init__.py", line 91, in <module>
+    from . import embeddings
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/embeddings/__init__.py", line 33, in <module>
+    from .embedding import Embedding, TokenEmbedding
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/embeddings/embedding.py", line 13, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'

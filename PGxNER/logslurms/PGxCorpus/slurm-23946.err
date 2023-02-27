@@ -1,0 +1,21 @@
+Could not find conda environment: cloned_env_latest_transformers
+You can list all discoverable environments with `conda info --envs`.
+
+Downloading (…)okenizer_config.json:   0%|          | 0.00/1.06k [00:00<?, ?B/s]Downloading (…)okenizer_config.json: 100%|██████████| 1.06k/1.06k [00:00<00:00, 73.7kB/s]
+Downloading (…)olve/main/vocab.json:   0%|          | 0.00/899k [00:00<?, ?B/s]Downloading (…)olve/main/vocab.json: 100%|██████████| 899k/899k [00:00<00:00, 1.82MB/s]Downloading (…)olve/main/vocab.json: 100%|██████████| 899k/899k [00:00<00:00, 1.81MB/s]
+Downloading (…)olve/main/merges.txt:   0%|          | 0.00/456k [00:00<?, ?B/s]Downloading (…)olve/main/merges.txt: 100%|██████████| 456k/456k [00:00<00:00, 1.11MB/s]Downloading (…)olve/main/merges.txt: 100%|██████████| 456k/456k [00:00<00:00, 1.11MB/s]
+Downloading (…)cial_tokens_map.json:   0%|          | 0.00/772 [00:00<?, ?B/s]Downloading (…)cial_tokens_map.json: 100%|██████████| 772/772 [00:00<00:00, 226kB/s]
+Traceback (most recent call last):
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/./BARTNER_other_/train.py", line 168, in <module>
+    data_bundle, tokenizer, mapping2id = get_data()
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.9/site-packages/fastNLP/core/utils.py", line 357, in wrapper
+    results = func(*args, **kwargs)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/./BARTNER_other_/train.py", line 165, in get_data
+    data_bundle = pipe.process_from_file(f'../data/{dataset_name}', demo=demo)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER_other_/data/pipe.py", line 220, in process_from_file
+    data_bundle = self.process(data_bundle)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER_other_/data/pipe.py", line 102, in process
+    self.add_tags_to_special_tokens(data_bundle)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER_other_/data/pipe.py", line 74, in add_tags_to_special_tokens
+    unique_no_split_tokens = self.tokenizer.unique_no_split_tokens
+AttributeError: 'BartTokenizerFast' object has no attribute 'unique_no_split_tokens'

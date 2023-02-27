@@ -1,0 +1,228 @@
+Association of alcohol dependence ( AD ) with markers located at the 3 ' region of GABRA 2 has been replicated in several studies , but recent studies suggested the possibility that the signal may be attributable to the adjacent gene , GABRG 1 , located 90 kb distant in the 3 ' direction .
+2,2 Chemical|5,5 Disease|12,17 Genomic_factor|16,17 Gene_or_protein|42,43 Gene_or_protein|2,3 Disease
+
+Most GISTs respond to imatinib mesylate , which selectively inhibits both KIT and PDGFRA , and is now considered as the standard systemic therapy for advanced GIST .
+1,1 Disease|4,5 Chemical|11,11 Gene_or_protein|13,13 Gene_or_protein|26,26 Disease
+
+The angiotensin II - AT 1 receptor antagonist , losartan , applied intracerebroventricular five minutes prior to angiotensin II , prevented the angiotensin II - induced immediate early gene protein expression .
+1,7 Chemical|9,9 Chemical|17,18 Chemical|22,30 Pharmacodynamic_phenotype|22,23 Chemical|1,6 Gene_or_protein|26,30 Pharmacodynamic_phenotype
+
+The levels of c - fos , c - jun and rsGFP mRNA , as well as the levels of rsGFP protein , in the FR - pQBI 25 cells were found to be significantly higher following exposure to doxorubicin .
+1,5,12,12 Phenotype|3,5 Gene_or_protein|7,9 Gene_or_protein|39,39 Chemical|1,2,7,9,12,12 Phenotype|20,20 Gene_or_protein|18,21 Phenotype|1,2,11,12 Phenotype|11,11 Gene_or_protein|11,12 Genomic_factor|7,9,12,12 Genomic_factor|3,5,12,12 Genomic_factor
+
+Although morphine and heroin analgesia is mediated by mu - opioid receptors encoded by the MOR - 1 gene , distinct isoforms are involved .
+1,1 Chemical|3,3 Chemical|15,17 Gene_or_protein|8,11 Gene_or_protein|3,4 Pharmacodynamic_phenotype|1,1,4,4 Pharmacodynamic_phenotype
+
+In the present study , a potential relationship between T 102 C polymorphism in the 5 - HT receptor subtype 2 A gene ( HTR 2 A ) and alcohol dependence was examined .
+9,27 Limited_variation|15,21 Gene_or_protein|24,26 Gene_or_protein|29,29 Chemical|29,30 Disease
+
+This patient had an excellent response to Icotinib but not crizotinib , suggesting that the EGFR mutation was the oncogenic driver but ROS 1 fusion and KRAS mutation not .
+7,7 Chemical|10,10 Chemical|15,16 Limited_variation|15,15 Gene_or_protein|22,23 Gene_or_protein|26,27 Limited_variation|26,26 Gene_or_protein|5,7 Pharmacodynamic_phenotype|5,6,10,10 Pharmacodynamic_phenotype|22,24 Genomic_factor
+
+However , in patients who were co - administered AZ , the C 0 values of tacrolimus were higher in patients with the CYP 3 A 5 * 3 / * 3 allele than with the CYP 3 A 5 * 1 allele ( P = 0 . 034 ) , although daily doses of Tac - QD in patients with CYP 3 A 5 * 3 / * 3 were significantly lower than those with the CYP 3 A 5 * 1 allele ( P = 0 . 041 ) .
+16,16 Chemical|36,39 Gene_or_protein|61,64 Gene_or_protein|77,80 Gene_or_protein|77,82 Haplotype|23,31 Haplotype|36,41 Haplotype|61,69 Haplotype|9,9 Chemical|12,16 Pharmacodynamic_phenotype|52,57 Pharmacodynamic_phenotype|55,57 Chemical|23,26 Gene_or_protein
+
+We found that lycopene down - regulates the expression of costimulatory molecules ( CD 80 and CD 86 ) and major histocompatibility complex type II molecules .
+3,3 Chemical|13,14 Gene_or_protein|16,17 Gene_or_protein|20,24 Gene_or_protein|8,18 Phenotype|8,9,20,24 Phenotype|10,11 Gene_or_protein
+
+Cytochrome P 450 2 C 9 ( CYP 2 C 9 ) and vitamin K epoxide reductase ( VKORC 1 ) genotypes as determinants of acenocoumarol sensitivity .
+0,5 Gene_or_protein|7,10 Gene_or_protein|13,16 Gene_or_protein|18,19 Gene_or_protein|25,26 Pharmacodynamic_phenotype|25,25 Chemical|0,11,21,21 Limited_variation|13,21 Limited_variation
+
+We found oral clearance of S - warfarin to be higher among carriers of the minor rs 7089580 allele ( T ) compared with wild - type homozygotes ( 3 . 73 1 . 46 vs 2 . 95 1 . 39 mL / min ; P = 0 . 04 ) .
+5,7 Chemical|16,17 Limited_variation|2,7 Pharmacokinetic_phenotype|16,21 Limited_variation|24,27 Limited_variation
+
+Is there a role for MDR 1 , EPHX 1 and protein Z gene variants in modulation of warfarin dosage ? a study on a cohort of the Egyptian population .
+5,6 Gene_or_protein|8,9 Gene_or_protein|18,18 Chemical|11,12 Gene_or_protein|16,19 Pharmacodynamic_phenotype|5,6,13,14 Limited_variation|8,9,13,14 Limited_variation|11,14 Limited_variation
+
+RESULTS : Four polymorphisms in CYP 3 A 5 and one polymorphism in CYP 3 A 4 were identified to be significantly associated with tacrolimus stable dose ( p < 8 . 46 10 ( - 5 ) ) .
+3,8 Limited_variation|5,8 Gene_or_protein|11,16 Limited_variation|13,16 Gene_or_protein|24,24 Chemical|24,26 Pharmacodynamic_phenotype
+
+Comparison of transformation by manganese sulfate and 5 - azacytidine in Rat 6 cells overexpressing the c - myc oncogene .
+4,5 Chemical|7,9 Chemical|16,18 Gene_or_protein|14,18 Phenotype|2,5 Pharmacodynamic_phenotype|2,3,7,9 Pharmacodynamic_phenotype
+
+Catechol - O - methyltransferase ( COMT ) catalyzes the breakdown of cerebral dopamine .
+6,6 Gene_or_protein|0,4 Gene_or_protein|13,13 Chemical|10,13 Pharmacokinetic_phenotype
+
+The contribution of polymorphism in the alcohol dehydrogenase beta subunit to alcohol sensitivity in a Japanese population .
+6,7 Gene_or_protein|11,12 Pharmacodynamic_phenotype|11,11 Chemical|3,9 Limited_variation|6,9 Genomic_factor
+
+Catechol - O - methyltransferase ( COMT ) is involved in the catabolism of Ecstasy .
+0,4 Gene_or_protein|6,6 Gene_or_protein|14,14 Chemical|12,14 Pharmacokinetic_phenotype
+
+The 1976 C > T polymorphism in the adenosine A 2 A receptor gene ( ADORA 2 A ) modulates the psychological response to administration of the adenosine receptor antagonist caffeine .
+1,12 Limited_variation|8,12 Gene_or_protein|15,17 Gene_or_protein|30,30 Chemical|27,29 Chemical|21,23,30,30 Pharmacodynamic_phenotype
+
+These results suggest that AKR - 501 is an orally - active TPO receptor agonist that may be useful in the treatment of patients with thrombocytopenia .
+4,6 Chemical|12,12 Chemical|25,25 Disease|12,13 Gene_or_protein
+
+Toxic encephalopathy and delayed MTX clearance after high - dose methotrexate therapy in a child homozygous for the MTHFR C 677 T polymorphism .
+1,1 Disease|4,4 Chemical|10,10 Chemical|15,22 Limited_variation|18,18 Gene_or_protein|4,5 Pharmacokinetic_phenotype
+
+COMT inhibition by entacapone was higher in COMT ( HH ) than in COMT ( LL ) patients ( - 0 . 54 0 . 07 vs - 0 . 31 0 . 06 pmol / min / mg protein , p = 0 . 02 ) .
+0,3 Pharmacodynamic_phenotype|0,0 Gene_or_protein|3,3 Chemical|7,7 Gene_or_protein|13,13 Gene_or_protein|7,10 Limited_variation|13,16 Limited_variation
+
+PATIENTS AND METHODS : Patients with HER 2 - positive locally advanced breast cancer or MBC were treated with 3 . 6 mg / kg T - DM 1 plus pertuzumab ( 840 - mg loading dose , then 420 mg subsequently ) once every 3 weeks .
+6,9,12,13 Disease|6,7 Gene_or_protein|6,9,15,15 Disease|6,9 Phenotype|27,30 Chemical
+
+It was found that the EA extract of bitter gourd ( Momordica charantia ) , a common oriental vegetable , activated PPARalpha to an extent that was equivalent to or even higher than 10 microM Wy - 14643 , a known ligand of PPARalpha .
+21,21 Gene_or_protein|35,37 Chemical|43,43 Gene_or_protein|5,9 Chemical
+
+This study used computer - assisted self - infusion of ethanol ( CASE ) to examine associations among OPRM 1 A 118 G genotype , subjective responses to alcohol and intravenous alcohol self - administration in young heavy drinkers ( n = 40 , mean age = 19 . 95 years , SD = 0 . 82 ) .
+18,19 Gene_or_protein|18,22 Limited_variation|26,28 Pharmacodynamic_phenotype|10,10 Chemical|31,31 Chemical|28,28 Chemical
+
+GACI is linked to mutations in the ENPP 1 gene , which encodes for an enzyme that generates inorganic pyrophosphate ( PP ( i ) ) , a potent inhibitor of hydroxyapatite crystal formation .
+0,0 Disease|4,9 Limited_variation|7,8 Gene_or_protein|18,19 Chemical|21,24 Chemical|31,31 Chemical
+
+The purpose of this study is to identify the cases where a probable hypersensitivity reaction to abacavir presented the HLA - B * 5701 allele .
+16,16 Chemical|19,21 Gene_or_protein|13,16 Pharmacodynamic_phenotype|19,23 Haplotype
+
+Finally , DOR - 1 mutant mice do not develop analgesic tolerance to morphine , genetically demonstrating a central role for DOR - 1 in this process .
+2,4 Gene_or_protein|21,23 Gene_or_protein|2,5 Limited_variation|13,13 Chemical|10,13 Pharmacodynamic_phenotype
+
+We studied the consequences of VX - 770 interaction with CFTR incorporated in planar lipid bilayers and in proteoliposomes , using a novel flux - based assay .
+5,7 Chemical|10,10 Gene_or_protein
+
+The specificity of N Latex CDT for identifying alcohol abuse may be higher than for immunoassays that use column separation , because transferrin genetic variants do not interfere with measurements .
+22,24 Limited_variation|22,22 Gene_or_protein|8,9 Disease|5,5 Gene_or_protein
+
+We examined the role of Ranbp 2 haploinsufficiency on cellular and metabolic manifestations linked to tyrosine - hydroxylase ( TH ( + ) ) dopaminergic neurons and glial cells of the brain and retina upon acute challenge to 1 - methyl - 4 - phenyl - 1 , 2 , 3 , 6 - tetrahydropyridine ( MPTP ) , a parkinsonian neurotoxin , which models facets of Parkinson disease .
+38,54 Chemical|56,56 Chemical|67,68 Disease|5,6 Gene_or_protein|5,7 Genomic_variation|12,25 Phenotype|19,22 Gene_or_protein|15,17 Gene_or_protein|60,61 Chemical|12,14,27,31 Phenotype|12,14,33,33 Phenotype
+
+We chose a 30 M concentration of 4 - HNE , which produced an approximately 50 % inhibition of complex I - or complex II - driven respiration , to assess whether prior in vivo Nrf 2 - ARE - activating compounds would increase the resistance of the isolated cortical mitochondria to 4 - HNE ' s mitotoxic effects .
+7,9 Chemical|35,36 Gene_or_protein|52,54 Chemical|35,38 Genomic_factor|35,41 Chemical|45,45,51,54 Pharmacodynamic_phenotype|19,21,26,27 Genomic_factor|23,27 Genomic_factor
+
+CONCLUSIONS : Polymorphism of SLCO 1 B 1 c . 521 T > C could be a strong predictor of dose reduction of 6 - MP in maintenance chemotherapy in childhood ALL .
+4,7 Gene_or_protein|23,25 Chemical|31,31 Disease|4,13 Limited_variation|20,25 Pharmacodynamic_phenotype|28,28 Chemical
+
+CONCLUSIONS : We found no significant association between oxaliplatin - induced neuropathy and the GSTP 1 Ile ( 105 ) Val and AGXT Ile ( 340 ) Met polymorphisms .
+11,11 Pharmacodynamic_phenotype|8,8 Chemical|14,15 Gene_or_protein|22,22 Gene_or_protein|8,11 Pharmacodynamic_phenotype|14,20 Limited_variation|22,27 Limited_variation
+
+A positive control using 5 - azacytidine also reactivated p 16 INK 4 a .
+4,6 Chemical|9,13 Gene_or_protein
+
+CONCLUSIONS : CYP 2 C 19 polymorphisms are frequent in Japanese , and the antiplatelet effect of clopidogrel is strongly affected by them in the real - world clinical setting .
+2,6 Limited_variation|2,5 Gene_or_protein|17,17 Chemical|14,17 Pharmacodynamic_phenotype
+
+We examined the relation between spontaneous abortion and polymorphisms in two genes , glutathione S - transferase ( GSTM 1 ) and N - acetyltransferase ( NAT 2 ) , which are involved in the metabolism of xenobiotics .
+5,6 Disease|13,16 Gene_or_protein|18,19 Gene_or_protein|26,27 Gene_or_protein|22,24 Gene_or_protein|8,9,13,16 Limited_variation|8,9,22,24 Limited_variation|37,37 Chemical|35,37 Pharmacokinetic_phenotype
+
+These surprising findings in a group of phenotypically similar patients with ER - positive , endocrine therapy - pretreated , HER 2 - negative metastases , are supported by preclinical data showing that sensitivity to 5 - fluorouracil is enhanced by deficiencies in chromatin remodeling and homologous recombination genes .
+11,11 Gene_or_protein|20,21 Gene_or_protein|33,37 Pharmacodynamic_phenotype|35,37 Chemical|41,44 Genomic_factor|11,13,24,24 Disease|46,48 Genomic_variation|15,16 Chemical|20,24 Disease|11,13 Phenotype|20,23 Phenotype
+
+DESIGN AND METHODS : We compared the clinical and hematologic responses to change in % V 617 F ( molecular response ) in 73 patients with polycythemia vera treated with either interferon ( rIFNa - 2 b : 28 , Peg - rIFNa - 2 a : 18 ) or non - interferon drugs ( n = 27 ) , which included hydroxyurea ( n = 8 ) , imatinib ( n = 12 ) , dasatinib ( n = 5 ) , busulfan ( n = 1 ) , and radioactive phosphorus ( n = 1 ) .
+15,17 Limited_variation|26,27 Disease|62,62 Chemical|69,69 Chemical|76,76 Chemical|83,83 Chemical|91,92 Chemical|31,31 Chemical|33,47 Chemical|50,53 Chemical|9,10 Pharmacodynamic_phenotype|7,7,10,10 Pharmacodynamic_phenotype
+
+Vemurafenib , a selective BRAF ( v - raf murine sarcoma viral oncogene homologue B 1 ) kinase inhibitor , is a new targeted biotherapy that improves survival in patients with metastatic melanomas harbouring the BRAF V 600 E mutation .
+0,0 Chemical|4,4 Gene_or_protein|31,32 Disease|35,35 Gene_or_protein|35,38 Limited_variation|6,15 Gene_or_protein|4,18 Chemical|27,27 Phenotype|23,24 Chemical
+
+Following transient expression of MDR - 1 and MCJ , changes in the sensitivity of Sk - Ov - 3 cells to paclitaxel were detected whereas expression of Src , Bcl - 2 and Bcl - X ( L ) decreased the sensitivity of Sk - Ov - 3 cells to carboplatin .
+2,3,8,8 Phenotype|4,6 Gene_or_protein|8,8 Gene_or_protein|13,22 Pharmacodynamic_phenotype|22,22 Chemical|26,28 Phenotype|28,28 Gene_or_protein|30,32 Gene_or_protein|34,39 Gene_or_protein|42,51 Pharmacodynamic_phenotype|51,51 Chemical|2,6 Phenotype|26,27,30,32 Phenotype|26,27,34,39 Phenotype
+
+Functionalized PEG - PEI copolymers complexed to exon - skipping oligonucleotides improve dystrophin expression in mdx mice .
+1,4 Chemical|3,3 Chemical|12,13 Phenotype|12,12 Gene_or_protein|1,1 Chemical
+
+Multiple linear regression analyses showed that the AC and CC CYP 7 A 1 genotypes accounted for 5 . 2 and 6 . 2 % of triglyceride concentration during follow - up and adjusted percent of change of triglyceride concentration , respectively .
+7,7,10,14 Limited_variation|10,13 Gene_or_protein|26,26 Chemical|38,38 Chemical|9,14 Limited_variation|26,27 Pharmacodynamic_phenotype|38,39 Pharmacodynamic_phenotype
+
+A 2143 G was an important 23 S rRNA mutation associated with clarithromycin resistance and affected the H . pylori eradication efficacy .
+0,2 Limited_variation|12,13 Pharmacodynamic_phenotype|12,12 Chemical|6,9 Limited_variation|6,8 Genomic_factor|17,21 Pharmacodynamic_phenotype
+
+The aim of this study was to evaluate the influence of CYP 3 A 5 polymorphism on the increase in CYP 3 A activity after living kidney transplantation , by measuring the plasma concentration of 4 b - hydroxycholesterol .
+11,15 Limited_variation|11,14 Gene_or_protein|20,23 Phenotype|20,22 Gene_or_protein|35,38 Chemical|32,38 Pharmacodynamic_phenotype|26,27 Disease
+
+Studies of aspirin , P 2 Y 12 inhibitors and other antiplatelet drugs clearly demonstrate how inhibition of platelet function increases bleeding risk .
+2,2 Chemical|4,7 Gene_or_protein|21,21 Disease|4,8 Chemical|11,12 Chemical|16,19 Phenotype
+
+When stratified by the COMT high activity haplotype , a beneficial effect of propranolol on pain perception was noted in patients not carrying this haplotype , a diminished benefit was observed in the heterozygotes , and no benefit was noted in the homozygotes .
+4,4 Gene_or_protein|13,13 Chemical|15,16 Phenotype|4,7 Haplotype|33,33 Limited_variation|42,42 Limited_variation|11,16 Pharmacodynamic_phenotype|24,24 Haplotype
+
+We showed that mutation of one of the two N - linked GP 2 glycosylation sites was highly detrimental to the antigenicity and immunogenicity of GP .
+12,13 Gene_or_protein|3,4,9,15 Limited_variation|21,21,24,25 Phenotype|23,25 Phenotype|25,25 Gene_or_protein|12,15 Genomic_factor
+
+RESULTS : Neither the mean AUC ( 0 - infinity ) ( geometric mean ratio : 1 . 01 ; 95 % CI : 0 . 93 - 1 . 1 , P = 0 . 88 ) nor the mean C ( max ) ( geometric mean ratio : 1 . 05 ; 95 % CI : 0 . 94 - 1 . 2 , P = 0 . 35 ) of repaglinide were statistically significantly different in the group carrying the CYP 2 C 8 * 3 mutant allele compared with wild - types .
+73,73 Chemical|83,86 Gene_or_protein|83,89 Haplotype|4,5,73,73 Pharmacokinetic_phenotype|40,44,73,73 Pharmacodynamic_phenotype|93,95 Haplotype
+
+Association of gene polymorphisms encoding dopaminergic system components and platelet MAO - B activity with alcohol dependence and alcohol dependence - related phenotypes .
+10,13 Phenotype|10,12 Gene_or_protein|15,15 Chemical|18,18 Chemical|15,16 Disease|18,22 Phenotype|2,7 Limited_variation|5,7 Gene_or_protein|18,19 Disease
+
+We demonstrate that KIT exon 8 mutations result in constitutive ligand - independent kinase activation that can be inhibited by clinically relevant concentrations of imatinib .
+3,6 Limited_variation|3,3 Gene_or_protein|24,24 Chemical|13,13 Gene_or_protein|13,14 Phenotype|22,24 Pharmacodynamic_phenotype|3,5 Genomic_factor
+
+Studies on the eukaryotic enzymes by NMR and crystallography have facilitated understanding substrate specificities of human NAT 1 ( 5 - aminosalicylate and p - aminobenzoic acid ) and human NAT 2 ( sulphamethazine ) .
+19,21 Chemical|16,17 Gene_or_protein|23,26 Chemical|30,31 Gene_or_protein|33,33 Chemical|12,17 Chemical|12,14,29,31 Chemical
+
+MAIN OUTCOME MEASURES : Gene variants of dopamine system components ( the dopamine transporter variable nucleotide tandem repeat , D 2 receptor Taq A 1 / A 2 , D 4 receptor variable nucleotide tandem repeat , and catechol - O - methyltransferase Val 158 Met polymorphisms ) and change in [ 11 C ] raclopride binding potential in the ventral caudate / nucleus accumbens on positron emission tomography scans .
+38,42 Gene_or_protein|38,46 Limited_variation|55,55 Chemical|55,57 Phenotype|12,17 Genomic_variation|19,27 Limited_variation|29,35 Genomic_variation|4,9 Genomic_variation|12,13 Gene_or_protein|19,22 Gene_or_protein|29,31 Gene_or_protein
+
+CONCLUSIONS : Our study shows that increased serum level of PTH and decreased fetuin - A and vitamin D levels may increase susceptibility of atherosclerosis in patients with hemodialysis through VDR gene FokI and ApaI polymorphisms .
+7,10 Phenotype|10,10 Gene_or_protein|13,15 Gene_or_protein|17,18 Chemical|30,30 Gene_or_protein|13,15,19,19 Phenotype|17,19 Pharmacodynamic_phenotype|24,24 Disease|30,32,35,35 Limited_variation|30,31,34,35 Limited_variation
+
+Epidermal growth factor receptor gene copy number , K - ras mutation and pathological response to preoperative cetuximab , 5 - FU and radiation therapy in locally advanced rectal cancer .
+0,3 Gene_or_protein|8,11 Limited_variation|8,10 Gene_or_protein|19,21 Chemical|28,29 Disease|0,6 Genomic_variation|17,17 Chemical|13,17 Pharmacodynamic_phenotype|13,16,19,21 Pharmacodynamic_phenotype|13,16,23,24 Pharmacodynamic_phenotype|23,24 Chemical
+
+In postmenopausal women who were using combined estrogen - progestin therapy ( EPT ) at cohort enrollment , the OR of breast cancer was 2 . 31 ( 95 % CI = 1 . 47 - 3 . 62 ) per minor allele of rs 4149013 in SLCO 1 B 1 ( P = 0 . 0003 ; within - gene PACT = 0 . 002 ; overall PACT = 0 . 023 ) .
+7,7 Chemical|21,22 Disease|44,45 Limited_variation|47,50 Gene_or_protein|9,9 Chemical|6,10 Chemical|12,12 Chemical|19,19 Phenotype
+
+CONCLUSION : Determination of the CYP 3 A 5 genotype would be helpful in the design of adequate immunosuppressive treatment and in lowering toxicity by predicting the doses of tacrolimus required for the induction and maintenance phases in individual kidney transplant recipients .
+5,9 Limited_variation|5,8 Gene_or_protein|23,23 Pharmacodynamic_phenotype|29,29 Chemical|18,19 Chemical|27,30 Pharmacodynamic_phenotype|39,40 Disease
+
+Association of HLA - B * 5701 genotypes and abacavir - induced hypersensitivity reaction : a systematic review and meta - analysis .
+2,4 Gene_or_protein|9,13 Pharmacodynamic_phenotype|9,9 Chemical|2,6 Haplotype|12,13 Pharmacodynamic_phenotype
+
+This combination of R and L genotypes was associated with lower PON 1 activity towards diazoxon in both cases and controls .
+11,15 Pharmacokinetic_phenotype|11,12 Gene_or_protein|15,15 Chemical|1,6 Limited_variation|5,5 Limited_variation|3,3 Limited_variation|11,13 Pharmacokinetic_phenotype
+
+Phenytoin appears to increase LPV clearance via CYP 3 A 4 induction , which is not offset by the presence of low - dose RTV .
+0,0 Chemical|4,4 Chemical|7,11 Phenotype|7,10 Gene_or_protein|24,24 Chemical|4,5 Pharmacokinetic_phenotype
+
+Modulation of 5 - HT neurons in the dorsalraphe nucleus by GABA , glutamate and CRF profoundly regulate aggressive behaviors .
+2,4 Chemical|11,11 Chemical|13,13 Chemical|15,15 Chemical|18,19 Phenotype|0,5 Phenotype
+
+A phase I study of selumetinib ( AZD 6244 / ARRY - 142866 ) , a MEK 1 / 2 inhibitor , in combination with cetuximab in refractory solid tumors and KRAS mutant colorectal cancer .
+7,8 Chemical|5,5 Chemical|10,12 Chemical|16,19 Gene_or_protein|27,29 Disease|31,34 Disease|31,31 Gene_or_protein|16,20 Chemical|25,25 Chemical|31,32 Limited_variation|5,5,22,25 Chemical
+
+These pharmacokinetic parameters were also investigated with respect to the CYP 2 D 6 polymorphism , i . e . via dextromethorphan phenotyping of 9 subjects , 3 subjects were poor metabolizers , and 6 extensive metabolizers .
+10,14 Limited_variation|10,13 Gene_or_protein|21,21 Chemical|30,31 Pharmacokinetic_phenotype|35,36 Pharmacokinetic_phenotype|21,22 Phenotype|1,2 Pharmacokinetic_phenotype
+
+RESULTS : Two single - nucleotide polymorphisms were significantly associated with alcohol dependence in European Americans using the Nyholt corrected p value of . 007 : rs 886003 ( b = - . 212 , p = . 0002 ) and rs 17862325 ( b = - . 234 , p < . 0001 ) , but not in African Americans , likely because of the lower power to detect association in this group .
+11,11 Chemical|26,27 Limited_variation|41,42 Limited_variation|11,12 Disease|3,6 Limited_variation
+
+Nigrostriatal lesions alter oral dyskinesia and c - Fos expression induced by the serotonin agonist 1 - ( m - chlorophenyl ) piperazine in adult rats .
+0,1 Phenotype|3,4 Disease|6,9 Phenotype|6,8 Gene_or_protein|15,22 Chemical|13,14 Chemical
+
+Thus , antisense PKA RIalpha and CpG immunomer in combination work cooperatively and as tumor - targeted therapeutics to treat human cancer .
+14,14 Disease|21,21 Disease|2,9 Chemical|6,7 Chemical|14,17 Chemical|2,4 Chemical
+
+The incidence and type of p 53 mutation did not differ significantly in patients with a history of phenacetin abuse , smoking or neither of these habits .
+5,7 Limited_variation|5,6 Gene_or_protein|18,18 Chemical|18,19 Phenotype|21,21 Phenotype
+
+The effect was influenced by CYP 3 A 5 polymorphism , although the tacrolimus variability itself was not determined by the CYP 3 A 5 polymorphism .
+5,9 Limited_variation|5,8 Gene_or_protein|13,13 Chemical|21,25 Limited_variation|21,24 Gene_or_protein|13,14 Pharmacodynamic_phenotype
+
+HPMA copolymer bound adriamycin overcomes MDR 1 gene encoded resistance in a human ovarian carcinoma cell line .
+5,6 Gene_or_protein|3,3 Chemical|13,14 Disease|5,9 Phenotype|0,3 Chemical
+
+The diallyl disulfide - mediated inhibition of H - ras oncogene transformed tumor growth correlated with the inhibition of p 21 ( H - ras ) membrane association .
+1,2 Chemical|7,9 Gene_or_protein|19,20 Gene_or_protein|22,24 Gene_or_protein|1,10 Pharmacodynamic_phenotype|17,27 Phenotype|12,13 Phenotype|12,12 Disease|5,10 Pharmacodynamic_phenotype
+
+The combination of erlotinib and bevacizumab prolongs PFS in patients with EGFR - mutant NSCLC .
+11,11 Gene_or_protein|3,5 Chemical|7,7 Phenotype|11,13 Limited_variation|11,14 Disease|3,3 Chemical|5,5 Chemical
+
+After the screening of 860 healthy Finnish volunteers for the CES 1 c . 428 G > A ( p . Gly 143 Glu , rs 121912777 ) polymorphism , a pharmacokinetic study with 75 mg oseltamivir was carried out in c . 428 G > A carriers and noncarriers .
+19,23 Limited_variation|25,26 Limited_variation|36,36 Chemical|41,46 Limited_variation|10,11 Gene_or_protein|10,17 Limited_variation
+
+Combination of fludarabine with SYK Inhibitor II or R 406 increased cytotoxicity compared with fludarabine therapy alone .
+2,2 Chemical|4,4 Gene_or_protein|11,11 Disease|14,14 Chemical|4,6 Chemical|8,9 Chemical|0,6 Chemical|0,3,8,9 Chemical
+
+Possible involvement of CCT 5 , RGS 3 , and YKT 6 genes up - regulated in p 53 - mutated tumors in resistance to docetaxel in human breast cancers .
+3,4 Gene_or_protein|6,7 Gene_or_protein|10,11 Gene_or_protein|17,18 Gene_or_protein|25,25 Chemical|28,29 Disease|17,21 Disease|23,25 Pharmacodynamic_phenotype|17,20 Limited_variation
+
+To reach an effective dose while avoiding adverse drug reactions ( ADRs ) , testing of CYP 2 D 6 genotype prior to carvedilol initiation may be considered .
+16,19 Gene_or_protein|3,4 Pharmacodynamic_phenotype|7,9 Pharmacodynamic_phenotype|11,11 Pharmacodynamic_phenotype|16,20 Limited_variation|23,23 Chemical
+
+AIM : To evaluate bacterial cytosine deaminase ( bCD ) mutant D 314 A and 5 - fluorocytosine ( 5 - FC ) for treatment of colon cancer in a mouse model .
+5,13 Limited_variation|15,17 Chemical|19,21 Chemical|26,27 Disease|8,8 Gene_or_protein|5,6 Gene_or_protein
+
+PMH therapy was not significantly associated with the MSI - H , CIMP - positive or BRAF - mutated CRC subtypes .
+8,10 Genomic_factor|16,16 Gene_or_protein|19,19 Disease|0,0 Chemical|16,18 Limited_variation|12,14 Phenotype|8,10,19,19 Disease|12,14,19,19 Disease|16,19 Disease
+

@@ -1,0 +1,14 @@
+pre. tgt. for `dev`:   0%|          | 0/75 [00:00<?, ?it/s]pre. tgt. for `dev`:  64%|██████▍   | 48/75 [00:00<00:00, 473.18it/s]                                                                     pre. tgt. for `test`:   0%|          | 0/76 [00:00<?, ?it/s]pre. tgt. for `test`:  64%|██████▍   | 49/76 [00:00<00:00, 484.25it/s]                                                                      pre. tgt. for `train`:   0%|          | 0/567 [00:00<?, ?it/s]pre. tgt. for `train`:   9%|▊         | 49/567 [00:00<00:01, 486.43it/s]pre. tgt. for `train`:  18%|█▊        | 102/567 [00:00<00:00, 497.05it/s]pre. tgt. for `train`:  26%|██▋       | 149/567 [00:00<00:00, 486.72it/s]pre. tgt. for `train`:  36%|███▌      | 204/567 [00:00<00:00, 502.47it/s]pre. tgt. for `train`:  45%|████▌     | 257/567 [00:00<00:00, 508.94it/s]pre. tgt. for `train`:  54%|█████▍    | 306/567 [00:00<00:00, 502.81it/s]pre. tgt. for `train`:  63%|██████▎   | 359/567 [00:00<00:00, 508.88it/s]pre. tgt. for `train`:  73%|███████▎  | 412/567 [00:00<00:00, 514.59it/s]pre. tgt. for `train`:  82%|████████▏ | 465/567 [00:00<00:00, 517.29it/s]pre. tgt. for `train`:  91%|█████████ | 515/567 [00:01<00:00, 507.34it/s]pre. tgt. for `train`: 100%|█████████▉| 565/567 [00:01<00:00, 503.80it/s]                                                                         Traceback (most recent call last):
+  File "./BARTNER/train.py", line 332, in <module>
+    trainer.train(load_best_model=False)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/trainer.py", line 667, in train
+    raise e
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/trainer.py", line 657, in train
+    self.callback_manager.on_train_begin()
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/callback.py", line 322, in wrapper
+    returns.append(getattr(callback, func.__name__)(*arg))
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER/model/callbacks.py", line 317, in on_train_begin
+    subdir_indexes = [re.match(r'\d+',f.name) for f in os.listdir(self.history_dir)]
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER/model/callbacks.py", line 317, in <listcomp>
+    subdir_indexes = [re.match(r'\d+',f.name) for f in os.listdir(self.history_dir)]
+AttributeError: 'str' object has no attribute 'name'

@@ -1,0 +1,14 @@
+Running on sh05
+# conda environments:
+#
+base                  *  /opt/conda
+PGx_env                  /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env
+PGx_env_37               /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env_37
+clean_PGx_env            /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/clean_PGx_env
+clean_PGx_env_latest_transformers     /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/clean_PGx_env_latest_transformers
+cloned_env               /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/cloned_env
+final_PGx_env            /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/final_PGx_env
+new_PGx_env              /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env
+torch_from_source_env     /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env
+
+Namespace(dataset_name='PGxCorpus', schedule='linear', n_epochs=100, batch_size=8, lr=1e-05, length_penalty=1, warmup_ratio=0.01, eval_start_epoch=10, save_model=1, target_type='word', bart_name='GanjinZero/biobart-base', decoder_type='avg_feature', use_encoder_mlp=1, max_len=10, max_len_a=1.6, num_beams=3, history_dir='./training_history')

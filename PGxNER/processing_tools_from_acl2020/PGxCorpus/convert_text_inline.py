@@ -7,9 +7,9 @@ def parse_parameters(parser=None):
     if parser is None: parser = argparse.ArgumentParser()
 
     ## Required
-    parser.add_argument("--input_ann", default="../../cadec/processed_data/tokens.ann", type=str)
-    parser.add_argument("--input_tokens", default="../../cadec/processed_data/tokens", type=str)
-    parser.add_argument("--output_filepath", default="../../cadec/processed_data/text-inline", type=str)
+    parser.add_argument("--input_ann", default="../../PGxCorpus/processed_data/tokens.ann", type=str)
+    parser.add_argument("--input_tokens", default="../../PGxCorpus/processed_data/tokens", type=str)
+    parser.add_argument("--output_filepath", default="../../PGxCorpus/processed_data/text-inline", type=str)
     parser.add_argument("--no_doc_info", action="store_true")
 
     args, _ = parser.parse_known_args()

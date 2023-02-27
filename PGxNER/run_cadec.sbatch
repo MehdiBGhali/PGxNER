@@ -4,6 +4,7 @@
 #SBATCH --nodes=1
 #SBATCH --partition=gpu_prod_long
 #SBATCH --time=12:00:00
+#SBATCH --exclude=sh[00,10-16] 
 #SBATCH --output=logslurms/cadec/slurm-%j.out
 #SBATCH --error=logslurms/cadec/slurm-%j.err
 
@@ -14,7 +15,7 @@ export PATH=/opt/conda/bin:$PATH
 conda info --envs
 
 # Load the conda environment
-source activate PGx_env
+source activate new_PGx_env
 
 ## Change Python version 
 #conda install python=3.8
@@ -31,6 +32,7 @@ source activate PGx_env
 #pip install -r ./BARTNER/requirements.txt
 #pip install git+https://github.com/fastnlp/fastNLP@dev
 #pip install git+https://github.com/fastnlp/fitlog
+python3 -m pip install torch torch
 
 # Run training for cadec
 python ./BARTNER/train.py --dataset_name CADEC

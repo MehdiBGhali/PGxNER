@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "./BARTNER/train.py", line 126, in <module>
+    if isinstance(args.decoder_type, str) and args.decoder_type.lower() == 'none':
+AttributeError: 'Namespace' object has no attribute 'decoder_type'

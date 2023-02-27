@@ -1,0 +1,125 @@
+Running on sh05
+# conda environments:
+#
+base                  *  /opt/conda
+PGx_env                  /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env
+PGx_env_37               /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env_37
+clean_PGx_env            /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/clean_PGx_env
+clean_PGx_env_latest_transformers     /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/clean_PGx_env_latest_transformers
+cloned_env               /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/cloned_env
+final_PGx_env            /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/final_PGx_env
+new_PGx_env              /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env
+torch_from_source_env     /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env
+
+Found existing installation: transformers 4.26.1
+Uninstalling transformers-4.26.1:
+  Would remove:
+    /usr/users/rattrapagemehdibenghali/benghali_meh/.local/bin/transformers-cli
+    /usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.9/site-packages/transformers-4.26.1.dist-info/*
+    /usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.9/site-packages/transformers/*
+Proceed (Y/n)? Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... failed
+Defaulting to user installation because normal site-packages is not writeable
+Collecting transformers==4.10.2
+  Downloading transformers-4.10.2-py3-none-any.whl (2.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.8/2.8 MB 9.7 MB/s eta 0:00:00
+Collecting regex!=2019.12.17
+  Using cached regex-2022.10.31-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (769 kB)
+Collecting tqdm>=4.27
+  Using cached tqdm-4.64.1-py2.py3-none-any.whl (78 kB)
+Collecting packaging
+  Using cached packaging-23.0-py3-none-any.whl (42 kB)
+Collecting numpy>=1.17
+  Using cached numpy-1.24.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (17.3 MB)
+Collecting filelock
+  Using cached filelock-3.9.0-py3-none-any.whl (9.7 kB)
+Collecting requests
+  Using cached requests-2.28.2-py3-none-any.whl (62 kB)
+Collecting pyyaml>=5.1
+  Using cached PyYAML-6.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (661 kB)
+Collecting sacremoses
+  Using cached sacremoses-0.0.53-py3-none-any.whl
+Collecting huggingface-hub>=0.0.12
+  Using cached huggingface_hub-0.12.1-py3-none-any.whl (190 kB)
+Collecting tokenizers<0.11,>=0.10.1
+  Downloading tokenizers-0.10.3-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (3.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 29.3 MB/s eta 0:00:00
+Collecting typing-extensions>=3.7.4.3
+  Using cached typing_extensions-4.5.0-py3-none-any.whl (27 kB)
+Collecting idna<4,>=2.5
+  Using cached idna-3.4-py3-none-any.whl (61 kB)
+Collecting charset-normalizer<4,>=2
+  Using cached charset_normalizer-3.0.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (198 kB)
+Collecting certifi>=2017.4.17
+  Using cached certifi-2022.12.7-py3-none-any.whl (155 kB)
+Collecting urllib3<1.27,>=1.21.1
+  Using cached urllib3-1.26.14-py2.py3-none-any.whl (140 kB)
+Collecting joblib
+  Using cached joblib-1.2.0-py3-none-any.whl (297 kB)
+Collecting click
+  Using cached click-8.1.3-py3-none-any.whl (96 kB)
+Collecting six
+  Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Installing collected packages: tokenizers, charset-normalizer, urllib3, typing-extensions, tqdm, six, regex, pyyaml, packaging, numpy, joblib, idna, filelock, click, certifi, sacremoses, requests, huggingface-hub, transformers
+  Attempting uninstall: tokenizers
+    Found existing installation: tokenizers 0.13.2
+    Uninstalling tokenizers-0.13.2:
+      Successfully uninstalled tokenizers-0.13.2
+  Attempting uninstall: charset-normalizer
+    Found existing installation: charset-normalizer 3.0.1
+    Uninstalling charset-normalizer-3.0.1:
+      Successfully uninstalled charset-normalizer-3.0.1
+  Attempting uninstall: urllib3
+    Found existing installation: urllib3 1.26.14
+    Uninstalling urllib3-1.26.14:
+      Successfully uninstalled urllib3-1.26.14
+  Attempting uninstall: typing-extensions
+    Found existing installation: typing_extensions 4.5.0
+    Uninstalling typing_extensions-4.5.0:
+      Successfully uninstalled typing_extensions-4.5.0
+  Attempting uninstall: tqdm
+    Found existing installation: tqdm 4.64.1
+    Uninstalling tqdm-4.64.1:
+      Successfully uninstalled tqdm-4.64.1
+  Attempting uninstall: regex
+    Found existing installation: regex 2022.10.31
+    Uninstalling regex-2022.10.31:
+      Successfully uninstalled regex-2022.10.31
+  Attempting uninstall: pyyaml
+    Found existing installation: PyYAML 6.0
+    Uninstalling PyYAML-6.0:
+      Successfully uninstalled PyYAML-6.0
+  Attempting uninstall: packaging
+    Found existing installation: packaging 23.0
+    Uninstalling packaging-23.0:
+      Successfully uninstalled packaging-23.0
+  Attempting uninstall: numpy
+    Found existing installation: numpy 1.24.2
+    Uninstalling numpy-1.24.2:
+      Successfully uninstalled numpy-1.24.2
+  Attempting uninstall: idna
+    Found existing installation: idna 3.4
+    Uninstalling idna-3.4:
+      Successfully uninstalled idna-3.4
+  Attempting uninstall: filelock
+    Found existing installation: filelock 3.9.0
+    Uninstalling filelock-3.9.0:
+      Successfully uninstalled filelock-3.9.0
+  Attempting uninstall: certifi
+    Found existing installation: certifi 2022.12.7
+    Uninstalling certifi-2022.12.7:
+      Successfully uninstalled certifi-2022.12.7
+  Attempting uninstall: requests
+    Found existing installation: requests 2.28.2
+    Uninstalling requests-2.28.2:
+      Successfully uninstalled requests-2.28.2
+  Attempting uninstall: huggingface-hub
+    Found existing installation: huggingface-hub 0.12.1
+    Uninstalling huggingface-hub-0.12.1:
+      Successfully uninstalled huggingface-hub-0.12.1
+  Attempting uninstall: transformers
+    Found existing installation: transformers 4.26.1
+    Uninstalling transformers-4.26.1:
+      Successfully uninstalled transformers-4.26.1
+Successfully installed certifi-2022.12.7 charset-normalizer-3.0.1 click-8.1.3 filelock-3.9.0 huggingface-hub-0.12.1 idna-3.4 joblib-1.2.0 numpy-1.24.2 packaging-23.0 pyyaml-6.0 regex-2022.10.31 requests-2.28.2 sacremoses-0.0.53 six-1.16.0 tokenizers-0.10.3 tqdm-4.64.1 transformers-4.10.2 typing-extensions-4.5.0 urllib3-1.26.14
+Namespace(dataset_name='PGxCorpus', schedule='linear', n_epochs=100, batch_size=8, lr=1e-05, length_penalty=1, warmup_ratio=0.01, eval_start_epoch=10, save_model=1, target_type='word', bart_name='GanjinZero/biobart-base', decoder_type='avg_feature', use_encoder_mlp=1, max_len=10, max_len_a=1.6, num_beams=3, history_dir='./training_history')

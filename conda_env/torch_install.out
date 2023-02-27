@@ -1,0 +1,174 @@
+Running on sh08
+# conda environments:
+#
+base                  *  /opt/conda
+PGx_env                  /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env
+PGx_env_37               /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env_37
+clean_PGx_env            /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/clean_PGx_env
+clean_PGx_env_latest_transformers     /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/clean_PGx_env_latest_transformers
+cloned_env               /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/cloned_env
+final_PGx_env            /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/final_PGx_env
+new_PGx_env              /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env
+torch_from_source_env     /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env
+
+# packages in environment at /opt/conda:
+#
+# Name                    Version                   Build  Channel
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... failed with initial frozen solve. Retrying with flexible solve.
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... failed with initial frozen solve. Retrying with flexible solve.
+Found existing installation: torch 1.13.1
+Uninstalling torch-1.13.1:
+  Successfully uninstalled torch-1.13.1
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... failed
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... failed with initial frozen solve. Retrying with flexible solve.
+Solving environment: ...working... failed with repodata from current_repodata.json, will retry with next repodata source.
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /opt/conda
+
+  added / updated specs:
+    - cmake
+    - ninja
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    cmake-3.19.6               |       h973ab73_0         6.8 MB
+    conda-4.12.0               |   py39h06a4308_0        14.5 MB
+    ------------------------------------------------------------
+                                           Total:        21.3 MB
+
+The following NEW packages will be INSTALLED:
+
+  cmake              pkgs/main/linux-64::cmake-3.19.6-h973ab73_0
+  ninja              pkgs/main/linux-64::ninja-1.10.2-h06a4308_5
+  ninja-base         pkgs/main/linux-64::ninja-base-1.10.2-hd09550d_5
+  rhash              pkgs/main/linux-64::rhash-1.4.1-h3c74f83_1
+
+The following packages will be UPDATED:
+
+  conda                               4.10.3-py39h06a4308_0 --> 4.12.0-py39h06a4308_0
+
+
+Proceed ([y]/n)? 
+
+Downloading and Extracting Packages
+cmake-3.19.6         | 6.8 MB    |            |   0% cmake-3.19.6         | 6.8 MB    |            |   0% cmake-3.19.6         | 6.8 MB    | 4          |   5% cmake-3.19.6         | 6.8 MB    | #3         |  14% cmake-3.19.6         | 6.8 MB    | ###4       |  34% cmake-3.19.6         | 6.8 MB    | ######5    |  66% cmake-3.19.6         | 6.8 MB    | ########## | 100% cmake-3.19.6         | 6.8 MB    | ########## | 100% 
+conda-4.12.0         | 14.5 MB   |            |   0% conda-4.12.0         | 14.5 MB   | #5         |  16% conda-4.12.0         | 14.5 MB   | #####6     |  57% conda-4.12.0         | 14.5 MB   | ########## | 100% conda-4.12.0         | 14.5 MB   | ########## | 100% 
+Preparing transaction: ...working... done
+Verifying transaction: ...working... failed
+Chemin de sous-module 'android/libs/fbjni' : '7e1e1fe3858c63c251c637ae41a20de425dde96f' extrait
+Chemin de sous-module 'third_party/FP16' : '4dfe081cf6bcd15db339cf2680b9281b8451eeb3' extrait
+Chemin de sous-module 'third_party/FXdiv' : 'b408327ac2a15ec3e43352421954f5b1967701d1' extrait
+Chemin de sous-module 'third_party/NNPACK' : 'c07e3a0400713d546e0dea2d5466dd22ea389c73' extrait
+Chemin de sous-module 'third_party/QNNPACK' : '7d2a4e9931a82adc3814275b6219a03e24e36b4c' extrait
+Chemin de sous-module 'third_party/VulkanMemoryAllocator' : 'a6bfc237255a6bac1513f7c1ebde6d8aed6b5191' extrait
+Chemin de sous-module 'third_party/XNNPACK' : '51a987591a6fc9f0fc0707077f53d763ac132cbf' extrait
+Chemin de sous-module 'third_party/benchmark' : '0d98dba29d66e93259db7daa53a9327df767a415' extrait
+Chemin de sous-module 'third_party/cpuinfo' : '8ec7bd91ad0470e61cf38f618cc1f270dede599c' extrait
+Chemin de sous-module 'third_party/cub' : 'd106ddb991a56c3df1b6d51b2409e36ba8181ce4' extrait
+Chemin de sous-module 'third_party/cudnn_frontend' : '81a041a68245cd8f871c43bbbbd5b6b627979a30' extrait
+Chemin de sous-module 'third_party/cutlass' : 'b72cbf957df8cf84a6d0ff91c190ad51a9c1d24a' extrait
+Chemin de sous-module 'third_party/eigen' : '3147391d946bb4b6c68edd901f2add6ac1f31f8c' extrait
+Chemin de sous-module 'third_party/fbgemm' : '03b2046676707da64504e898490ab46104d4682a' extrait
+Chemin de sous-module 'third_party/fbgemm/third_party/asmjit' : 'd3fbf7c9bc7c1d1365a94a45614b91c5a3706b81' extrait
+Chemin de sous-module 'third_party/fbgemm/third_party/cpuinfo' : 'ed8b86a253800bafdb7b25c5c399f91bff9cb1f3' extrait
+Chemin de sous-module 'third_party/fbgemm/third_party/cutlass' : 'fc9ebc645b63f3a6bc80aaefde5c063fb72110d6' extrait
+Chemin de sous-module 'third_party/fbgemm/third_party/googletest' : 'cbf019de22c8dd37b2108da35b2748fd702d1796' extrait
+Chemin de sous-module 'third_party/fbgemm/third_party/hipify_torch' : '1840658c184f3eeba787dae0f06c45756c1daaf5' extrait
+Chemin de sous-module 'third_party/flatbuffers' : 'd0cede9c90c5257537c293517a21376408b549fa' extrait
+Chemin de sous-module 'third_party/fmt' : 'a33701196adfad74917046096bf5a2aa0ab0bb50' extrait
+Chemin de sous-module 'third_party/foxi' : 'c278588e34e535f0bb8f00df3880d26928038cad' extrait
+Chemin de sous-module 'third_party/gemmlowp/gemmlowp' : '3fb5c176c17c765a3492cd2f0321b0dab712f350' extrait
+Chemin de sous-module 'third_party/gloo' : '10909297fedab0a680799211a299203e53515032' extrait
+Chemin de sous-module 'third_party/googletest' : 'e2239ee6043f73722e7aa812a459f54a28552929' extrait
+Chemin de sous-module 'third_party/ideep' : 'e7925bc7c260e6c4481ccb53b7d29c59a901a05d' extrait
+Chemin de sous-module 'third_party/ideep/mkl-dnn' : '6dbeffbae1f23cbbeae17adb7b5b13f1f37c080e' extrait
+Chemin de sous-module 'third_party/ios-cmake' : '8abaed637d56f1337d6e1d2c4026e25c1eade724' extrait
+Chemin de sous-module 'third_party/ittapi' : '5b8a7d7422611c3a0d799fb5fc5dd4abfae35b42' extrait
+Chemin de sous-module 'third_party/kineto' : '2da532c91dee9dc36cccc6088206daa1b69e3966' extrait
+Chemin de sous-module 'third_party/kineto/libkineto/third_party/dynolog' : '7d04a0053a845370ae06ce317a22a48e9edcc74e' extrait
+Chemin de sous-module 'third_party/kineto/libkineto/third_party/dynolog/third_party/DCGM' : 'ffde4e54bc7249a6039a5e6b45b395141e1217f9' extrait
+Chemin de sous-module 'third_party/kineto/libkineto/third_party/dynolog/third_party/cpr' : '871ed52d350214a034f6ef8a3b8f51c5ce1bd400' extrait
+Chemin de sous-module 'third_party/kineto/libkineto/third_party/dynolog/third_party/fmt' : 'cd4af11efc9c622896a3e4cb599fa28668ca3d05' extrait
+Chemin de sous-module 'third_party/kineto/libkineto/third_party/dynolog/third_party/gflags' : 'e171aa2d15ed9eb17054558e0b3a6a413bb01067' extrait
+Chemin de sous-module 'third_party/kineto/libkineto/third_party/dynolog/third_party/gflags/doc' : '8411df715cf522606e3b1aca386ddfc0b63d34b4' extrait
+Chemin de sous-module 'third_party/kineto/libkineto/third_party/dynolog/third_party/glog' : 'b33e3bad4c46c8a6345525fd822af355e5ef9446' extrait
+Chemin de sous-module 'third_party/kineto/libkineto/third_party/dynolog/third_party/googletest' : '58d77fa8070e8cec2dc1ed015d66b454c8d78850' extrait
+Chemin de sous-module 'third_party/kineto/libkineto/third_party/dynolog/third_party/json' : '4f8fba14066156b73f1189a2b8bd568bde5284c5' extrait
+Chemin de sous-module 'third_party/kineto/libkineto/third_party/dynolog/third_party/pfs' : 'f68a2fa8ea36c783bdd760371411fcb495aa3150' extrait
+Chemin de sous-module 'third_party/kineto/libkineto/third_party/fmt' : '2591ab91c3898c9f6544fff04660276537d32ffd' extrait
+Chemin de sous-module 'third_party/kineto/libkineto/third_party/googletest' : '7aca84427f224eeed3144123d5230d5871e93347' extrait
+Chemin de sous-module 'third_party/nccl/nccl' : 'f89fd4777d2ef9229c039ff750ae21da01626f52' extrait
+Chemin de sous-module 'third_party/neon2sse' : '97a126f08ce318023be604d03f88bf0820a9464a' extrait
+Chemin de sous-module 'third_party/nlohmann' : '87cda1d6646592ac5866dc703c8e1839046a6806' extrait
+Chemin de sous-module 'third_party/onnx' : 'e192ba01e438d22ca2dedd7956e28e3551626c91' extrait
+Chemin de sous-module 'third_party/onnx/third_party/benchmark' : '0d98dba29d66e93259db7daa53a9327df767a415' extrait
+Chemin de sous-module 'third_party/onnx/third_party/pybind11' : '914c06fb252b6cc3727d0eedab6736e88a3fcb01' extrait
+Chemin de sous-module 'third_party/onnx-tensorrt' : 'c153211418a7c57ce071d9ce2a41f8d1c85a878f' extrait
+Chemin de sous-module 'third_party/onnx-tensorrt/third_party/onnx' : '765f5ee823a67a866f4bd28a9860e81f3c811ce8' extrait
+Chemin de sous-module 'third_party/onnx-tensorrt/third_party/onnx/third_party/benchmark' : 'e776aa0275e293707b6a0901e0e8d8a8a3679508' extrait
+Chemin de sous-module 'third_party/onnx-tensorrt/third_party/onnx/third_party/pybind11' : 'a1041190c8b8ff0cd9e2f0752248ad5e3789ea0c' extrait
+Chemin de sous-module 'third_party/onnx-tensorrt/third_party/onnx/third_party/pybind11/tools/clang' : '6a00cbc4a9b8e68b71caf7f774b3f9c753ae84d5' extrait
+Chemin de sous-module 'third_party/pocketfft' : 'ea778e37710c07723435b1be58235996d1d43a5a' extrait
+Chemin de sous-module 'third_party/protobuf' : 'd1eca4e4b421cd2997495c4b4e65cea6be4e9b8a' extrait
+Chemin de sous-module 'third_party/protobuf/third_party/benchmark' : '5b7683f49e1e9223cf9927b24f6fd3d6bd82e3f8' extrait
+Chemin de sous-module 'third_party/protobuf/third_party/googletest' : '5ec7f0c4a113e2f18ac2c6cc7df51ad6afc24081' extrait
+Chemin de sous-module 'third_party/psimd' : '072586a71b55b7f8c584153d223e95687148a900' extrait
+Chemin de sous-module 'third_party/pthreadpool' : 'a134dd5d4cee80cce15db81a72e7f929d71dd413' extrait
+Chemin de sous-module 'third_party/pybind11' : '80dc998efced8ceb2be59756668a7e90e8bef917' extrait
+Chemin de sous-module 'third_party/python-enum' : '4cfedc426c4e2fc52e3f5c2b4297e15ed8d6b8c7' extrait
+Chemin de sous-module 'third_party/python-peachpy' : 'f45429b087dd7d5bc78bb40dc7cf06425c252d67' extrait
+Chemin de sous-module 'third_party/python-six' : '15e31431af97e5e64b80af0a3f598d382bcdd49a' extrait
+Chemin de sous-module 'third_party/sleef' : 'e0a003ee838b75d11763aa9c3ef17bf71a725bff' extrait
+Chemin de sous-module 'third_party/tbb' : 'a51a90bc609bb73db8ea13841b5cf7aa4344d4a9' extrait
+Chemin de sous-module 'third_party/tensorpipe' : '52791a2fd214b2a9dc5759d36725909c1daa7f2e' extrait
+Chemin de sous-module 'third_party/tensorpipe/third_party/googletest' : 'aee0f9d9b5b87796ee8a0ab26b7587ec30e8858e' extrait
+Chemin de sous-module 'third_party/tensorpipe/third_party/libnop' : '910b55815be16109f04f4180e9adee14fb4ce281' extrait
+Chemin de sous-module 'third_party/tensorpipe/third_party/libuv' : '1dff88e5161cba5c59276d2070d2e304e4dcb242' extrait
+Chemin de sous-module 'third_party/tensorpipe/third_party/pybind11' : 'a23996fce38ff6ccfbcdc09f1e63f2c4be5ea2ef' extrait
+Chemin de sous-module 'third_party/tensorpipe/third_party/pybind11/tools/clang' : '6a00cbc4a9b8e68b71caf7f774b3f9c753ae84d5' extrait
+Chemin de sous-module 'third_party/zstd' : 'aec56a52fbab207fc639a1937d1e708a282edca8' extrait
+Defaulting to user installation because normal site-packages is not writeable
+Collecting astunparse
+  Using cached astunparse-1.6.3-py2.py3-none-any.whl (12 kB)
+Collecting expecttest
+  Using cached expecttest-0.1.4-py3-none-any.whl (6.5 kB)
+Collecting hypothesis
+  Using cached hypothesis-6.68.2-py3-none-any.whl (402 kB)
+Requirement already satisfied: numpy in /opt/conda/lib/python3.9/site-packages (from -r requirements.txt (line 5)) (1.20.3)
+Requirement already satisfied: psutil in /opt/conda/lib/python3.9/site-packages (from -r requirements.txt (line 6)) (5.8.0)
+Requirement already satisfied: pyyaml in /opt/conda/lib/python3.9/site-packages (from -r requirements.txt (line 7)) (6.0)
+Requirement already satisfied: requests in /opt/conda/lib/python3.9/site-packages (from -r requirements.txt (line 8)) (2.26.0)
+Requirement already satisfied: setuptools in /usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.9/site-packages (from -r requirements.txt (line 9)) (67.1.0)
+Collecting types-dataclasses
+  Using cached types_dataclasses-0.6.6-py3-none-any.whl (2.9 kB)
+Requirement already satisfied: typing-extensions in /opt/conda/lib/python3.9/site-packages (from -r requirements.txt (line 11)) (3.10.0.2)
+Requirement already satisfied: sympy in /opt/conda/lib/python3.9/site-packages (from -r requirements.txt (line 12)) (1.9)
+Requirement already satisfied: filelock in /opt/conda/lib/python3.9/site-packages (from -r requirements.txt (line 13)) (3.3.1)
+Requirement already satisfied: networkx in /opt/conda/lib/python3.9/site-packages (from -r requirements.txt (line 14)) (2.6.3)
+Requirement already satisfied: jinja2 in /opt/conda/lib/python3.9/site-packages (from -r requirements.txt (line 15)) (2.11.3)
+Requirement already satisfied: six<2.0,>=1.6.1 in /opt/conda/lib/python3.9/site-packages (from astunparse->-r requirements.txt (line 2)) (1.16.0)
+Requirement already satisfied: wheel<1.0,>=0.23.0 in /opt/conda/lib/python3.9/site-packages (from astunparse->-r requirements.txt (line 2)) (0.37.0)
+Requirement already satisfied: attrs>=19.2.0 in /opt/conda/lib/python3.9/site-packages (from hypothesis->-r requirements.txt (line 4)) (21.2.0)
+Collecting exceptiongroup>=1.0.0
+  Using cached exceptiongroup-1.1.0-py3-none-any.whl (14 kB)
+Requirement already satisfied: sortedcontainers<3.0.0,>=2.1.0 in /opt/conda/lib/python3.9/site-packages (from hypothesis->-r requirements.txt (line 4)) (2.4.0)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /opt/conda/lib/python3.9/site-packages (from requests->-r requirements.txt (line 8)) (1.26.7)
+Requirement already satisfied: charset-normalizer~=2.0.0 in /opt/conda/lib/python3.9/site-packages (from requests->-r requirements.txt (line 8)) (2.0.4)
+Requirement already satisfied: idna<4,>=2.5 in /opt/conda/lib/python3.9/site-packages (from requests->-r requirements.txt (line 8)) (3.2)
+Requirement already satisfied: certifi>=2017.4.17 in /opt/conda/lib/python3.9/site-packages (from requests->-r requirements.txt (line 8)) (2021.10.8)
+Requirement already satisfied: mpmath>=0.19 in /opt/conda/lib/python3.9/site-packages (from sympy->-r requirements.txt (line 12)) (1.2.1)
+Requirement already satisfied: MarkupSafe>=0.23 in /opt/conda/lib/python3.9/site-packages (from jinja2->-r requirements.txt (line 15)) (1.1.1)
+Installing collected packages: types-dataclasses, expecttest, exceptiongroup, astunparse, hypothesis
+Successfully installed astunparse-1.6.3 exceptiongroup-1.1.0 expecttest-0.1.4 hypothesis-6.68.2 types-dataclasses-0.6.6
+Building wheel torch-2.0.0a0+git5a8092f

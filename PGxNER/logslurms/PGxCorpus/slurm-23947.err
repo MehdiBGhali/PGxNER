@@ -1,0 +1,47 @@
+Could not find conda environment: cloned_env_latest_transformers
+You can list all discoverable environments with `conda info --envs`.
+
+ERROR: Exception:
+Traceback (most recent call last):
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.9/site-packages/pip/_internal/cli/base_command.py", line 160, in exc_logging_wrapper
+    status = run_func(*args)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.9/site-packages/pip/_internal/commands/uninstall.py", line 105, in run
+    uninstall_pathset = req.uninstall(
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.9/site-packages/pip/_internal/req/req_install.py", line 664, in uninstall
+    uninstalled_pathset.remove(auto_confirm, verbose)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.9/site-packages/pip/_internal/req/req_uninstall.py", line 367, in remove
+    if auto_confirm or self._allowed_to_proceed(verbose):
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.9/site-packages/pip/_internal/req/req_uninstall.py", line 407, in _allowed_to_proceed
+    return ask("Proceed (Y/n)? ", ("y", "n", "")) != "n"
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.9/site-packages/pip/_internal/utils/misc.py", line 191, in ask
+    response = input(message)
+EOFError: EOF when reading a line
+
+PackagesNotFoundError: The following packages are missing from the target environment:
+  - transformers
+
+
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+daal4py 2021.3.0 requires daal==2021.2.3, which is not installed.
+conda-repo-cli 1.0.4 requires pathlib, which is not installed.
+anaconda-project 0.10.1 requires ruamel-yaml, which is not installed.
+scipy 1.7.1 requires numpy<1.23.0,>=1.16.5, but you have numpy 1.24.2 which is incompatible.
+numba 0.54.1 requires numpy<1.21,>=1.17, but you have numpy 1.24.2 which is incompatible.
+Downloading:   0%|          | 0.00/1.06k [00:00<?, ?B/s]Downloading: 100%|██████████| 1.06k/1.06k [00:00<00:00, 672kB/s]
+Downloading:   0%|          | 0.00/899k [00:00<?, ?B/s]Downloading:   3%|▎         | 28.7k/899k [00:00<00:04, 176kB/s]Downloading:  22%|██▏       | 197k/899k [00:00<00:01, 677kB/s] Downloading:  95%|█████████▍| 852k/899k [00:00<00:00, 2.20MB/s]Downloading: 100%|██████████| 899k/899k [00:00<00:00, 1.82MB/s]
+Downloading:   0%|          | 0.00/456k [00:00<?, ?B/s]Downloading:   7%|▋         | 32.8k/456k [00:00<00:02, 201kB/s]Downloading:  39%|███▊      | 176k/456k [00:00<00:00, 599kB/s] Downloading: 100%|██████████| 456k/456k [00:00<00:00, 1.11MB/s]
+Downloading:   0%|          | 0.00/772 [00:00<?, ?B/s]Downloading: 100%|██████████| 772/772 [00:00<00:00, 523kB/s]
+Traceback (most recent call last):
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/./BARTNER_other_/train.py", line 168, in <module>
+    data_bundle, tokenizer, mapping2id = get_data()
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.9/site-packages/fastNLP/core/utils.py", line 357, in wrapper
+    results = func(*args, **kwargs)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/./BARTNER_other_/train.py", line 165, in get_data
+    data_bundle = pipe.process_from_file(f'../data/{dataset_name}', demo=demo)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER_other_/data/pipe.py", line 220, in process_from_file
+    data_bundle = self.process(data_bundle)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER_other_/data/pipe.py", line 102, in process
+    self.add_tags_to_special_tokens(data_bundle)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER_other_/data/pipe.py", line 74, in add_tags_to_special_tokens
+    unique_no_split_tokens = self.tokenizer.unique_no_split_tokens
+AttributeError: 'BartTokenizerFast' object has no attribute 'unique_no_split_tokens'

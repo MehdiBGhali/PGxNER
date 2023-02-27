@@ -1,0 +1,28 @@
+ERROR: Exception:
+Traceback (most recent call last):
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/cloned_env/lib/python3.8/site-packages/pip/_internal/cli/base_command.py", line 160, in exc_logging_wrapper
+    status = run_func(*args)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/cloned_env/lib/python3.8/site-packages/pip/_internal/commands/uninstall.py", line 98, in run
+    uninstall_pathset = req.uninstall(
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/cloned_env/lib/python3.8/site-packages/pip/_internal/req/req_install.py", line 660, in uninstall
+    uninstalled_pathset.remove(auto_confirm, verbose)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/cloned_env/lib/python3.8/site-packages/pip/_internal/req/req_uninstall.py", line 367, in remove
+    if auto_confirm or self._allowed_to_proceed(verbose):
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/cloned_env/lib/python3.8/site-packages/pip/_internal/req/req_uninstall.py", line 407, in _allowed_to_proceed
+    return ask("Proceed (Y/n)? ", ("y", "n", "")) != "n"
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/cloned_env/lib/python3.8/site-packages/pip/_internal/utils/misc.py", line 190, in ask
+    response = input(message)
+EOFError: EOF when reading a line
+
+PackagesNotFoundError: The following packages are missing from the target environment:
+  - transformers
+
+
+Traceback (most recent call last):
+  File "./BARTNER/train.py", line 11, in <module>
+    from model.bart import BartSeq2SeqModel
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER/model/bart.py", line 2, in <module>
+    from .modeing_bart import BartEncoder, BartDecoder, BartModel
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER/model/modeing_bart.py", line 27, in <module>
+    from transformers.modeling_bart import *
+ModuleNotFoundError: No module named 'transformers.modeling_bart'

@@ -1,0 +1,227 @@
+Running on sh00
+# conda environments:
+#
+base                  *  /opt/conda
+PGx_env                  /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env
+PGx_env_37               /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env_37
+new_PGx_env              /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env
+torch_from_source_env     /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env
+
+Collecting setuptools_rust
+  Using cached setuptools_rust-1.5.2-py3-none-any.whl (23 kB)
+Collecting semantic-version<3,>=2.8.2
+  Using cached semantic_version-2.10.0-py2.py3-none-any.whl (15 kB)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env/lib/python3.8/site-packages (from setuptools_rust) (4.5.0)
+Requirement already satisfied: setuptools>=62.4 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env/lib/python3.8/site-packages (from setuptools_rust) (65.6.3)
+Installing collected packages: semantic-version, setuptools_rust
+Successfully installed semantic-version-2.10.0 setuptools_rust-1.5.2
+Requirement already satisfied: protobuf==3.20.* in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env/lib/python3.8/site-packages (from -r ./requirements_no_torch.txt (line 1)) (3.20.1)
+Collecting transformers==3.4.0
+  Using cached transformers-3.4.0-py3-none-any.whl (1.3 MB)
+Collecting torch==1.7.1
+  Using cached torch-1.7.1-cp38-cp38-manylinux1_x86_64.whl (776.8 MB)
+Requirement already satisfied: filelock in /usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages (from transformers==3.4.0->-r ./requirements_no_torch.txt (line 2)) (3.9.0)
+Collecting sentencepiece!=0.1.92
+  Using cached sentencepiece-0.1.97-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.3 MB)
+Requirement already satisfied: packaging in /usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages (from transformers==3.4.0->-r ./requirements_no_torch.txt (line 2)) (23.0)
+Collecting sacremoses
+  Using cached sacremoses-0.0.53-py3-none-any.whl
+Requirement already satisfied: tqdm>=4.27 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env/lib/python3.8/site-packages (from transformers==3.4.0->-r ./requirements_no_torch.txt (line 2)) (4.30.0)
+Requirement already satisfied: numpy in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env/lib/python3.8/site-packages (from transformers==3.4.0->-r ./requirements_no_torch.txt (line 2)) (1.24.2)
+Requirement already satisfied: requests in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env/lib/python3.8/site-packages (from transformers==3.4.0->-r ./requirements_no_torch.txt (line 2)) (2.28.2)
+Requirement already satisfied: regex!=2019.12.17 in /usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages (from transformers==3.4.0->-r ./requirements_no_torch.txt (line 2)) (2022.10.31)
+Collecting tokenizers==0.9.2
+  Using cached tokenizers-0.9.2-cp38-cp38-manylinux1_x86_64.whl (2.9 MB)
+Requirement already satisfied: typing-extensions in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env/lib/python3.8/site-packages (from torch==1.7.1->-r ./requirements_no_torch.txt (line 3)) (4.5.0)
+Requirement already satisfied: idna<4,>=2.5 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env/lib/python3.8/site-packages (from requests->transformers==3.4.0->-r ./requirements_no_torch.txt (line 2)) (3.4)
+Requirement already satisfied: charset-normalizer<4,>=2 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env/lib/python3.8/site-packages (from requests->transformers==3.4.0->-r ./requirements_no_torch.txt (line 2)) (3.0.1)
+Requirement already satisfied: certifi>=2017.4.17 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env/lib/python3.8/site-packages (from requests->transformers==3.4.0->-r ./requirements_no_torch.txt (line 2)) (2022.12.7)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env/lib/python3.8/site-packages (from requests->transformers==3.4.0->-r ./requirements_no_torch.txt (line 2)) (1.26.14)
+Requirement already satisfied: six in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env/lib/python3.8/site-packages (from sacremoses->transformers==3.4.0->-r ./requirements_no_torch.txt (line 2)) (1.16.0)
+Requirement already satisfied: click in /usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages (from sacremoses->transformers==3.4.0->-r ./requirements_no_torch.txt (line 2)) (8.1.3)
+Requirement already satisfied: joblib in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env/lib/python3.8/site-packages (from sacremoses->transformers==3.4.0->-r ./requirements_no_torch.txt (line 2)) (1.2.0)
+Installing collected packages: tokenizers, sentencepiece, torch, sacremoses, transformers
+  Attempting uninstall: torch
+    Found existing installation: torch 1.13.1
+    Uninstalling torch-1.13.1:
+      Successfully uninstalled torch-1.13.1
+Successfully installed sacremoses-0.0.53 sentencepiece-0.1.97 tokenizers-0.9.2 torch-1.7.1 transformers-3.4.0
+Collecting git+https://github.com/fastnlp/fastNLP@dev
+  Cloning https://github.com/fastnlp/fastNLP (to revision dev) to /tmp/benghali_meh-22916/pip-req-build-v2q4i6lw
+  Resolved https://github.com/fastnlp/fastNLP to commit 2e3a689b294a988fafd618677def9ea1e5915e19
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: numpy>=1.14.2 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env/lib/python3.8/site-packages (from FastNLP==0.7.1) (1.24.2)
+Requirement already satisfied: torch>=1.0.0 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env/lib/python3.8/site-packages (from FastNLP==0.7.1) (1.7.1)
+Requirement already satisfied: tqdm>=4.28.1 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env/lib/python3.8/site-packages (from FastNLP==0.7.1) (4.30.0)
+Requirement already satisfied: prettytable>=0.7.2 in /usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages (from FastNLP==0.7.1) (3.6.0)
+Requirement already satisfied: requests in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env/lib/python3.8/site-packages (from FastNLP==0.7.1) (2.28.2)
+Requirement already satisfied: regex!=2019.12.17 in /usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages (from FastNLP==0.7.1) (2022.10.31)
+Requirement already satisfied: wcwidth in /usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages (from prettytable>=0.7.2->FastNLP==0.7.1) (0.2.6)
+Requirement already satisfied: typing-extensions in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env/lib/python3.8/site-packages (from torch>=1.0.0->FastNLP==0.7.1) (4.5.0)
+Requirement already satisfied: certifi>=2017.4.17 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env/lib/python3.8/site-packages (from requests->FastNLP==0.7.1) (2022.12.7)
+Requirement already satisfied: charset-normalizer<4,>=2 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env/lib/python3.8/site-packages (from requests->FastNLP==0.7.1) (3.0.1)
+Requirement already satisfied: idna<4,>=2.5 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env/lib/python3.8/site-packages (from requests->FastNLP==0.7.1) (3.4)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env/lib/python3.8/site-packages (from requests->FastNLP==0.7.1) (1.26.14)
+Collecting git+https://github.com/fastnlp/fitlog
+  Cloning https://github.com/fastnlp/fitlog to /tmp/benghali_meh-22916/pip-req-build-ig3nmnwi
+  Resolved https://github.com/fastnlp/fitlog to commit def816d968e6f688ea769dcca8c2475ad56ae693
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: docopt>=0.6.2 in /usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages (from fitlog==0.9.14) (0.6.2)
+Requirement already satisfied: flask>=1.0.2 in /usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages (from fitlog==0.9.14) (2.2.2)
+Requirement already satisfied: numpy>=1.16.4 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env/lib/python3.8/site-packages (from fitlog==0.9.14) (1.24.2)
+Requirement already satisfied: gitpython>=3.1.2 in /usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages (from fitlog==0.9.14) (3.1.30)
+Requirement already satisfied: importlib-metadata>=3.6.0 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env/lib/python3.8/site-packages (from flask>=1.0.2->fitlog==0.9.14) (6.0.0)
+Requirement already satisfied: click>=8.0 in /usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages (from flask>=1.0.2->fitlog==0.9.14) (8.1.3)
+Requirement already satisfied: itsdangerous>=2.0 in /usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages (from flask>=1.0.2->fitlog==0.9.14) (2.1.2)
+Requirement already satisfied: Werkzeug>=2.2.2 in /usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages (from flask>=1.0.2->fitlog==0.9.14) (2.2.2)
+Requirement already satisfied: Jinja2>=3.0 in /usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages (from flask>=1.0.2->fitlog==0.9.14) (3.1.2)
+Requirement already satisfied: gitdb<5,>=4.0.1 in /usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages (from gitpython>=3.1.2->fitlog==0.9.14) (4.0.10)
+Requirement already satisfied: smmap<6,>=3.0.1 in /usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages (from gitdb<5,>=4.0.1->gitpython>=3.1.2->fitlog==0.9.14) (5.0.0)
+Requirement already satisfied: zipp>=0.5 in /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env/lib/python3.8/site-packages (from importlib-metadata>=3.6.0->flask>=1.0.2->fitlog==0.9.14) (3.13.0)
+Requirement already satisfied: MarkupSafe>=2.0 in /usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages (from Jinja2>=3.0->flask>=1.0.2->fitlog==0.9.14) (2.1.2)
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env
+
+  added / updated specs:
+    - clang
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    clang-9.0.0                |default_hde54327_4        26.9 MB  conda-forge
+    libllvm9-9.0.1             |default_hc23dcda_4        25.6 MB  conda-forge
+    ------------------------------------------------------------
+                                           Total:        52.5 MB
+
+The following NEW packages will be INSTALLED:
+
+  clang              conda-forge/linux-64::clang-9.0.0-default_hde54327_4
+  libllvm9           conda-forge/linux-64::libllvm9-9.0.1-default_hc23dcda_4
+
+The following packages will be SUPERSEDED by a higher-priority channel:
+
+  ca-certificates    pkgs/main::ca-certificates-2023.01.10~ --> conda-forge::ca-certificates-2022.12.7-ha878542_0
+  certifi            pkgs/main/linux-64::certifi-2022.12.7~ --> conda-forge/noarch::certifi-2022.12.7-pyhd8ed1ab_0
+
+
+Proceed ([y]/n)? 
+
+Downloading and Extracting Packages
+clang-9.0.0          | 26.9 MB   |            |   0% clang-9.0.0          | 26.9 MB   |            |   0% clang-9.0.0          | 26.9 MB   | 4          |   5% clang-9.0.0          | 26.9 MB   | ##3        |  23% clang-9.0.0          | 26.9 MB   | ####6      |  46% clang-9.0.0          | 26.9 MB   | ######8    |  68% clang-9.0.0          | 26.9 MB   | ########6  |  86% clang-9.0.0          | 26.9 MB   | ########## | 100% 
+libllvm9-9.0.1       | 25.6 MB   |            |   0% libllvm9-9.0.1       | 25.6 MB   |            |   0% libllvm9-9.0.1       | 25.6 MB   | #8         |  19% libllvm9-9.0.1       | 25.6 MB   | ###4       |  34% libllvm9-9.0.1       | 25.6 MB   | #####4     |  54% libllvm9-9.0.1       | 25.6 MB   | #######7   |  78% libllvm9-9.0.1       | 25.6 MB   | ########## | 100% libllvm9-9.0.1       | 25.6 MB   | ########## | 100% 
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env
+
+  added / updated specs:
+    - cudatoolkit
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    ca-certificates-2023.01.10 |       h06a4308_0         127 KB  anaconda
+    certifi-2022.12.7          |   py38h06a4308_0         152 KB  anaconda
+    cudatoolkit-11.3.1         |       h2bc3f7f_2       815.6 MB  anaconda
+    openssl-1.1.1s             |       h7f8727e_0         3.8 MB  anaconda
+    ------------------------------------------------------------
+                                           Total:       819.6 MB
+
+The following NEW packages will be INSTALLED:
+
+  cudatoolkit        anaconda/linux-64::cudatoolkit-11.3.1-h2bc3f7f_2
+
+The following packages will be UPDATED:
+
+  ca-certificates    conda-forge::ca-certificates-2022.12.~ --> anaconda::ca-certificates-2023.01.10-h06a4308_0
+
+The following packages will be SUPERSEDED by a higher-priority channel:
+
+  certifi            conda-forge/noarch::certifi-2022.12.7~ --> anaconda/linux-64::certifi-2022.12.7-py38h06a4308_0
+  openssl              pkgs/main::openssl-1.1.1t-h7f8727e_0 --> anaconda::openssl-1.1.1s-h7f8727e_0
+
+
+Proceed ([y]/n)? 
+
+Downloading and Extracting Packages
+cudatoolkit-11.3.1   | 815.6 MB  |            |   0% cudatoolkit-11.3.1   | 815.6 MB  |            |   0% cudatoolkit-11.3.1   | 815.6 MB  |            |   0% cudatoolkit-11.3.1   | 815.6 MB  |            |   0% cudatoolkit-11.3.1   | 815.6 MB  |            |   0% cudatoolkit-11.3.1   | 815.6 MB  |            |   1% cudatoolkit-11.3.1   | 815.6 MB  | 1          |   1% cudatoolkit-11.3.1   | 815.6 MB  | 1          |   2% cudatoolkit-11.3.1   | 815.6 MB  | 2          |   2% cudatoolkit-11.3.1   | 815.6 MB  | 3          |   3% cudatoolkit-11.3.1   | 815.6 MB  | 4          |   4% cudatoolkit-11.3.1   | 815.6 MB  | 4          |   5% cudatoolkit-11.3.1   | 815.6 MB  | 5          |   6% cudatoolkit-11.3.1   | 815.6 MB  | 6          |   7% cudatoolkit-11.3.1   | 815.6 MB  | 7          |   8% cudatoolkit-11.3.1   | 815.6 MB  | 8          |   8% cudatoolkit-11.3.1   | 815.6 MB  | 9          |   9% cudatoolkit-11.3.1   | 815.6 MB  | #          |  10% cudatoolkit-11.3.1   | 815.6 MB  | #          |  11% cudatoolkit-11.3.1   | 815.6 MB  | #1         |  12% cudatoolkit-11.3.1   | 815.6 MB  | #2         |  13% cudatoolkit-11.3.1   | 815.6 MB  | #3         |  13% cudatoolkit-11.3.1   | 815.6 MB  | #4         |  14% cudatoolkit-11.3.1   | 815.6 MB  | #4         |  15% cudatoolkit-11.3.1   | 815.6 MB  | #5         |  16% cudatoolkit-11.3.1   | 815.6 MB  | #6         |  16% cudatoolkit-11.3.1   | 815.6 MB  | #7         |  17% cudatoolkit-11.3.1   | 815.6 MB  | #7         |  18% cudatoolkit-11.3.1   | 815.6 MB  | #8         |  19% cudatoolkit-11.3.1   | 815.6 MB  | #9         |  20% cudatoolkit-11.3.1   | 815.6 MB  | ##         |  20% cudatoolkit-11.3.1   | 815.6 MB  | ##1        |  21% cudatoolkit-11.3.1   | 815.6 MB  | ##2        |  22% cudatoolkit-11.3.1   | 815.6 MB  | ##2        |  23% cudatoolkit-11.3.1   | 815.6 MB  | ##3        |  24% cudatoolkit-11.3.1   | 815.6 MB  | ##4        |  25% cudatoolkit-11.3.1   | 815.6 MB  | ##5        |  25% cudatoolkit-11.3.1   | 815.6 MB  | ##6        |  26% cudatoolkit-11.3.1   | 815.6 MB  | ##7        |  27% cudatoolkit-11.3.1   | 815.6 MB  | ##7        |  28% cudatoolkit-11.3.1   | 815.6 MB  | ##8        |  29% cudatoolkit-11.3.1   | 815.6 MB  | ##9        |  29% cudatoolkit-11.3.1   | 815.6 MB  | ###        |  30% cudatoolkit-11.3.1   | 815.6 MB  | ###1       |  31% cudatoolkit-11.3.1   | 815.6 MB  | ###1       |  32% cudatoolkit-11.3.1   | 815.6 MB  | ###2       |  33% cudatoolkit-11.3.1   | 815.6 MB  | ###3       |  34% cudatoolkit-11.3.1   | 815.6 MB  | ###4       |  34% cudatoolkit-11.3.1   | 815.6 MB  | ###5       |  35% cudatoolkit-11.3.1   | 815.6 MB  | ###6       |  36% cudatoolkit-11.3.1   | 815.6 MB  | ###6       |  37% cudatoolkit-11.3.1   | 815.6 MB  | ###7       |  38% cudatoolkit-11.3.1   | 815.6 MB  | ###8       |  38% cudatoolkit-11.3.1   | 815.6 MB  | ###9       |  39% cudatoolkit-11.3.1   | 815.6 MB  | ####       |  40% cudatoolkit-11.3.1   | 815.6 MB  | ####1      |  41% cudatoolkit-11.3.1   | 815.6 MB  | ####2      |  42% cudatoolkit-11.3.1   | 815.6 MB  | ####2      |  43% cudatoolkit-11.3.1   | 815.6 MB  | ####3      |  44% cudatoolkit-11.3.1   | 815.6 MB  | ####4      |  44% cudatoolkit-11.3.1   | 815.6 MB  | ####5      |  45% cudatoolkit-11.3.1   | 815.6 MB  | ####6      |  46% cudatoolkit-11.3.1   | 815.6 MB  | ####7      |  47% cudatoolkit-11.3.1   | 815.6 MB  | ####7      |  48% cudatoolkit-11.3.1   | 815.6 MB  | ####8      |  49% cudatoolkit-11.3.1   | 815.6 MB  | ####9      |  50% cudatoolkit-11.3.1   | 815.6 MB  | #####      |  50% cudatoolkit-11.3.1   | 815.6 MB  | #####1     |  51% cudatoolkit-11.3.1   | 815.6 MB  | #####1     |  52% cudatoolkit-11.3.1   | 815.6 MB  | #####2     |  53% cudatoolkit-11.3.1   | 815.6 MB  | #####3     |  54% cudatoolkit-11.3.1   | 815.6 MB  | #####4     |  55% cudatoolkit-11.3.1   | 815.6 MB  | #####5     |  55% cudatoolkit-11.3.1   | 815.6 MB  | #####6     |  56% cudatoolkit-11.3.1   | 815.6 MB  | #####7     |  57% cudatoolkit-11.3.1   | 815.6 MB  | #####7     |  58% cudatoolkit-11.3.1   | 815.6 MB  | #####8     |  59% cudatoolkit-11.3.1   | 815.6 MB  | #####9     |  60% cudatoolkit-11.3.1   | 815.6 MB  | ######     |  60% cudatoolkit-11.3.1   | 815.6 MB  | ######1    |  61% cudatoolkit-11.3.1   | 815.6 MB  | ######2    |  62% cudatoolkit-11.3.1   | 815.6 MB  | ######2    |  63% cudatoolkit-11.3.1   | 815.6 MB  | ######3    |  64% cudatoolkit-11.3.1   | 815.6 MB  | ######4    |  64% cudatoolkit-11.3.1   | 815.6 MB  | ######5    |  65% cudatoolkit-11.3.1   | 815.6 MB  | ######6    |  66% cudatoolkit-11.3.1   | 815.6 MB  | ######6    |  67% cudatoolkit-11.3.1   | 815.6 MB  | ######7    |  68% cudatoolkit-11.3.1   | 815.6 MB  | ######8    |  68% cudatoolkit-11.3.1   | 815.6 MB  | ######9    |  69% cudatoolkit-11.3.1   | 815.6 MB  | #######    |  70% cudatoolkit-11.3.1   | 815.6 MB  | #######    |  71% cudatoolkit-11.3.1   | 815.6 MB  | #######1   |  72% cudatoolkit-11.3.1   | 815.6 MB  | #######2   |  73% cudatoolkit-11.3.1   | 815.6 MB  | #######3   |  73% cudatoolkit-11.3.1   | 815.6 MB  | #######4   |  74% cudatoolkit-11.3.1   | 815.6 MB  | #######5   |  75% cudatoolkit-11.3.1   | 815.6 MB  | #######5   |  76% cudatoolkit-11.3.1   | 815.6 MB  | #######6   |  77% cudatoolkit-11.3.1   | 815.6 MB  | #######7   |  78% cudatoolkit-11.3.1   | 815.6 MB  | #######8   |  79% cudatoolkit-11.3.1   | 815.6 MB  | #######9   |  80% cudatoolkit-11.3.1   | 815.6 MB  | ########   |  81% cudatoolkit-11.3.1   | 815.6 MB  | ########1  |  82% cudatoolkit-11.3.1   | 815.6 MB  | ########2  |  83% cudatoolkit-11.3.1   | 815.6 MB  | ########3  |  84% cudatoolkit-11.3.1   | 815.6 MB  | ########4  |  84% cudatoolkit-11.3.1   | 815.6 MB  | ########5  |  85% cudatoolkit-11.3.1   | 815.6 MB  | ########6  |  86% cudatoolkit-11.3.1   | 815.6 MB  | ########6  |  87% cudatoolkit-11.3.1   | 815.6 MB  | ########7  |  88% cudatoolkit-11.3.1   | 815.6 MB  | ########8  |  89% cudatoolkit-11.3.1   | 815.6 MB  | ########9  |  89% cudatoolkit-11.3.1   | 815.6 MB  | #########  |  90% cudatoolkit-11.3.1   | 815.6 MB  | #########1 |  91% cudatoolkit-11.3.1   | 815.6 MB  | #########2 |  92% cudatoolkit-11.3.1   | 815.6 MB  | #########2 |  93% cudatoolkit-11.3.1   | 815.6 MB  | #########3 |  94% cudatoolkit-11.3.1   | 815.6 MB  | #########4 |  95% cudatoolkit-11.3.1   | 815.6 MB  | #########5 |  95% cudatoolkit-11.3.1   | 815.6 MB  | #########6 |  96% cudatoolkit-11.3.1   | 815.6 MB  | #########6 |  97% cudatoolkit-11.3.1   | 815.6 MB  | #########7 |  98% cudatoolkit-11.3.1   | 815.6 MB  | #########8 |  98% cudatoolkit-11.3.1   | 815.6 MB  | #########9 |  99% cudatoolkit-11.3.1   | 815.6 MB  | ########## | 100% 
+certifi-2022.12.7    | 152 KB    |            |   0% certifi-2022.12.7    | 152 KB    | ########## | 100% certifi-2022.12.7    | 152 KB    | ########## | 100% 
+ca-certificates-2023 | 127 KB    |            |   0% ca-certificates-2023 | 127 KB    | ########## | 100% ca-certificates-2023 | 127 KB    | ########## | 100% 
+openssl-1.1.1s       | 3.8 MB    |            |   0% openssl-1.1.1s       | 3.8 MB    | #########7 |  97% openssl-1.1.1s       | 3.8 MB    | ########## | 100% 
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... By downloading and using the CUDA Toolkit conda packages, you accept the terms and conditions of the CUDA End User License Agreement (EULA): https://docs.nvidia.com/cuda/eula/index.html
+
+done
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env
+
+  added / updated specs:
+    - mkl
+    - mkl-include
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    ca-certificates-2023.01.10 |       h06a4308_0         120 KB
+    certifi-2022.12.7          |   py38h06a4308_0         150 KB
+    intel-openmp-2022.1.0      |    h9e868ea_3769         4.5 MB
+    mkl-2022.1.0               |     hc2b9512_224       129.7 MB
+    mkl-include-2022.1.0       |     h06a4308_224         592 KB
+    ------------------------------------------------------------
+                                           Total:       135.1 MB
+
+The following NEW packages will be INSTALLED:
+
+  intel-openmp       pkgs/main/linux-64::intel-openmp-2022.1.0-h9e868ea_3769
+  mkl                pkgs/main/linux-64::mkl-2022.1.0-hc2b9512_224
+  mkl-include        pkgs/main/linux-64::mkl-include-2022.1.0-h06a4308_224
+
+The following packages will be UPDATED:
+
+  openssl               anaconda::openssl-1.1.1s-h7f8727e_0 --> pkgs/main::openssl-1.1.1t-h7f8727e_0
+
+The following packages will be SUPERSEDED by a higher-priority channel:
+
+  ca-certificates                                  anaconda --> pkgs/main
+  certifi                                          anaconda --> pkgs/main
+
+
+Proceed ([y]/n)? 
+
+Downloading and Extracting Packages
+mkl-2022.1.0         | 129.7 MB  |            |   0% mkl-2022.1.0         | 129.7 MB  |            |   0% mkl-2022.1.0         | 129.7 MB  | 1          |   2% mkl-2022.1.0         | 129.7 MB  | 4          |   4% mkl-2022.1.0         | 129.7 MB  | 6          |   7% mkl-2022.1.0         | 129.7 MB  | 8          |   9% mkl-2022.1.0         | 129.7 MB  | #3         |  13% mkl-2022.1.0         | 129.7 MB  | #8         |  18% mkl-2022.1.0         | 129.7 MB  | ##2        |  23% mkl-2022.1.0         | 129.7 MB  | ##8        |  28% mkl-2022.1.0         | 129.7 MB  | ###3       |  33% mkl-2022.1.0         | 129.7 MB  | ###7       |  38% mkl-2022.1.0         | 129.7 MB  | ####3      |  43% mkl-2022.1.0         | 129.7 MB  | ####7      |  48% mkl-2022.1.0         | 129.7 MB  | #####4     |  54% mkl-2022.1.0         | 129.7 MB  | ######     |  60% mkl-2022.1.0         | 129.7 MB  | ######5    |  66% mkl-2022.1.0         | 129.7 MB  | #######    |  71% mkl-2022.1.0         | 129.7 MB  | #######6   |  76% mkl-2022.1.0         | 129.7 MB  | ########1  |  82% mkl-2022.1.0         | 129.7 MB  | ########7  |  88% mkl-2022.1.0         | 129.7 MB  | #########3 |  93% mkl-2022.1.0         | 129.7 MB  | #########8 |  98% mkl-2022.1.0         | 129.7 MB  | ########## | 100% 
+ca-certificates-2023 | 120 KB    |            |   0% ca-certificates-2023 | 120 KB    | ########## | 100% ca-certificates-2023 | 120 KB    | ########## | 100% 
+intel-openmp-2022.1. | 4.5 MB    |            |   0% intel-openmp-2022.1. | 4.5 MB    | ####4      |  45% intel-openmp-2022.1. | 4.5 MB    | ########## | 100% intel-openmp-2022.1. | 4.5 MB    | ########## | 100% 
+certifi-2022.12.7    | 150 KB    |            |   0% certifi-2022.12.7    | 150 KB    | ########## | 100% certifi-2022.12.7    | 150 KB    | ########## | 100% 
+mkl-include-2022.1.0 | 592 KB    |            |   0% mkl-include-2022.1.0 | 592 KB    | ########## | 100% mkl-include-2022.1.0 | 592 KB    | ########## | 100% 
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... failed with initial frozen solve. Retrying with flexible solve.
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... failed with initial frozen solve. Retrying with flexible solve.
+Namespace(dataset_name='PGxCorpus')
+Save cache to caches/data_facebook/bart-large_PGxCorpus_word.pt.

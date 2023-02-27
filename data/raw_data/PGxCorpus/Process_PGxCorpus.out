@@ -1,0 +1,128 @@
+Running on sh02
+# conda environments:
+#
+base                  *  /opt/conda
+PGx_env                  /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env
+PGx_env_37               /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env_37
+
+Update the mention from (drug response tamoxifen) to (tamoxifen drug response).
+Update the mention from (MOCOS single nucleotide polymorphisms ( SNPs ) in) to (single nucleotide polymorphisms ( SNPs ) in MOCOS).
+Update the mention from (tumor KIT exon 11 deletion) to (KIT exon 11 deletion tumor).
+Update the mention from (stroke NMDA receptor -mediated) to (NMDA receptor -mediated stroke).
+Update the mention from (genotypes CYP3A4 * 1 / CYP3A5 * 1) to (CYP3A4 * 1 / CYP3A5 * 1 genotypes).
+Update the mention from (expression of tissue inhibitor of MMP-2 ( TIMP-2 ) mRNA) to (mRNA expression of tissue inhibitor of MMP-2 ( TIMP-2 )).
+Update the mention from (mutations BRAF V600E) to (BRAF V600E mutations).
+Update the mention from (polymorphisms SLCO1B1) to (SLCO1B1 polymorphisms).
+Update the mention from (a secondary target modifier ( a ( 2C ) AR Ins [ wild-type ( Wt ) ] 322-325 deletion [ Del ] polymorphisms in the) to (polymorphisms in the a secondary target modifier ( a ( 2C ) AR Ins [ wild-type ( Wt ) ] 322-325 deletion [ Del ]).
+Update the mention from (estradiol levels of) to (levels of estradiol).
+Update the mention from (testosterone levels of) to (levels of testosterone).
+Update the mention from (androstenedione levels of) to (levels of androstenedione).
+Update the mention from (dehydroepiandrosterone levels of) to (levels of dehydroepiandrosterone).
+Update the mention from (dehydroepiandrosterone sulfate levels of) to (levels of dehydroepiandrosterone sulfate).
+Update the mention from (metastases ER -positive) to (ER -positive metastases).
+Update the mention from (catechol-O-methyltransferase variant) to (variant catechol-O-methyltransferase).
+Update the mention from (myocardial flow basal) to (basal myocardial flow).
+Update the mention from (APOE SNPs in) to (SNPs in APOE).
+Update the mention from (expression GLUT2) to (GLUT2 expression).
+Update the mention from (mutation p53) to (p53 mutation).
+Update the mention from ((-)-epigallocatechin ( EGC ) effects of) to (effects of (-)-epigallocatechin ( EGC )).
+Update the mention from ((-)-epigallocatechin-3-gallate ( EGCG ) effects of) to (effects of (-)-epigallocatechin-3-gallate ( EGCG )).
+Update the mention from (repaglinide mean AUC) to (mean AUC repaglinide).
+Update the mention from (midazolam exposure to) to (exposure to midazolam).
+Update the mention from (triazolam exposure to) to (exposure to triazolam).
+Update the mention from (buspirone exposure to) to (exposure to buspirone).
+Update the mention from (lovastatin exposure to) to (exposure to lovastatin).
+Update the mention from (simvastatin exposure to) to (exposure to simvastatin).
+Update the mention from (oxycodone exposure to) to (exposure to oxycodone).
+Update the mention from (human NAT2 substrate specificities of) to (substrate specificities of human NAT2).
+Update the mention from (SU11274 sensitive to) to (sensitive to SU11274).
+Update the mention from (not to EGFR -targeted drugs sensitive) to (sensitive not to EGFR -targeted drugs).
+Update the mention from (genotypes ITPA) to (ITPA genotypes).
+Update the mention from (irinotecan action of) to (action of irinotecan).
+Update the mention from (mitomycin lack of response to) to (lack of response to mitomycin).
+Update the mention from (3A5 * 3 cytochrome P450) to (cytochrome P450 3A5 * 3).
+Update the mention from (3A5 cytochrome P450) to (cytochrome P450 3A5).
+Update the mention from (driven respiration complex I -) to (complex I - driven respiration).
+Update the mention from (major histocompatibility complex type II expression of) to (expression of major histocompatibility complex type II).
+Update the mention from (germline polymorphisms thymidylate synthase ( TYMS )) to (thymidylate synthase ( TYMS ) germline polymorphisms).
+Update the mention from (mutants UGT1A1) to (UGT1A1 mutants).
+Update the mention from (5-FU pathological response to preoperative) to (pathological response to preoperative 5-FU).
+Update the mention from (radiation therapy pathological response to preoperative) to (pathological response to preoperative radiation therapy).
+Update the mention from (resistant axial signs levodopa) to (levodopa resistant axial signs).
+Update the mention from (glial cells of the brain manifestations linked to) to (manifestations linked to glial cells of the brain).
+Update the mention from (retina manifestations linked to) to (manifestations linked to retina).
+Update the mention from (loricrin mRNA levels of) to (mRNA levels of loricrin).
+Update the mention from (keratin 10 mRNA levels of) to (mRNA levels of keratin 10).
+Update the mention from (transglutaminase 1 mRNA levels of) to (mRNA levels of transglutaminase 1).
+Update the mention from (haplotypes dihydropyrimidine dehydrogenase ( DPD )) to (dihydropyrimidine dehydrogenase ( DPD ) haplotypes).
+Update the mention from (adjuvant chemotherapy anthracycline -based) to (anthracycline -based adjuvant chemotherapy).
+Update the mention from (ABCG2 single nucleotide polymorphism of) to (single nucleotide polymorphism of ABCG2).
+Update the mention from (actions of cocaine behavioral) to (behavioral actions of cocaine).
+Update the mention from (analgesia morphine) to (morphine analgesia).
+Update the mention from (drug transporters ( P-gp ) genetic polymorphism in genes encoding different) to (genetic polymorphism in genes encoding different drug transporters ( P-gp )).
+Update the mention from (enzymes genetic polymorphism in genes encoding different) to (genetic polymorphism in genes encoding different enzymes).
+Update the mention from (adenosine triphosphate -binding cassette subfamily B member 1 ( ABCB1 ) single-nucleotide polymorphism ( 3435C>T ) in) to (single-nucleotide polymorphism ( 3435C>T ) in adenosine triphosphate -binding cassette subfamily B member 1 ( ABCB1 )).
+Update the mention from (addiction alcohol) to (alcohol addiction).
+Update the mention from (addiction opiate) to (opiate addiction).
+Update the mention from (addiction cocaine) to (cocaine addiction).
+Update the mention from (cisplatin sensitivity) to (sensitivity cisplatin).
+Update the mention from (5-fluorouracil sensitivity to) to (sensitivity to 5-fluorouracil).
+Update the mention from (idarubicin sensitivity to) to (sensitivity to idarubicin).
+Update the mention from (epirubicin sensitivity to) to (sensitivity to epirubicin).
+Update the mention from (PRIMA-1 sensitivity to) to (sensitivity to PRIMA-1).
+Update the mention from (fludarabine sensitivity to) to (sensitivity to fludarabine).
+Update the mention from (PD-0332991 sensitivity to) to (sensitivity to PD-0332991).
+Update the mention from (TPMT polymorphisms coding) to (coding TPMT polymorphisms).
+Update the mention from (TPMT coding) to (coding TPMT).
+Update the mention from (melanoma BRAF ( V600 ) mutation-positive unresectable) to (BRAF ( V600 ) mutation-positive unresectable melanoma).
+Update the mention from (metastatic melanoma BRAF ( V600 ) mutation-positive) to (BRAF ( V600 ) mutation-positive metastatic melanoma).
+Update the mention from (gemcitabine response to) to (response to gemcitabine).
+Update the mention from (platinums response to) to (response to platinums).
+Update the mention from (paclitaxel response to) to (response to paclitaxel).
+Update the mention from (xanthine oxidase genetic polymorphisms of genes encoding for) to (genetic polymorphisms of genes encoding for xanthine oxidase).
+Update the mention from (thiopurine S-methyltransferase genetic polymorphisms of genes encoding for) to (genetic polymorphisms of genes encoding for thiopurine S-methyltransferase).
+Update the mention from (inosine triphosphate pyrophosphatase genetic polymorphisms of genes encoding for) to (genetic polymorphisms of genes encoding for inosine triphosphate pyrophosphatase).
+Update the mention from (hypoxanthine phosphoribosyltransferase genetic polymorphisms of genes encoding for) to (genetic polymorphisms of genes encoding for hypoxanthine phosphoribosyltransferase).
+Update the mention from (inosine monophosphate dehydrogenase genetic polymorphisms of genes encoding for) to (genetic polymorphisms of genes encoding for inosine monophosphate dehydrogenase).
+Update the mention from (multidrug resistance proteins genetic polymorphisms of genes encoding for) to (genetic polymorphisms of genes encoding for multidrug resistance proteins).
+Update the mention from (* 2 CYP2C9) to (CYP2C9 * 2).
+Update the mention from (* 3 CYP2C9) to (CYP2C9 * 3).
+Update the mention from (valproate response to) to (response to valproate).
+Update the mention from (epithelial Na channel gene single nucleotide polymorphisms ( SNPs ) in the) to (single nucleotide polymorphisms ( SNPs ) in the epithelial Na channel gene).
+Update the mention from (3435C>T ABCB1) to (ABCB1 3435C>T).
+Update the mention from (in ABCC2 SNPs) to (SNPs in ABCC2).
+Update the mention from (in ABCG2 SNPs) to (SNPs in ABCG2).
+Update the mention from (8-OHdG levels blood) to (blood 8-OHdG levels).
+Update the mention from (human equilibrative nucleoside transporter 1 activities of) to (activities of human equilibrative nucleoside transporter 1).
+Update the mention from (deoxycytidine kinase activities of) to (activities of deoxycytidine kinase).
+Update the mention from (ribonucleotide reductase M1 activities of) to (activities of ribonucleotide reductase M1).
+Update the mention from (expression of fibroblast growth factor receptor 3 normal) to (normal expression of fibroblast growth factor receptor 3).
+Update the mention from (SNPA polymorphisms of) to (polymorphisms of SNPA).
+Update the mention from (genotype DA D4 receptor ( DRD4 )) to (DA D4 receptor ( DRD4 ) genotype).
+Update the mention from (of cefadroxil absorption) to (absorption of cefadroxil).
+Update the mention from (methylenetetrahydrofolate reductase polymorphisms in the) to (polymorphisms in the methylenetetrahydrofolate reductase).
+Update the mention from (N -acetyltransferase polymorphisms in) to (polymorphisms in N -acetyltransferase).
+Update the mention from (single-nucleotide polymorphisms ( SNPs ) xeroderma pigmentosum group A ( XPA ) codon23) to (xeroderma pigmentosum group A ( XPA ) codon23 single-nucleotide polymorphisms ( SNPs )).
+Update the mention from (gene polymorphisms delta-aminolevulinic acid dehydratase ( ALAD )) to (delta-aminolevulinic acid dehydratase ( ALAD ) gene polymorphisms).
+Update the mention from (doxorubicin sensitivity to) to (sensitivity to doxorubicin).
+Update the mention from (vinblastine sensitivity to) to (sensitivity to vinblastine).
+Update the mention from (availability serotonin) to (serotonin availability).
+Update the mention from (caffeine psychological response to) to (psychological response to caffeine).
+Update the mention from (trastuzumab SAHA in combination with) to (SAHA in combination with trastuzumab).
+Update the mention from (sucrose preference for) to (preference for sucrose).
+Update the mention from (to dopamine -agonists treatment susceptibility) to (susceptibility to dopamine -agonists treatment).
+Update the mention from (tacrolimus area under the plasma concentration-time curve) to (area under the plasma concentration-time curve tacrolimus).
+Update the mention from (MET alteration in) to (alteration in MET).
+Update the mention from (Angptl3 mRNA levels of) to (levels of Angptl3 mRNA).
+Update the mention from (mRNA levels of c-fos) to (levels of c-fos mRNA).
+Update the mention from (c-jun mRNA levels of) to (levels of c-jun mRNA).
+Update the mention from (rsGFP mRNA levels of) to (levels of rsGFP mRNA).
+Update the mention from (OATP1B3 genetic polymorphisms of liver-specific human organic anion transporting polypeptide ( OATP )) to (genetic polymorphisms of liver-specific human organic anion transporting polypeptide ( OATP ) OATP1B3).
+Update the mention from (levels fetuin-A) to (fetuin-A levels).
+Update the mention from (1alpha,25-dihydroxyvitamin D3 differentiation by) to (differentiation by 1alpha,25-dihydroxyvitamin D3).
+Update the mention from (cancers K-ras mutant colorectal) to (K-ras mutant colorectal cancers).
+Update the mention from (genotypes VKORC1) to (VKORC1 genotypes).
+Extract 6761 annotations.
+945 documents, 945 sentences, 35375 tokens
+Convert from [23 24 25 27] to [23 27].
+Convert from [45 45 46 46] to [45 46].

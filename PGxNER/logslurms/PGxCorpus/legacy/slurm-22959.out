@@ -1,0 +1,140 @@
+Running on sh02
+# conda environments:
+#
+base                  *  /opt/conda
+PGx_env                  /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env
+PGx_env_37               /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env_37
+new_PGx_env              /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env
+torch_from_source_env     /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env
+
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... failed
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env
+
+  added / updated specs:
+    - clang
+
+
+The following packages will be SUPERSEDED by a higher-priority channel:
+
+  ca-certificates    pkgs/main::ca-certificates-2023.01.10~ --> conda-forge::ca-certificates-2022.12.7-ha878542_0
+  certifi            pkgs/main/linux-64::certifi-2022.12.7~ --> conda-forge/noarch::certifi-2022.12.7-pyhd8ed1ab_0
+
+
+Proceed ([y]/n)? 
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env
+
+  added / updated specs:
+    - cudatoolkit
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    ca-certificates-2023.01.10 |       h06a4308_0         127 KB  anaconda
+    certifi-2022.12.7          |   py38h06a4308_0         152 KB  anaconda
+    ------------------------------------------------------------
+                                           Total:         278 KB
+
+The following packages will be UPDATED:
+
+  ca-certificates    conda-forge::ca-certificates-2022.12.~ --> anaconda::ca-certificates-2023.01.10-h06a4308_0
+
+The following packages will be SUPERSEDED by a higher-priority channel:
+
+  certifi            conda-forge/noarch::certifi-2022.12.7~ --> anaconda/linux-64::certifi-2022.12.7-py38h06a4308_0
+  openssl              pkgs/main::openssl-1.1.1t-h7f8727e_0 --> anaconda::openssl-1.1.1s-h7f8727e_0
+
+
+Proceed ([y]/n)? 
+
+Downloading and Extracting Packages
+certifi-2022.12.7    | 152 KB    |            |   0% certifi-2022.12.7    | 152 KB    | #          |  11% certifi-2022.12.7    | 152 KB    | ########## | 100% certifi-2022.12.7    | 152 KB    | ########## | 100% 
+ca-certificates-2023 | 127 KB    |            |   0% ca-certificates-2023 | 127 KB    | ########## | 100% ca-certificates-2023 | 127 KB    | ########## | 100% 
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env
+
+  added / updated specs:
+    - mkl
+    - mkl-include
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    ca-certificates-2023.01.10 |       h06a4308_0         120 KB
+    certifi-2022.12.7          |   py38h06a4308_0         150 KB
+    ------------------------------------------------------------
+                                           Total:         270 KB
+
+The following packages will be UPDATED:
+
+  openssl               anaconda::openssl-1.1.1s-h7f8727e_0 --> pkgs/main::openssl-1.1.1t-h7f8727e_0
+
+The following packages will be SUPERSEDED by a higher-priority channel:
+
+  ca-certificates                                  anaconda --> pkgs/main
+  certifi                                          anaconda --> pkgs/main
+
+
+Proceed ([y]/n)? 
+
+Downloading and Extracting Packages
+ca-certificates-2023 | 120 KB    |            |   0% ca-certificates-2023 | 120 KB    | #3         |  13% ca-certificates-2023 | 120 KB    | ########## | 100% ca-certificates-2023 | 120 KB    | ########## | 100% 
+certifi-2022.12.7    | 150 KB    |            |   0% certifi-2022.12.7    | 150 KB    | ########## | 100% certifi-2022.12.7    | 150 KB    | ########## | 100% 
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env
+
+  added / updated specs:
+    - magma-cuda110
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    magma-cuda110-2.5.2        |                1        65.2 MB  pytorch
+    ------------------------------------------------------------
+                                           Total:        65.2 MB
+
+The following NEW packages will be INSTALLED:
+
+  magma-cuda110      pytorch/linux-64::magma-cuda110-2.5.2-1
+
+
+Proceed ([y]/n)? 
+
+Downloading and Extracting Packages
+magma-cuda110-2.5.2  | 65.2 MB   |            |   0% magma-cuda110-2.5.2  | 65.2 MB   |            |   0% magma-cuda110-2.5.2  | 65.2 MB   |            |   0% magma-cuda110-2.5.2  | 65.2 MB   |            |   1% magma-cuda110-2.5.2  | 65.2 MB   | 2          |   2% magma-cuda110-2.5.2  | 65.2 MB   | 5          |   6% magma-cuda110-2.5.2  | 65.2 MB   | #1         |  11% magma-cuda110-2.5.2  | 65.2 MB   | #9         |  20% magma-cuda110-2.5.2  | 65.2 MB   | ##5        |  26% magma-cuda110-2.5.2  | 65.2 MB   | ###6       |  37% magma-cuda110-2.5.2  | 65.2 MB   | ####7      |  48% magma-cuda110-2.5.2  | 65.2 MB   | #####7     |  58% magma-cuda110-2.5.2  | 65.2 MB   | ######7    |  67% magma-cuda110-2.5.2  | 65.2 MB   | #######7   |  78% magma-cuda110-2.5.2  | 65.2 MB   | #########  |  90% magma-cuda110-2.5.2  | 65.2 MB   | ########## | 100% 
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done

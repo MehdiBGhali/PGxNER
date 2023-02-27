@@ -1,0 +1,68 @@
+/var/spool/slurm/slurmd/job22916/slurm_script: ligne 28: rustc : commande introuvable
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+torchvision 0.14.1 requires torch==1.13.1, but you have torch 1.7.1 which is incompatible.
+  Running command git clone --filter=blob:none --quiet https://github.com/fastnlp/fastNLP /tmp/benghali_meh-22916/pip-req-build-v2q4i6lw
+  Running command git checkout -b dev --track origin/dev
+  Basculement sur la nouvelle branche 'dev'
+  La branche 'dev' est paramétrée pour suivre la branche distante 'dev' depuis 'origin'.
+  Running command git clone --filter=blob:none --quiet https://github.com/fastnlp/fitlog /tmp/benghali_meh-22916/pip-req-build-ig3nmnwi
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.10.3
+  latest version: 23.1.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.10.3
+  latest version: 23.1.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.10.3
+  latest version: 23.1.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+PackagesNotFoundError: The following packages are not available from current channels:
+
+  - magma-cuda1131
+
+Current channels:
+
+  - https://conda.anaconda.org/pytorch/linux-64
+  - https://conda.anaconda.org/pytorch/noarch
+  - https://repo.anaconda.com/pkgs/main/linux-64
+  - https://repo.anaconda.com/pkgs/main/noarch
+  - https://repo.anaconda.com/pkgs/r/linux-64
+  - https://repo.anaconda.com/pkgs/r/noarch
+
+To search for alternate channels that may provide the conda package you're
+looking for, navigate to
+
+    https://anaconda.org
+
+and use the search bar at the top of the page.
+
+
+python: can't open file 'setup.py': [Errno 2] No such file or directory
+pre. tgt. for `dev`:   0%|          | 0/75 [00:00<?, ?it/s]pre. tgt. for `dev`:  63%|██████▎   | 47/75 [00:00<00:00, 466.46it/s]                                                                     pre. tgt. for `test`:   0%|          | 0/76 [00:00<?, ?it/s]pre. tgt. for `test`:  64%|██████▍   | 49/76 [00:00<00:00, 487.95it/s]                                                                      pre. tgt. for `train`:   0%|          | 0/567 [00:00<?, ?it/s]pre. tgt. for `train`:   9%|▉         | 50/567 [00:00<00:01, 498.17it/s]pre. tgt. for `train`:  18%|█▊        | 103/567 [00:00<00:00, 505.70it/s]pre. tgt. for `train`:  27%|██▋       | 152/567 [00:00<00:00, 498.11it/s]pre. tgt. for `train`:  37%|███▋      | 207/567 [00:00<00:00, 512.09it/s]pre. tgt. for `train`:  46%|████▌     | 260/567 [00:00<00:00, 515.38it/s]pre. tgt. for `train`:  55%|█████▍    | 311/567 [00:00<00:00, 512.91it/s]pre. tgt. for `train`:  64%|██████▍   | 363/567 [00:00<00:00, 512.88it/s]pre. tgt. for `train`:  74%|███████▎  | 418/567 [00:00<00:00, 521.90it/s]pre. tgt. for `train`:  83%|████████▎ | 471/567 [00:00<00:00, 520.70it/s]pre. tgt. for `train`:  92%|█████████▏| 522/567 [00:01<00:00, 511.41it/s]                                                                         Traceback (most recent call last):
+  File "./BARTNER/train.py", line 164, in <module>
+    print(f'max_len_a:{max_len_a}, max_len:{max_len}')
+NameError: name 'max_len_a' is not defined

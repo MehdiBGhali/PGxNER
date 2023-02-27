@@ -1,0 +1,11 @@
+Running on sh06
+# conda environments:
+#
+base                  *  /opt/conda
+PGx_env                  /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env
+PGx_env_37               /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env_37
+cloned_env               /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/cloned_env
+new_PGx_env              /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env
+torch_from_source_env     /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env
+
+<module 'torch.version' from '/usr/users/rattrapagemehdibenghali/benghali_meh/conda_env/pytorch/torch/version.py'>

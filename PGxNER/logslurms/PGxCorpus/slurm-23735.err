@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "./BARTNER/train.py", line 11, in <module>
+    from model.bart import BartSeq2SeqModel
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER/model/bart.py", line 2, in <module>
+    from .modeing_bart import BartEncoder, BartDecoder, BartModel
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER/model/modeing_bart.py", line 860, in <module>
+    class BartModel(PretrainedBartModel):
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER/model/modeing_bart.py", line 872, in BartModel
+    @add_start_docstrings_to_callable(BART_INPUTS_DOCSTRING)
+NameError: name 'add_start_docstrings_to_callable' is not defined

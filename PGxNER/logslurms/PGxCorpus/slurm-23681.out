@@ -1,0 +1,66 @@
+Running on sh04
+# conda environments:
+#
+base                  *  /opt/conda
+PGx_env                  /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env
+PGx_env_37               /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env_37
+new_PGx_env              /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/new_PGx_env
+torch_from_source_env     /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env
+
+Namespace(bart_name='dmis-lab/biobert-v1.1', batch_size=8, dataset_name='PGxCorpus', decoder_type='avg_feature', eval_start_epoch=10, history_dir='./training_history', length_penalty=1, lr=1e-05, max_len=10, max_len_a=1.6, n_epochs=100, num_beams=3, save_model=1, schedule='linear', target_type='word', use_encoder_mlp=1, warmup_ratio=0.01)
+processing
+{'dev': +------------------------+------------------------+------------------------+------------------------+
+| entities               | entity_tags            | raw_words              | entity_spans           |
++------------------------+------------------------+------------------------+------------------------+
+| [['COMT'], ['COMT',... | ['gene_or_protein',... | ['The', 'COMT', 'ge... | [[1, 2], [1, 8], [6... |
+| [['tumors'], ['high... | ['disease', 'phenot... | ['One', 'patient', ... | [[5, 6], [7, 11], [... |
+| [['DRD', '3'], ['DR... | ['gene_or_protein',... | ['CONCLUSIONS', ':'... | [[2, 4], [2, 8], [1... |
+| [['metabolic', 'the... | ['chemical', 'gene_... | ['To', 'identify', ... | [[3, 6], [13, 15], ... |
+| [['cytochrome', 'P'... | ['gene_or_protein',... | ['As', 'cytochrome'... | [[1, 4], [6, 7], [8... |
+| [['response', 'rate... | ['pharmacodynamic_p... | ['The', 'response',... | [[1, 3], [6, 10], [... |
+| [['polymorphisms', ... | ['limited_variation... | ['With', 'regard', ... | [[6, 11], [9, 11], ... |
+| [['GNB', '3'], ['GN... | ['gene_or_protein',... | ['Patients', 'with'... | [[3, 5], [3, 7], [1... |
+| [['Sorafenib'], ['B... | ['chemical', 'gene_... | ['Sorafenib', ',', ... | [[0, 1], [8, 9], [8... |
+| [['Gastric', 'cance... | ['disease', 'gene_o... | ['CONCLUSION', ':',... | [[2, 4], [6, 8], [6... |
+| [['Gly', '16', 'Arg... | ['limited_variation... | ['The', 'effects', ... | [[4, 10], [7, 9], [... |
+| [['genetic', 'varia... | ['limited_variation... | ['This', 'study', '... | [[6, 13], [10, 12],... |
+| ...                    | ...                    | ...                    | ...                    |
++------------------------+------------------------+------------------------+------------------------+, 'test': +------------------------+------------------------+------------------------+------------------------+
+| entities               | entity_tags            | raw_words              | entity_spans           |
++------------------------+------------------------+------------------------+------------------------+
+| [['alcohol'], ['alc... | ['chemical', 'disea... | ['Association', 'of... | [[2, 3], [2, 4], [5... |
+| [['GISTs'], ['imati... | ['disease', 'chemic... | ['Most', 'GISTs', '... | [[1, 2], [4, 6], [1... |
+| [['angiotensin', 'I... | ['gene_or_protein',... | ['The', 'angiotensi... | [[1, 7], [1, 8], [9... |
+| [['levels', 'of', '... | ['phenotype', 'phen... | ['The', 'levels', '... | [[1, 6, 12, 13], [1... |
+| [['morphine'], ['mo... | ['chemical', 'pharm... | ['Although', 'morph... | [[1, 2], [1, 2, 4, ... |
+| [['T', '102', 'C', ... | ['limited_variation... | ['In', 'the', 'pres... | [[9, 28], [15, 22],... |
+| [['response', 'to',... | ['pharmacodynamic_p... | ['This', 'patient',... | [[5, 8], [5, 7, 10,... |
+| [['AZ'], ['C', '0',... | ['chemical', 'pharm... | ['However', ',', 'i... | [[9, 10], [12, 17],... |
+| [['lycopene'], ['ex... | ['chemical', 'pheno... | ['We', 'found', 'th... | [[3, 4], [8, 19], [... |
+| [['Cytochrome', 'P'... | ['gene_or_protein',... | ['Cytochrome', 'P',... | [[0, 6], [0, 12, 21... |
+| [['oral', 'clearanc... | ['pharmacokinetic_p... | ['We', 'found', 'or... | [[2, 8], [5, 8], [1... |
+| [['MDR', '1'], ['MD... | ['gene_or_protein',... | ['Is', 'there', 'a'... | [[5, 7], [5, 7, 13,... |
+| ...                    | ...                    | ...                    | ...                    |
++------------------------+------------------------+------------------------+------------------------+, 'train': +------------------------+------------------------+------------------------+------------------------+
+| entities               | entity_tags            | raw_words              | entity_spans           |
++------------------------+------------------------+------------------------+------------------------+
+| [['UGT', '1', 'A', ... | ['gene_or_protein',... | ['CONCLUSIONS', ':'... | [[5, 9], [5, 9, 14,... |
+| [['opioid', 'antago... | ['chemical', 'chemi... | ['Withdrawal', 'pre... | [[7, 9], [10, 12], ... |
+| [['effects', 'of', ... | ['pharmacodynamic_p... | ['To', 'address', '... | [[8, 15], [14, 15],... |
+| [['PDAC'], ['MIA', ... | ['disease', 'gene_o... | ['Accordingly', ','... | [[2, 3], [7, 9], [7... |
+| [['nonresponders'],... | ['pharmacodynamic_p... | ['One', 'of', 'the'... | [[3, 4], [7, 9], [1... |
+| [['Beta', '2'], ['B... | ['gene_or_protein',... | ['Beta', '2', '-', ... | [[0, 2], [0, 5], [1... |
+| [['multikinase', 'i... | ['chemical', 'chemi... | ['Here', ',', 'we',... | [[6, 8], [8, 9], [1... |
+| [['DPYD'], ['DPYD',... | ['gene_or_protein',... | ['The', 'apparently... | [[6, 7], [6, 8], [1... |
+| [['JAK', '3'], ['JA... | ['gene_or_protein',... | ['The', 'JAK', '3',... | [[1, 3], [1, 4], [4... |
+| [['exons', 'of', 'E... | ['genomic_factor', ... | ['METHODS', ':', 'W... | [[5, 9], [7, 9], [2... |
+| [['GSTT', '1'], ['G... | ['gene_or_protein',... | ['Particularly', 't... | [[4, 6], [4, 6, 9, ... |
+| [['CYP', '2', 'B', ... | ['gene_or_protein',... | ['The', 'effects', ... | [[3, 7], [3, 13], [... |
+| ...                    | ...                    | ...                    | ...                    |
++------------------------+------------------------+------------------------+------------------------+}
+In total 3 datasets:
+	dev has 75 instances.
+	test has 76 instances.
+	train has 567 instances.
+
+Cannot set field:src_tokens as input, exception happens at the 0 value.

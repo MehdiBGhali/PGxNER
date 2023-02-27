@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "./BARTNER/train.py", line 8, in <module>
+    import transformers #here
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env/lib/python3.8/site-packages/transformers/__init__.py", line 22, in <module>
+    from .integrations import (  # isort:skip
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env/lib/python3.8/site-packages/transformers/integrations.py", line 58, in <module>
+    from .file_utils import is_torch_tpu_available
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/torch_from_source_env/lib/python3.8/site-packages/transformers/file_utils.py", line 29, in <module>
+    from filelock import FileLock
+ModuleNotFoundError: No module named 'filelock'

@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "./BARTNER/train.py", line 10, in <module>
+    from data.pipe import BartNERPipe
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER/data/pipe.py", line 1, in <module>
+    from fastNLP.io import ConllLoader, Loader
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/__init__.py", line 91, in <module>
+    from . import embeddings
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/embeddings/__init__.py", line 35, in <module>
+    from .elmo_embedding import ElmoEmbedding
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/embeddings/elmo_embedding.py", line 22, in <module>
+    from ..modules.encoder._elmo import ElmobiLm, ConvTokenEmbedder
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/modules/__init__.py", line 88, in <module>
+    from .tokenizer import *
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/modules/tokenizer/__init__.py", line 13, in <module>
+    from .gpt2_tokenizer import GPT2Tokenizer
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/modules/tokenizer/gpt2_tokenizer.py", line 12, in <module>
+    import regex as re
+ModuleNotFoundError: No module named 'regex'

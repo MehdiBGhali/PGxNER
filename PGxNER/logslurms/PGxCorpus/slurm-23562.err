@@ -1,0 +1,11 @@
+usage: train.py [-h] [--dataset_name DATASET_NAME] [--schedule SCHEDULE]
+                [--n_epochs N_EPOCHS] [--batch_size BATCH_SIZE] [--lr LR]
+                [--length_penalty LENGTH_PENALTY]
+                [--warmup_ratio WARMUP_RATIO]
+                [--eval_start_epoch EVAL_START_EPOCH]
+                [--save_model SAVE_MODEL] [--target_type TARGET_TYPE]
+                [--bart_name BART_NAME] [--decoder_type DECODER_TYPE]
+                [--use_encoder_mlp USE_ENCODER_MLP] [--max_len MAX_LEN]
+                [--max_len_a MAX_LEN_A] [--num_beams NUM_BEAMS]
+                [--history_dir HISTORY_DIR]
+train.py: error: argument --batch_size: expected one argument

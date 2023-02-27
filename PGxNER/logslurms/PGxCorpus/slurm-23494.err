@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "./BARTNER/train.py", line 22, in <module>
+    from model.callbacks import WarmupCallback
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER/model/callbacks.py", line 319
+    f.write(f"Start time : {datetime.now().strftime("%H:%M:%S")} \n") 
+                                                       ^
+SyntaxError: invalid syntax

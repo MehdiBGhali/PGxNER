@@ -1,0 +1,225 @@
+The COMT gene polymorphism , SNP rs 9606186 , is associated with risperidone therapy efficiency in the Chinese population .
+1,1 Gene_or_protein|1,7 Limited_variation|12,12 Chemical|12,14 Pharmacodynamic_phenotype|6,7 Limited_variation
+
+One patient each whose advanced tumors harbored high level MET amplification with wild - type PIK 3 CA or MET exon 14 skipping mutation with PIK 3 CA - p . Glu 542 Lys had significant responses to crizotinib ; suggesting that PIK 3 CA co - mutation did not affect clinical response .
+5,5 Disease|15,17 Gene_or_protein|25,27 Gene_or_protein|25,33 Limited_variation|38,38 Chemical|42,44 Gene_or_protein|7,10 Phenotype|42,47 Limited_variation|51,52 Pharmacodynamic_phenotype|9,9 Gene_or_protein|12,17 Limited_variation|19,23 Limited_variation|19,19 Gene_or_protein|36,38 Pharmacodynamic_phenotype|9,10 Genomic_variation|19,21 Genomic_factor
+
+CONCLUSIONS : DRD 3 Ser 9 Gly polymorphisms are significantly associated with the therapeutic efficacy of pramipexole in Chinese patients with PD .
+2,3 Gene_or_protein|2,7 Limited_variation|14,16 Pharmacodynamic_phenotype|16,16 Chemical|21,21 Disease
+
+To identify other metabolic therapeutic targets , we systematically profiled metabolites in endogenous IDH 1 mutant cancer cells after mutant IDH 1 inhibition and discovered a profound vulnerability to depletion of the coenzyme NAD + .
+13,14 Gene_or_protein|13,16 Disease|20,21 Gene_or_protein|13,15 Limited_variation|27,34 Phenotype|3,5 Chemical|33,34 Gene_or_protein
+
+As cytochrome P 450 enzymes metabolize yohimbine , P 450 genotypes ( CYP 2 D 6 and CYP 3 A 4 ) were determined in 25 of 30 subjects who consented to genetic studies .
+1,3 Gene_or_protein|6,6 Chemical|8,10 Limited_variation|8,9 Gene_or_protein|12,15 Gene_or_protein|17,20 Gene_or_protein
+
+The response rate in patients with non - EGFR mutant tumors was 8 % , likely reflecting activity of everolimus .
+8,8 Gene_or_protein|19,19 Chemical|6,10 Disease|1,2 Pharmacodynamic_phenotype|6,9 Limited_variation
+
+With regard to the variability , polymorphisms of the MDR 1 gene have recently been reported to be associated with alterations in disposition kinetics and interaction profiles of clinically useful drugs , including digoxin , fexofenadine , ciclosporin and talinolol .
+22,23 Pharmacokinetic_phenotype|9,10 Gene_or_protein|35,35 Chemical|37,37 Chemical|39,39 Chemical|6,10 Limited_variation|33,33 Chemical
+
+Patients with a GNB 3 CC genotype had significantly lower SVR rates as compared to carriers of a non - CC genotype ( 52 % versus 77 % ; p = 0 . 018 ) .
+3,6 Limited_variation|3,4 Gene_or_protein|18,21 Limited_variation|10,10 Phenotype
+
+Sorafenib , the first agent developed to target BRAF mutant melanoma , is a multi - kinase inhibitor that was approved by the FDA for therapy of kidney and subsequently liver cancer , and is currently in clinical trials for thyroid , lung and brain cancer .
+0,0 Chemical|8,8 Gene_or_protein|44,45 Disease|30,31 Disease|8,10 Disease|40,40,45,45 Disease|42,42,45,45 Disease|8,9 Limited_variation|14,17 Chemical|27,27,31,31 Disease
+
+CONCLUSION : Gastric cancer patients with ERCC 1 - 118 C / C genotype and XRCC 1 - 399 A / G or A / A genotype may benefit from an oxaliplatin - based adjuvant chemotherapy .
+2,3 Disease|6,12 Limited_variation|6,7 Gene_or_protein|15,16 Gene_or_protein|31,35 Chemical|15,21 Limited_variation|15,16,23,25 Limited_variation|31,31 Chemical
+
+The effects of a Gly 16 Arg ADRB 2 polymorphism on responses to salmeterol or montelukast in Japanese patients with mild persistent asthma .
+4,9 Limited_variation|7,8 Gene_or_protein|13,13 Chemical|15,15 Chemical|22,22 Disease|11,13 Pharmacodynamic_phenotype|11,12,15,15 Pharmacodynamic_phenotype
+
+This study provides evidence of common genetic variants within the PDLIM 5 gene and interactions between PLDIM 5 gene polymorphisms and steroid use influencing cancer .
+6,12 Limited_variation|10,11 Gene_or_protein|21,21 Chemical|24,24 Disease|16,19 Limited_variation|16,17 Gene_or_protein
+
+CONCLUSION : In these kidney transplant recipients , patients who carried the TPMT * 3 C allele were at a higher risk for azathioprine - induced myelosuppression than noncarriers .
+12,12 Gene_or_protein|23,23 Chemical|12,15 Haplotype|23,26 Pharmacodynamic_phenotype|4,5 Disease|26,26 Pharmacodynamic_phenotype
+
+PXR - mediated transcriptional activation of CYP 3 A 4 by cryptotanshinone and tanshinone IIA .
+3,9 Phenotype|0,0 Gene_or_protein|6,9 Gene_or_protein|11,11 Chemical|13,14 Chemical
+
+CONCLUSION : This study revealed a significant association between lack of response to 5 - fluorouracil and mitomycin and mutations affecting the L 2 / L 3 domains of the p 53 protein .
+13,15 Chemical|17,17 Chemical|30,31 Gene_or_protein|19,32 Limited_variation|9,15 Pharmacodynamic_phenotype|9,12,17,17 Pharmacodynamic_phenotype
+
+Yin and yang of cytidine deaminase roles in clinical response to azacitidine in the elderly : a pharmacogenetics tale .
+4,5 Gene_or_protein|11,11 Chemical|9,11 Pharmacodynamic_phenotype
+
+Effects of dopamine transporter and receptor polymorphisms on smoking cessation in a bupropion clinical trial .
+2,3,6,6 Limited_variation|2,3 Gene_or_protein|2,2,5,5 Gene_or_protein|5,6 Limited_variation|12,12 Chemical|8,9 Phenotype
+
+Similarly , the in vitro replication capacity of a mutant virus expressing a zidovudine - associated mutation and M 184 V was significantly reduced compared with wild - type virus .
+13,13 Chemical|26,28 Limited_variation|13,16 Limited_variation|18,20 Limited_variation|5,6 Phenotype
+
+Discovery of 5 - ( arenethynyl ) hetero - monocyclic derivatives as potent inhibitors of BCR - ABL including the T 315 I gatekeeper mutant .
+2,10 Chemical|20,24 Limited_variation|15,17 Gene_or_protein
+
+Adjusted odds ratios ( OR ) for skin lesions were estimated in relation to the polymorphisms in the glutathione S - transferase omega 1 and methylenetetrahydrofolate reductase genes , the percentage of monomethylarsonous acid ( % MMA ) and dimethylarsinic acid ( % DMA ) in urine , and the ratios of MMA to inorganic arsenic and DMA to MMA .
+7,8 Phenotype|18,23 Gene_or_protein|25,26 Gene_or_protein|32,33 Chemical|36,36 Chemical|43,43 Chemical|39,40 Chemical|52,52 Chemical|55,55 Chemical|57,57 Chemical|59,59 Chemical|15,23 Limited_variation|15,17,25,26 Limited_variation|50,55 Phenotype|50,51,57,59 Phenotype|30,33,45,46 Phenotype|30,31,39,40,45,46 Phenotype|35,36 Phenotype|42,43 Phenotype
+
+These data suggest that bupropion may be effective for smoking cessation only in a subgroup of smokers with the DRD 2 Taq 1 A 2 / A 2 genotype .
+4,4 Chemical|19,28 Limited_variation|19,20 Gene_or_protein|9,10 Phenotype
+
+Sensitization by 5 - aza - 2 ' - deoxycytidine of leukaemia cells with MLL abnormalities to induction of differentiation by all - trans retinoic acid and 1 alpha , 25 - dihydroxyvitamin D 3 .
+2,9 Chemical|11,11 Disease|14,14 Gene_or_protein|21,25 Chemical|27,34 Chemical|14,15 Genomic_variation|19,25 Pharmacodynamic_phenotype|19,20,27,34 Pharmacodynamic_phenotype|0,9 Pharmacodynamic_phenotype
+
+There was also a nonsignificant trend for subjects with an ADH 2 * 3 allele ( n = 6 ) to have faster rates of alcohol elimination than those with ADH 2 * 1 alleles only ( n = 33 ) .
+10,11 Gene_or_protein|25,25 Chemical|30,33 Haplotype|30,31 Gene_or_protein|10,13 Haplotype|25,26 Pharmacokinetic_phenotype
+
+These results suggest that the Ainu - selected traditional beneficial plants are useful source for findings of novel AhR antagonists , and the antagonistic activity of these plants may be independent on their antioxidative activity and polyphenol content .
+18,18 Gene_or_protein|36,36 Chemical|18,19 Chemical|33,34 Pharmacodynamic_phenotype
+
+Triallelic 5 - HTTLPR was associated with social anxiety , anxiety , and depressive traits in alcohol - dependent subjects .
+1,3 Gene_or_protein|7,8 Disease|10,10 Disease|13,13 Disease|16,16 Chemical|0,3 Genomic_variation|16,18 Disease
+
+CONCLUSION : This result suggests that the CCR 3 genetic polymorphisms may contribute to the development of the AERD phenotype and may be used as a genetic marker for differentiating between the two major aspirin hypersensitivity phenotypes .
+7,10 Limited_variation|7,8 Gene_or_protein|18,18 Disease|34,34 Chemical|34,35 Pharmacodynamic_phenotype
+
+We prospectively investigated the associations between HO - 1 ( GT ) n polymorphism and cancer risk related to arsenic from drinking water .
+6,13 Limited_variation|6,8 Gene_or_protein|15,15 Disease|19,19 Chemical
+
+Genomewide Association Study of Tacrolimus Concentrations in African American Kidney Transplant Recipients Identifies Multiple CYP 3 A 5 Alleles .
+4,4 Chemical|14,18 Limited_variation|14,17 Gene_or_protein|4,5 Pharmacodynamic_phenotype
+
+Analysing combined effects , a significant impact of low 25 - OH vitamin D levels on sustained virological response were only seen in patients with the unfavourable NR 1 I 1 CCA ( bAt ) haplotype ( OR for non - SVR 3 . 55 ; 95 % CI 1 . 005 , 12 . 57 ; P = 0 . 049 ) .
+9,13 Chemical|27,30 Gene_or_protein|27,31 Haplotype|17,18 Phenotype|8,14 Pharmacodynamic_phenotype|33,33 Haplotype
+
+Metoprolol alpha - hydroxylation is a poor probe for debrizoquine oxidation ( CYP 2 D 6 ) polymorphism in Jordanians .
+0,0 Chemical|9,9 Chemical|9,17 Limited_variation|12,15 Gene_or_protein|0,3 Pharmacokinetic_phenotype|9,10 Pharmacokinetic_phenotype
+
+In the present paper , we focused on the most direct biochemical lithium targets at therapeutic concentration , for which some pharmacogenetic finding is present ( i . e . inositol mono phosphatase ( IMPase ) , inositol polyphosphate - 1 - phosphatase ( IPPase ) and glycogen sinthase kinase 3 beta ( GSK - 3 beta ) ) .
+12,12 Chemical|37,42 Gene_or_protein|44,44 Gene_or_protein|53,56 Gene_or_protein|30,32 Gene_or_protein|34,34 Gene_or_protein|47,51 Gene_or_protein
+
+The SNPs C 1236 T and C 3435 T in venlafaxine - positive cases were significantly different between the intoxication cases and non - intoxications .
+2,4 Limited_variation|6,8 Limited_variation|10,10 Chemical|19,19 Pharmacodynamic_phenotype|22,24 Pharmacodynamic_phenotype
+
+Our previous studies have demonstrated the involvement of xeroderma pigmentosum group A ( XPA ) codon 23 and xeroderma pigmentosum group D ( XPD ) codon 751 single - nucleotide polymorphisms ( SNPs ) in clinical response to platinum based chemotherapy in advanced NSCLC patients .
+8,11 Gene_or_protein|13,13 Gene_or_protein|18,21 Gene_or_protein|23,23 Gene_or_protein|38,40 Chemical|43,43 Disease|18,33 Limited_variation|8,16,27,33 Limited_variation|36,40 Pharmacodynamic_phenotype|38,38 Chemical
+
+The A 118 G ( N 40 D ) polymorphism in humans is functionally mimicked by the C 77 G ( P 26 R ) polymorphism in rhesus monkeys ; both show similar in vitro influences on ligand binding and in vivo correlations with physiological measures as well as behavioral measures including predilection towards alcohol consumption .
+1,3 Limited_variation|5,7 Limited_variation|17,19 Limited_variation|21,23 Limited_variation|52,55 Phenotype|54,54 Chemical|44,45 Phenotype|49,50 Phenotype|37,38 Phenotype
+
+Variation in the cytochrome P 450 2 C 19 ( CYP 2 C 19 ) gene coding for the CYP 2 C 19 enzyme is one of the major determinants of this variable response to clopidogrel .
+0,15 Limited_variation|3,8 Gene_or_protein|10,13 Gene_or_protein|19,22 Gene_or_protein|35,35 Chemical|32,35 Pharmacodynamic_phenotype
+
+Here , we systematically introduced cysteine - scanning substitutions into the descending portion of the P loop ( residues 339 - 345 ) of HCN 1 - R ( where R is resistance to sulfhydryl - reactive agents ) channels , in which all endogenous cysteines except C 303 have been removed or replaced .
+24,25 Gene_or_protein|34,34 Chemical|8,39 Genomic_variation|32,37 Pharmacodynamic_phenotype
+
+[ Analysis of the correlation with KRAS gene mutation status and the benefit of cetuximab plus irinotecan as third - line chemotherapy for the Treatment of unresectable metastatic colorectal cancer ] .
+6,9 Limited_variation|6,6 Gene_or_protein|16,16 Chemical|27,29 Disease|14,14 Chemical|14,16 Chemical|12,16 Pharmacodynamic_phenotype|21,21 Chemical
+
+Acetaminophen , 3 ' - azido - 3 ' - deoxythymidine , muraglitazar , estradiol ( 17 - OH ) , and ethinyl estradiol ( 17 - OH ) were all found to show similar rates of metabolism regardless of UGT 1 A 1 genotype .
+2,10 Chemical|14,14 Chemical|16,18 Chemical|22,23 Chemical|25,27 Chemical|40,44 Limited_variation|40,43 Gene_or_protein|0,0 Chemical|12,12 Chemical|35,37 Pharmacokinetic_phenotype
+
+Five SCARB 1 SNPs were sequenced and progesterone levels were measured in the follicular fluid .
+1,3 Limited_variation|1,2 Gene_or_protein|7,8 Pharmacodynamic_phenotype
+
+rs 9923231 ( VKORC 1 ) , rs 7294 ( VKORC 1 ) , rs 1057910 ( CYP 2 C 9 ) , rs 2108622 ( CYP 4 F 2 ) , and rs 699664 ( GGCX ) involved in the warfarin action mechanism and the circulatory vitamin K were selected to investigate their polymorphism characteristics and their effects on the pharmacodynamics and pharmacokinetics of warfarin in Chinese population .
+0,1 Limited_variation|3,4 Gene_or_protein|7,8 Limited_variation|10,11 Gene_or_protein|14,15 Limited_variation|17,20 Gene_or_protein|23,24 Limited_variation|26,29 Gene_or_protein|33,34 Limited_variation|36,36 Gene_or_protein|41,42 Pharmacodynamic_phenotype|47,48 Chemical|65,65 Chemical|63,65 Pharmacokinetic_phenotype|61,61,64,65 Pharmacodynamic_phenotype|46,48 Pharmacodynamic_phenotype|41,41 Chemical
+
+CONCLUSIONS : HAGE expression is a potential prognostic marker and a predictor of response to anthracycline treatment in TNBC .
+2,3 Phenotype|2,2 Gene_or_protein|15,15 Chemical|18,18 Disease|13,16 Pharmacodynamic_phenotype
+
+OBJECTIVE : To examine the association of six glutathione transferase ( GST ) gene polymorphisms ( GSTT 1 , GSTP 1 / rs 1695 , GSTO 1 / rs 4925 , GSTO 2 / rs 156697 , GSTM 1 , GSTA 1 / rs 3957357 ) with the survival of patients with muscle invasive bladder cancer and the genotype modifying effect on chemotherapy .
+8,8 Chemical|16,17 Gene_or_protein|19,20 Gene_or_protein|22,23 Limited_variation|28,29 Limited_variation|25,26 Gene_or_protein|31,32 Gene_or_protein|34,35 Limited_variation|37,38 Gene_or_protein|40,41 Gene_or_protein|43,44 Limited_variation|54,55 Disease|8,9 Gene_or_protein|11,11 Gene_or_protein|8,14 Limited_variation|48,48 Phenotype|62,62 Chemical|60,62 Pharmacodynamic_phenotype
+
+BACKGROUND : Epidermal growth factor receptor ( EGFR ) mutations in non - small cell lung cancer ( NSCLC ) are important predictive markers for the response to EGFR - tyrosine kinase inhibitors ( EGFR - TKIs ) .
+2,5 Gene_or_protein|7,7 Gene_or_protein|11,16 Disease|18,18 Disease|26,37 Pharmacodynamic_phenotype|28,28 Gene_or_protein|28,32 Chemical|34,34 Gene_or_protein|34,36 Chemical|2,9 Limited_variation
+
+We reported previously that somatostatin inhibits the expression of the immediate early gene c - fos .
+4,4 Chemical|7,8,13,15 Phenotype|13,15 Gene_or_protein
+
+In contrast , strong neocortical constitutive expression of KROX - 24 was almost abolished by MK - 801 administration , and replaced by an expression pattern similar to that of FOS and JUN proteins .
+6,10 Phenotype|8,10 Gene_or_protein|15,17 Chemical|30,30 Gene_or_protein|32,32 Gene_or_protein|24,30 Phenotype|24,29,32,32 Phenotype
+
+The aim of this study was to evaluate lansoprazole as an in vivo phenotyping probe for assessing CYP 2 C 19 activity in children .
+8,8 Chemical|17,21 Phenotype|17,20 Gene_or_protein
+
+C 3435 T mutation in exon 26 of the human MDR 1 gene and cyclosporine pharmacokinetics in healthy subjects .
+10,12 Gene_or_protein|14,14 Chemical|5,12 Genomic_factor|0,12 Limited_variation|14,15 Pharmacokinetic_phenotype
+
+CONCLUSION : The PTGS 2 - 765 G > C single - nucleotide polymorphism does not modulate COX - 2 inhibitory effects of celecoxib as assessed by an ex vivo whole blood assay .
+3,4 Gene_or_protein|3,13 Limited_variation|17,19 Gene_or_protein|23,23 Chemical|17,23 Pharmacodynamic_phenotype
+
+CYP 3 A enzyme plays a pivotal role in TAC metabolism .
+0,2 Gene_or_protein|9,9 Chemical|9,10 Pharmacokinetic_phenotype
+
+Afatinib is an irreversible inhibitor directed against EGFR , ErbB - 2 , and ErbB - 4 , whereas erlotinib is a reversible inhibitor directed against EGFR only .
+0,0 Chemical|7,7 Gene_or_protein|9,11 Gene_or_protein|14,16 Gene_or_protein|19,19 Chemical|26,26 Gene_or_protein
+
+The results showed that CRAd , in combination with irradiation , inhibited cell proliferation , promoted cell apoptosis and significantly increased the expression of TRAIL , DR 5 , caspase - 3 and caspase - 8 mRNA and proteins in MDA - MB - 231 cells .
+4,4 Chemical|24,24 Gene_or_protein|26,27 Gene_or_protein|29,31 Gene_or_protein|33,35 Gene_or_protein|22,24,36,36 Phenotype|22,23,26,27,36,36 Phenotype|22,23,29,31,36,36 Phenotype|22,23,33,36 Phenotype|12,13 Phenotype|16,17 Phenotype|33,36 Genomic_factor|29,31,36,36 Genomic_factor|26,27,36,36 Genomic_factor|24,24,36,36 Genomic_factor|22,24,38,38 Phenotype|22,23,26,27,38,38 Phenotype|22,23,29,31,38,38 Phenotype|22,23,33,35,38,38 Phenotype
+
+CONCLUSIONS : In a rat model of TPN , the use of 9 mmol / L butyrate did not have the same effect on GLUT 2 and proglucagon expression as a 60 - mmol / L mixture of SCFAs .
+16,16 Chemical|24,25 Gene_or_protein|27,27 Gene_or_protein|27,28 Phenotype|38,38 Chemical|24,25,28,28 Phenotype
+
+RESULTS : The descent of systolic blood pressure after metoprolol administration was significantly different among genotype groups ( 10 . 4 % + / - 4 . 0 % , 2 . 8 % + / - 4 . 7 % , and 1 . 1 % + / - 1 . 5 % for Arg 389 Arg , Gly 389 Arg , and Gly 389 Gly patients , respectively ; P < . 001 ) .
+9,9 Chemical|55,57 Limited_variation|59,61 Limited_variation|64,66 Limited_variation|3,10 Pharmacodynamic_phenotype|5,7 Pharmacodynamic_phenotype
+
+We demonstrate that p - fluorofentanyl more potently activates GIRK 1 / GIRK 2 channels through opioid receptors than fentanyl and that the p - fluoro substitution also changes the potency profile from mu > kappa > delta ( fentanyl ) to mu > delta > or = kappa ( p - fluorofentanyl ) .
+3,5 Chemical|12,13 Gene_or_protein|19,19 Chemical|23,25 Chemical|39,39 Chemical|50,52 Chemical|16,17 Gene_or_protein|9,10 Gene_or_protein|16,16 Chemical
+
+Salmeterol response is not affected by beta 2 - adrenergic receptor genotype in subjects with persistent asthma .
+0,0 Chemical|6,10 Gene_or_protein|16,16 Disease|0,1 Pharmacodynamic_phenotype|6,11 Limited_variation
+
+Hydralazine is metabolized by the highly polymorphic N - acetyltransferase 2 .
+0,0 Chemical|7,10 Gene_or_protein
+
+RESULTS : Patients carrying HLA - B * 15 : 02 are at strongly increased risk for CBZ - induced Stevens - Johnson syndrome / toxic epidermal necrolysis ( SJS / TEN ) in populations where HLA - B * 15 : 02 is common , but not CBZ - induced hypersensitivity syndrome ( HSS ) or maculopapular exanthema ( MPE ) .
+4,6 Gene_or_protein|17,17 Chemical|36,38 Gene_or_protein|51,52 Pharmacodynamic_phenotype|48,48 Chemical|54,54 Pharmacodynamic_phenotype|57,58 Disease|60,60 Disease|17,32 Pharmacodynamic_phenotype|29,31 Pharmacodynamic_phenotype|4,10 Haplotype|36,42 Limited_variation|48,52 Pharmacodynamic_phenotype|20,27 Pharmacodynamic_phenotype
+
+WNT activation by lithium abrogates TP 53 mutation associated radiation resistance in medulloblastoma .
+3,3 Chemical|5,7 Limited_variation|5,6 Gene_or_protein|12,12 Disease|5,10 Phenotype|0,3 Pharmacodynamic_phenotype|0,1 Pharmacodynamic_phenotype
+
+CYP 3 A 5 genetic polymorphism was not associated with tacrolimus - related nephrotoxicity .
+0,5 Limited_variation|0,3 Gene_or_protein|10,10 Chemical|10,13 Pharmacodynamic_phenotype|13,13 Pharmacodynamic_phenotype
+
+Lack of association between the Val 158 Met catechol - O - methyltransferase gene polymorphism and methamphetamine dependence .
+5,14 Limited_variation|8,12 Gene_or_protein|16,17 Disease|16,16 Chemical
+
+PURPOSE : We assessed the prognostic value of identifying abnormal p 53 protein expression in the tumors of patients with locally advanced prostate cancer who were treated with either external - beam radiation therapy alone or total androgen blockade before and during the radiation therapy .
+10,13 Phenotype|10,11 Gene_or_protein|16,16 Disease|22,23 Disease|37,38 Chemical
+
+Participants with SLCO 1 B 1 c . 521 CC genotype ( n = 4 ) had a 59 % ( P = 0 . 001 ) or 72 % ( P < 0 . 001 ) greater mean area under the plasma repaglinide concentration - time curve ( AUC ( 0 - infinity ) ) than participants with c . 521 TC ( n = 12 ) or c . 521 TT ( n = 16 ) genotypes .
+2,5 Gene_or_protein|2,10 Limited_variation|38,47 Pharmacokinetic_phenotype|43,43 Chemical|49,49 Pharmacokinetic_phenotype|59,62,78,78 Limited_variation|69,72,78,78 Limited_variation
+
+The region of estrogen responsiveness was localized to - 1557 / - 1175 of the HL promoter by deletion analysis .
+3,3 Chemical|15,15 Gene_or_protein|3,4 Pharmacodynamic_phenotype|8,16 Genomic_factor
+
+On day 21 after the first streptozotocin ( STZ ) injection , 75 % of the C 57 BL / 6 mice and 100 % of the 129 SvEv mice had blood glucose levels > 11 mmol / l , whereas the corresponding number for iNOS - / - mice was only 23 % .
+8,8 Chemical|6,6 Chemical|45,45 Gene_or_protein|31,38 Phenotype|45,48 Limited_variation
+
+The pertinence of HFE mutations , anastrozole and tamoxifen treatment , and chemotherapy to the development and management of PCT in women with breast cancer is discussed .
+3,4 Limited_variation|3,3 Gene_or_protein|6,6 Chemical|8,8 Chemical|23,24 Disease|12,12 Chemical
+
+In conclusion , our findings showed that MPAG pharmacokinetics were significantly influenced by SLCO 1 B 1 and SLCO 1 B 3 polymorphisms and not by UGT polymorphisms .
+7,7 Chemical|13,16 Gene_or_protein|18,22 Limited_variation|18,21 Gene_or_protein|26,27 Limited_variation|26,26 Gene_or_protein|7,8 Pharmacokinetic_phenotype|13,16,22,22 Limited_variation
+
+Cholestyramine is essential in the treatment of sitosterolemia ( ABCG 5 / 8 deficiency ) .
+0,0 Chemical|7,7 Disease|9,10 Gene_or_protein|9,13 Genomic_variation
+
+In conclusion , with high - dose folate supplementation , the hyperhomocysteinemia in patients with ESRD does not seem to be caused by the 677 C - - > T mutation in the MTHFR gene .
+7,7 Chemical|11,11 Disease|15,15 Disease|24,34 Limited_variation|33,33 Gene_or_protein
+
+The current study identifies an association of an intronic SNP ( rs 9479757 ) with the severity of heroin addiction among Han - Chinese male heroin addicts .
+8,13 Limited_variation|18,18 Chemical|25,25 Chemical|18,19 Disease|25,26 Disease
+
+Purified SULT 1 A 3 allozymes were shown to exhibit differential sulfating activity toward ritodrine .
+14,14 Chemical|1,4 Gene_or_protein|11,14 Pharmacokinetic_phenotype
+
+Is there a role for ADORA 2 A polymorphisms in levodopa - induced dyskinesia in Parkinson ' s disease patients ?
+5,8 Limited_variation|5,7 Gene_or_protein|10,10 Chemical|15,18 Disease|10,13 Pharmacodynamic_phenotype|13,13 Disease
+
+Intercellular adhesion molecule - 1 gene expression also was upregulated in a synergistic manner in cortical , striatal , and hippocampal regions in mice which received injections of Tat combined with METH compared to the effects of these agents alone .
+0,4 Gene_or_protein|28,28 Gene_or_protein|0,6 Phenotype|28,31 Chemical|31,31 Chemical
+
+CONCLUSIONS : Our results suggest that the magnitude of FPG reduction after 6 - month sulphonylurea treatment in addition to metformin in patients with type 2 diabetes is related to the variation in KCNQ 1 .
+9,9 Phenotype|15,20 Chemical|24,26 Disease|33,34 Gene_or_protein|31,34 Limited_variation|15,15 Chemical|20,20 Chemical
+
+Inhibiting CYP 2 A 6 ( e . g . tranylcypromine , methoxsalen ) decreases smoking and the activation of procarcinogens .
+1,4 Gene_or_protein|10,10 Chemical|12,12 Chemical|18,20 Phenotype|15,15 Phenotype
+
+Accordingly , cyclosporine dose - adjusted C 0 was larger in CYP 3 A 5 non - expressors than expressors in the first week after renal transplantation .
+2,2 Chemical|11,14 Gene_or_protein|25,26 Disease|11,17 Phenotype|2,7 Pharmacokinetic_phenotype|11,14,19,19 Phenotype
+

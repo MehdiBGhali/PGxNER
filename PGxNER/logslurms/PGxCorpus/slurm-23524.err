@@ -1,0 +1,14 @@
+pre. tgt. for `dev`:   0%|          | 0/75 [00:00<?, ?it/s]pre. tgt. for `dev`:  64%|██████▍   | 48/75 [00:00<00:00, 478.10it/s]                                                                     pre. tgt. for `test`:   0%|          | 0/76 [00:00<?, ?it/s]pre. tgt. for `test`:  64%|██████▍   | 49/76 [00:00<00:00, 489.97it/s]                                                                      pre. tgt. for `train`:   0%|          | 0/567 [00:00<?, ?it/s]pre. tgt. for `train`:   9%|▉         | 50/567 [00:00<00:01, 495.02it/s]pre. tgt. for `train`:  18%|█▊        | 103/567 [00:00<00:00, 504.08it/s]pre. tgt. for `train`:  26%|██▋       | 150/567 [00:00<00:00, 493.29it/s]pre. tgt. for `train`:  36%|███▌      | 205/567 [00:00<00:00, 508.66it/s]pre. tgt. for `train`:  46%|████▌     | 259/567 [00:00<00:00, 516.38it/s]pre. tgt. for `train`:  54%|█████▍    | 309/567 [00:00<00:00, 510.59it/s]pre. tgt. for `train`:  64%|██████▍   | 362/567 [00:00<00:00, 513.62it/s]pre. tgt. for `train`:  74%|███████▎  | 417/567 [00:00<00:00, 520.56it/s]pre. tgt. for `train`:  83%|████████▎ | 469/567 [00:00<00:00, 518.94it/s]pre. tgt. for `train`:  92%|█████████▏| 519/567 [00:01<00:00, 507.42it/s]                                                                         Traceback (most recent call last):
+  File "./BARTNER/train.py", line 332, in <module>
+    trainer.train(load_best_model=False)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/trainer.py", line 667, in train
+    raise e
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/trainer.py", line 657, in train
+    self.callback_manager.on_train_begin()
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/callback.py", line 322, in wrapper
+    returns.append(getattr(callback, func.__name__)(*arg))
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER/model/callbacks.py", line 317, in on_train_begin
+    subdir_indexes = [re.search(r'\d+',f)[0] for f in os.listdir(self.history_dir)]
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER/model/callbacks.py", line 317, in <listcomp>
+    subdir_indexes = [re.search(r'\d+',f)[0] for f in os.listdir(self.history_dir)]
+TypeError: 'NoneType' object is not subscriptable

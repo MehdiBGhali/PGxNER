@@ -1,0 +1,14 @@
+pre. tgt. for `dev`:   0%|          | 0/75 [00:00<?, ?it/s]pre. tgt. for `dev`:  64%|██████▍   | 48/75 [00:00<00:00, 478.03it/s]                                                                     pre. tgt. for `test`:   0%|          | 0/76 [00:00<?, ?it/s]pre. tgt. for `test`:  66%|██████▌   | 50/76 [00:00<00:00, 494.20it/s]                                                                      pre. tgt. for `train`:   0%|          | 0/567 [00:00<?, ?it/s]pre. tgt. for `train`:   9%|▉         | 50/567 [00:00<00:01, 497.07it/s]pre. tgt. for `train`:  18%|█▊        | 103/567 [00:00<00:00, 505.67it/s]pre. tgt. for `train`:  27%|██▋       | 151/567 [00:00<00:00, 496.20it/s]pre. tgt. for `train`:  37%|███▋      | 207/567 [00:00<00:00, 511.22it/s]pre. tgt. for `train`:  46%|████▌     | 260/567 [00:00<00:00, 515.64it/s]pre. tgt. for `train`:  55%|█████▍    | 311/567 [00:00<00:00, 512.79it/s]pre. tgt. for `train`:  64%|██████▍   | 363/567 [00:00<00:00, 511.73it/s]pre. tgt. for `train`:  74%|███████▍  | 419/567 [00:00<00:00, 524.68it/s]pre. tgt. for `train`:  83%|████████▎ | 471/567 [00:00<00:00, 521.17it/s]pre. tgt. for `train`:  92%|█████████▏| 522/567 [00:01<00:00, 509.97it/s]                                                                         Traceback (most recent call last):
+  File "./BARTNER/train.py", line 332, in <module>
+    trainer.train(load_best_model=False)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/trainer.py", line 667, in train
+    raise e
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/trainer.py", line 657, in train
+    self.callback_manager.on_train_begin()
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/callback.py", line 322, in wrapper
+    returns.append(getattr(callback, func.__name__)(*arg))
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER/model/callbacks.py", line 317, in on_train_begin
+    current_indexes = [int(re.match(r'\d+',f.name)) for f in os.scandir(self.history_dir) if f.is_dir()]
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER/model/callbacks.py", line 317, in <listcomp>
+    current_indexes = [int(re.match(r'\d+',f.name)) for f in os.scandir(self.history_dir) if f.is_dir()]
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'

@@ -1,0 +1,29 @@
+Traceback (most recent call last):
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/final_PGx_env/lib/python3.8/site-packages/transformers/configuration_utils.py", line 373, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "./BARTNER/train.py", line 168, in <module>
+    data_bundle, tokenizer, mapping2id = get_data()
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/utils.py", line 357, in wrapper
+    results = func(*args, **kwargs)
+  File "./BARTNER/train.py", line 155, in get_data
+    pipe = BartNERPipe(tokenizer=bart_name, dataset_name=dataset_name, target_type=target_type)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER/data/pipe.py", line 31, in __init__
+    self.tokenizer = AutoTokenizer.from_pretrained(tokenizer)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/final_PGx_env/lib/python3.8/site-packages/transformers/tokenization_auto.py", line 298, in from_pretrained
+    config = AutoConfig.from_pretrained(pretrained_model_name_or_path, **kwargs)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/final_PGx_env/lib/python3.8/site-packages/transformers/configuration_auto.py", line 330, in from_pretrained
+    config_dict, _ = PretrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/final_PGx_env/lib/python3.8/site-packages/transformers/configuration_utils.py", line 382, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for 'GanjinZero/biobart-v2-large'. Make sure that:
+
+- 'GanjinZero/biobart-v2-large' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or 'GanjinZero/biobart-v2-large' is the correct path to a directory containing a config.json file
+
+

@@ -1,0 +1,30 @@
+pre. tgt. for `dev`:   0%|          | 0/75 [00:00<?, ?it/s]pre. tgt. for `dev`:  79%|███████▊  | 59/75 [00:00<00:00, 589.34it/s]                                                                     pre. tgt. for `test`:   0%|          | 0/76 [00:00<?, ?it/s]pre. tgt. for `test`:  74%|███████▎  | 56/76 [00:00<00:00, 556.99it/s]                                                                      pre. tgt. for `train`:   0%|          | 0/567 [00:00<?, ?it/s]pre. tgt. for `train`:  10%|█         | 57/567 [00:00<00:00, 564.11it/s]pre. tgt. for `train`:  20%|██        | 114/567 [00:00<00:00, 565.20it/s]pre. tgt. for `train`:  30%|██▉       | 170/567 [00:00<00:00, 561.43it/s]pre. tgt. for `train`:  40%|███▉      | 226/567 [00:00<00:00, 560.24it/s]pre. tgt. for `train`:  50%|████▉     | 283/567 [00:00<00:00, 561.27it/s]pre. tgt. for `train`:  60%|██████    | 342/567 [00:00<00:00, 566.57it/s]pre. tgt. for `train`:  70%|███████   | 399/567 [00:00<00:00, 565.07it/s]pre. tgt. for `train`:  80%|████████  | 455/567 [00:00<00:00, 563.01it/s]pre. tgt. for `train`:  90%|████████▉ | 509/567 [00:00<00:00, 553.05it/s]pre. tgt. for `train`:  99%|█████████▉| 563/567 [00:01<00:00, 547.15it/s]                                                                         Traceback (most recent call last):
+  File "./BARTNER/train.py", line 168, in <module>
+    data_bundle, tokenizer, mapping2id = get_data()
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/utils.py", line 357, in wrapper
+    results = func(*args, **kwargs)
+  File "./BARTNER/train.py", line 165, in get_data
+    data_bundle = pipe.process_from_file(f'../data/{dataset_name}', demo=demo)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER/data/pipe.py", line 234, in process_from_file
+    data_bundle = self.process(data_bundle)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/PGxNER/BARTNER/data/pipe.py", line 208, in process
+    data_bundle.set_input('tgt_tokens', 'src_tokens', 'src_seq_len', 'tgt_seq_len', 'first')
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/io/data_bundle.py", line 142, in set_input
+    dataset.set_input(field_name, flag=flag, use_1st_ins_infer_dim_type=use_1st_ins_infer_dim_type)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/dataset.py", line 787, in set_input
+    raise e
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/dataset.py", line 784, in set_input
+    self.field_arrays[name].is_input = flag
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/field.py", line 371, in is_input
+    self._check_dtype_and_ndim(only_check_1st_ins_dim_type=self._use_1st_ins_infer_dim_type)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/field.py", line 423, in _check_dtype_and_ndim
+    raise e
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/field.py", line 406, in _check_dtype_and_ndim
+    type_0, dim_0 = _get_ele_type_and_dim(cell_0)
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/field.py", line 56, in _get_ele_type_and_dim
+    res = [_get_ele_type_and_dim(cell_i, dim) for cell_i in cell]
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/field.py", line 56, in <listcomp>
+    res = [_get_ele_type_and_dim(cell_i, dim) for cell_i in cell]
+  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/field.py", line 84, in _get_ele_type_and_dim
+    raise SetInputOrTargetException(f"Cannot process type:{type(cell)}.")
+fastNLP.core.field.SetInputOrTargetException: Cannot process type:<class 'NoneType'>.

@@ -1,0 +1,2 @@
+protobuf==3.20.*
+transformers==3.4.0
