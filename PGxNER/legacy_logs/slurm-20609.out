@@ -1,74 +1,0 @@
-Running on sh02
-# conda environments:
-#
-base                  *  /opt/conda
-PGx_env                  /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env
-PGx_env_37               /usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env_37
-
-pre. tgt. for `dev`:   0%|          | 0/1097 [00:00<?, ?it/s]pre. tgt. for `dev`:  13%|█▎        | 147/1097 [00:00<00:00, 1464.35it/s]pre. tgt. for `dev`:  29%|██▉       | 322/1097 [00:00<00:00, 1629.62it/s]pre. tgt. for `dev`:  45%|████▌     | 499/1097 [00:00<00:00, 1681.60it/s]pre. tgt. for `dev`:  62%|██████▏   | 682/1097 [00:00<00:00, 1735.89it/s]pre. tgt. for `dev`:  79%|███████▉  | 864/1097 [00:00<00:00, 1765.48it/s]pre. tgt. for `dev`:  95%|█████████▌| 1045/1097 [00:00<00:00, 1780.01it/s]                                                                          pre. tgt. for `test`:   0%|          | 0/1160 [00:00<?, ?it/s]pre. tgt. for `test`:  17%|█▋        | 201/1160 [00:00<00:00, 2005.33it/s]pre. tgt. for `test`:  35%|███▍      | 402/1160 [00:00<00:00, 1943.73it/s]pre. tgt. for `test`:  51%|█████▏    | 597/1160 [00:00<00:00, 1917.62it/s]pre. tgt. for `test`:  68%|██████▊   | 789/1160 [00:00<00:00, 1892.38it/s]pre. tgt. for `test`:  84%|████████▍ | 979/1160 [00:00<00:00, 1818.34it/s]                                                                          pre. tgt. for `train`:   0%|          | 0/5340 [00:00<?, ?it/s]pre. tgt. for `train`:   4%|▎         | 187/5340 [00:00<00:02, 1864.04it/s]pre. tgt. for `train`:   7%|▋         | 374/5340 [00:00<00:02, 1774.06it/s]pre. tgt. for `train`:  10%|█         | 552/5340 [00:00<00:02, 1757.07it/s]pre. tgt. for `train`:  14%|█▍        | 736/5340 [00:00<00:02, 1786.92it/s]pre. tgt. for `train`:  17%|█▋        | 927/5340 [00:00<00:02, 1821.39it/s]pre. tgt. for `train`:  21%|██        | 1118/5340 [00:00<00:02, 1847.93it/s]pre. tgt. for `train`:  24%|██▍       | 1303/5340 [00:00<00:02, 1835.50it/s]pre. tgt. for `train`:  28%|██▊       | 1487/5340 [00:00<00:02, 1824.88it/s]pre. tgt. for `train`:  31%|███▏      | 1671/5340 [00:00<00:02, 1825.52it/s]pre. tgt. for `train`:  35%|███▍      | 1854/5340 [00:01<00:01, 1787.20it/s]pre. tgt. for `train`:  39%|███▊      | 2059/5340 [00:01<00:01, 1862.34it/s]pre. tgt. for `train`:  42%|████▏     | 2263/5340 [00:01<00:01, 1906.04it/s]pre. tgt. for `train`:  46%|████▌     | 2464/5340 [00:01<00:01, 1936.15it/s]pre. tgt. for `train`:  50%|█████     | 2671/5340 [00:01<00:01, 1973.68it/s]pre. tgt. for `train`:  54%|█████▍    | 2873/5340 [00:01<00:01, 1983.24it/s]pre. tgt. for `train`:  58%|█████▊    | 3072/5340 [00:01<00:01, 1872.47it/s]pre. tgt. for `train`:  62%|██████▏   | 3289/5340 [00:01<00:01, 1956.58it/s]pre. tgt. for `train`:  65%|██████▌   | 3486/5340 [00:01<00:00, 1867.78it/s]pre. tgt. for `train`:  69%|██████▉   | 3696/5340 [00:01<00:00, 1933.00it/s]pre. tgt. for `train`:  73%|███████▎  | 3891/5340 [00:02<00:00, 1908.93it/s]pre. tgt. for `train`:  76%|███████▋  | 4085/5340 [00:02<00:00, 1914.92it/s]pre. tgt. for `train`:  80%|████████  | 4282/5340 [00:02<00:00, 1927.36it/s]pre. tgt. for `train`:  84%|████████▍ | 4484/5340 [00:02<00:00, 1953.55it/s]pre. tgt. for `train`:  88%|████████▊ | 4680/5340 [00:02<00:00, 1841.12it/s]pre. tgt. for `train`:  91%|█████████▏| 4874/5340 [00:02<00:00, 1869.12it/s]pre. tgt. for `train`:  95%|█████████▌| 5085/5340 [00:02<00:00, 1930.82it/s]pre. tgt. for `train`:  99%|█████████▉| 5280/5340 [00:02<00:00, 1930.64it/s]                                                                            Save cache to caches/data_facebook/bart-large_CADEC_word.pt.
-max_len_a:1.6, max_len:10
-In total 3 datasets:
-	dev has 1097 instances.
-	test has 1160 instances.
-	train has 5340 instances.
-
-The number of tokens in tokenizer  50265
-50266 50271
-+-------------+----------+-------------+-----------+--------------+------------+-------------+------------+-------+-------------+-------------+
-| field_names | entities | entity_tags | raw_words | entity_spans | tgt_tokens | target_span | src_tokens | first | src_seq_len | tgt_seq_len |
-+-------------+----------+-------------+-----------+--------------+------------+-------------+------------+-------+-------------+-------------+
-|   is_input  |  False   |    False    |   False   |    False     |    True    |    False    |    True    |  True |     True    |     True    |
-|  is_target  |   True   |    False    |   False   |    False     |    True    |     True    |   False    | False |    False    |     True    |
-| ignore_type |   True   |             |           |              |   False    |     True    |   False    | False |    False    |    False    |
-|  pad_value  |    0     |             |           |              |     1      |      0      |     1      |   0   |      0      |      0      |
-+-------------+----------+-------------+-----------+--------------+------------+-------------+------------+-------+-------------+-------------+
-Testing dataset info 
- +-------------+----------+-------------+-----------+--------------+------------+-------------+------------+-------+-------------+-------------+
-| field_names | entities | entity_tags | raw_words | entity_spans | tgt_tokens | target_span | src_tokens | first | src_seq_len | tgt_seq_len |
-+-------------+----------+-------------+-----------+--------------+------------+-------------+------------+-------+-------------+-------------+
-|   is_input  |  False   |    False    |   False   |    False     |    True    |    False    |    True    |  True |     True    |     True    |
-|  is_target  |   True   |    False    |   False   |    False     |    True    |     True    |   False    | False |    False    |     True    |
-| ignore_type |   True   |             |           |              |   False    |     True    |   False    | False |    False    |    False    |
-|  pad_value  |    0     |             |           |              |     1      |      0      |     1      |   0   |      0      |      0      |
-+-------------+----------+-------------+-----------+--------------+------------+-------------+------------+-------+-------------+-------------+
-+-------------+----------+-------------+-----------+--------------+------------+-------------+------------+-------+-------------+-------------+
-| field_names | entities | entity_tags | raw_words | entity_spans | tgt_tokens | target_span | src_tokens | first | src_seq_len | tgt_seq_len |
-+-------------+----------+-------------+-----------+--------------+------------+-------------+------------+-------+-------------+-------------+
-|   is_input  |  False   |    False    |   False   |    False     |    True    |    False    |    True    |  True |     True    |     True    |
-|  is_target  |   True   |    False    |   False   |    False     |    True    |     True    |   False    | False |    False    |     True    |
-| ignore_type |   True   |             |           |              |   False    |     True    |   False    | False |    False    |    False    |
-|  pad_value  |    0     |             |           |              |     1      |      0      |     1      |   0   |      0      |      0      |
-+-------------+----------+-------------+-----------+--------------+------------+-------------+------------+-------+-------------+-------------+
-TValidation dataset info 
- +-------------+----------+-------------+-----------+--------------+------------+-------------+------------+-------+-------------+-------------+
-| field_names | entities | entity_tags | raw_words | entity_spans | tgt_tokens | target_span | src_tokens | first | src_seq_len | tgt_seq_len |
-+-------------+----------+-------------+-----------+--------------+------------+-------------+------------+-------+-------------+-------------+
-|   is_input  |  False   |    False    |   False   |    False     |    True    |    False    |    True    |  True |     True    |     True    |
-|  is_target  |   True   |    False    |   False   |    False     |    True    |     True    |   False    | False |    False    |     True    |
-| ignore_type |   True   |             |           |              |   False    |     True    |   False    | False |    False    |    False    |
-|  pad_value  |    0     |             |           |              |     1      |      0      |     1      |   0   |      0      |      0      |
-+-------------+----------+-------------+-----------+--------------+------------+-------------+------------+-------+-------------+-------------+
-Traceback (most recent call last):
-  File "./BARTNER/train.py", line 230, in <module>
-    trainer = Trainer(train_data=ds, model=model, optimizer=optimizer,
-  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/trainer.py", line 559, in __init__
-    _check_code(dataset=train_data, model=self.model, losser=losser, forward_func=self._forward_func, metrics=metrics,
-  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/trainer.py", line 959, in _check_code
-    for batch_count, (batch_x, batch_y) in enumerate(_iter):
-  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/batch.py", line 266, in __iter__
-    for indices, batch_x, batch_y in self.dataiter:
-  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 435, in __next__
-    data = self._next_data()
-  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 475, in _next_data
-    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
-  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.conda/envs/PGx_env/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 47, in fetch
-    return self.collate_fn(data)
-  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/batch.py", line 90, in collate_fn
-    sin_y = _pad(sin_y, dataset=self.dataset, as_numpy=self.as_numpy)
-  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/batch.py", line 43, in _pad
-    res = f.pad(vlist)
-  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/field.py", line 492, in pad
-    return self.padder(contents, field_name=self.name, field_ele_dtype=self.dtype, dim=self._cell_ndim)
-  File "/usr/users/rattrapagemehdibenghali/benghali_meh/.local/lib/python3.8/site-packages/fastNLP/core/field.py", line 247, in __call__
-    return np.array(contents)
-ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (2,) + inhomogeneous part.
