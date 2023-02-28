@@ -51,4 +51,4 @@ source activate final_PGx_env
 #fitlog init Fitlog
 
 # Run training for PGxCorpus
-python ./BARTNER/predictor.py
+python ./BARTNER_adapted/predictor.py
